@@ -59,6 +59,10 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | | | 🏢 | [Corporate Banking](#corporate-banking) | | |
 | | | 🕌 | [Conventional & Islamic Banking](#conventional--islamic-banking) | | |
 | | | 🔓 | [Open Banking & Open Finance](#open-banking--open-finance) | | |
+| | | 🧭 | [Core Sectors & Products](#core-sectors--products) | | |
+| | | 🖥️ | [Core Banking Systems (CBS)](#core-banking-systems-cbs) | | |
+| | | 🔀 | [Payment Gateways](#payment-gateways) | | |
+| | | 📊 | [Asset-Liability Management (ALM)](#asset-liability-management-alm) | | |
 
 🎓 [Learning, Courses & Community](#learning-courses--community)
 
@@ -286,6 +290,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | Platform | Model | Notes |
 |---|---|---|
 | [Temenos Transact](https://www.temenos.com) ⭐ 💰 | Enterprise core | The global market leader — 30+ years of T24 lineage, now cloud-native Transact; strong multi-country/multi-currency out of the box |
+| [Finastra](https://www.finastra.com) 💰 | Enterprise core | Fusion banking suite — a global heavyweight across retail, wholesale, and treasury |
 | [Thought Machine Vault](https://www.thoughtmachine.net) ⭐ 💰 | Cloud-native core | Products expressed as code (smart contracts); used by Lloyds, JPMorgan (UK), Atom, Standard Chartered |
 | [Mambu](https://mambu.com) ⭐ 💰 | Cloud-native core | API-first SaaS core for deposits, lending, and payments; popular with neobanks and fintechs |
 | [FIS](https://www.fisglobal.com) 💰 | Enterprise core | US powerhouse across retail/commercial banking, payments, and capital markets |
@@ -1316,6 +1321,183 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [BAI](https://www.bai.org) | Banking-industry research and events with strong digital/API coverage |
 | [Berlin Group](https://www.berlin-group.org) | The reference API specs for European open banking |
 | [Open Banking Ltd](https://www.openbanking.org.uk) | The UK regime's standards, specifications, and developer resources |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Core Sectors & Products
+
+> Banks organize around three core sectors by customer — **retail** (individuals), **corporate** (businesses), and **investment** (institutional clients). Universal banks run all three under one roof; the products, risk profiles, and regulators differ sharply between them. Every other section of this guide is a deeper dive into a product or capability that lives inside one of these sectors.
+
+### Retail banking
+
+> Services for individuals: savings/checking accounts, mortgages, and personal loans.
+
+- **Mass-market distribution** — branches, apps, and cards; the lowest-margin but most stable funding base (deposits).
+- **Product stack** — accounts, cards, savings, mortgages, and personal loans; cross-sell is the growth engine.
+- **See also** — [Accounts](#accounts), [Savings & Deposits](#savings--deposits), [Credit Cards](#credit-cards), [Personal Loans](#personal-loans), [Mortgage](#mortgage), [Personal Banking](#personal-banking).
+
+### Corporate banking
+
+> Services for businesses: commercial loans, trade finance, and cash management.
+
+- **Relationship-led** — fewer, larger clients with dedicated relationship managers and treasury teams.
+- **Product stack** — commercial and SME lending, trade finance, cash management, FX, and payments.
+- **See also** — [Corporate Banking](#corporate-banking), [Trade Finance](#trade-finance), [Domestic & International Remittance](#domestic--international-remittance).
+
+### Investment banking
+
+> Capital raising, mergers and acquisitions (M&A), and trading of assets.
+
+- **Advisory & capital markets** — M&A and restructuring advisory; equity/debt issuance (IPO) via the capital-markets desks.
+- **Markets** — trading (FICC, equities) for clients and for the bank's own book.
+- **See also** — [Investment & Wealth](#investment--wealth), [Banking Fundamentals & Domain Knowledge](#banking-fundamentals--domain-knowledge).
+
+| Reference | Notes |
+|---|---|
+| [Goldman Sachs Investment Banking](https://www.goldmansachs.com/what-we-do/investment-banking/) | Advisory, capital raising, and financing |
+| [Morgan Stanley Investment Banking](https://www.morganstanley.com/what-we-do/investment-banking) | M&A and capital-markets advisory |
+| [J.P. Morgan Investment Banking](https://www.jpmorgan.com/investment-banking) | Global advisory and capital markets |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Core Banking Systems (CBS)
+
+> The **central software backend** that processes a bank's daily transactions — deposits, withdrawals, loans, and interest — and updates the **general ledger**. "Core" literally means the system of record for accounts and balances; every channel (app, branch, ATM) and every product is a front-end to it. Replacing the core is the industry's hardest IT project.
+
+### Key concepts
+
+- **System of record** — the CBS holds the authoritative account, balance, and ledger state; channels and analytics read from and write to it.
+- **Posting & ledgering** — every transaction posts to the general ledger with double-entry bookkeeping; balances are the running result.
+- **Products as code** — modern cores (Thought Machine Vault, Mambu) model products as code/config rather than hard-coded modules.
+- **Batch vs real-time** — legacy cores reconcile overnight in batches; cloud-native cores post in real time with event streams.
+- **Modernization** — banks use the *strangler pattern* (new core alongside old, cutting over account by account) and API-first vendor cores to de-risk replacement.
+
+### What a CBS does
+
+| Function | Description |
+|---|---|
+| Account management | Open, maintain, and close accounts; product assignment and eligibility |
+| Deposits & withdrawals | Post transactions, accruals, and interest across accounts |
+| Loans & credit | Originate, service, and collect loans; amortization schedules |
+| General ledger | Double-entry posting, trial balance, and financial reporting |
+| Customer & limits | Party records, product limits, fees, and pricing |
+| Payments interface | Hand off to payment rails and gateways for clearing and settlement |
+
+### Major CBS platforms
+
+| Platform | Model | Notes |
+|---|---|---|
+| [Temenos Transact](https://www.temenos.com) ⭐ 💰 | Enterprise core | The global market leader (T24 lineage), now cloud-native |
+| [Finastra](https://www.finastra.com) ⭐ 💰 | Enterprise core | Fusion banking suite — the other global heavyweight across retail, wholesale, and treasury |
+| [Thought Machine Vault](https://www.thoughtmachine.net) 💰 | Cloud-native core | Products as code (smart contracts); used by Lloyds, Atom, Standard Chartered |
+| [Mambu](https://mambu.com) 💰 | Cloud-native core | API-first SaaS core for deposits, lending, and payments |
+| [FIS](https://www.fisglobal.com) 💰 | Enterprise core | US powerhouse across retail/commercial banking and payments |
+| [Fiserv / Finxact](https://www.fiserv.com) 💰 | Enterprise core | Community/regional mainstay; Finxact is its cloud-native core |
+| [Jack Henry](https://www.jackhenry.com) 💰 | Enterprise core | The dominant core for US community banks and credit unions |
+| [Oracle FLEXCUBE](https://www.oracle.com/industries/financial-services/flexcube/) 💰 | Enterprise core | Global retail/corporate core, strong in emerging markets |
+| [Infosys Finacle](https://www.edgeverve.com/finacle/) 💰 | Enterprise core | India-origin global core with deep banking-process coverage |
+| [TCS BaNCS](https://www.tcs.com/bancs) 💰 | Enterprise core | Large-scale retail, payments, and corporate banking platform |
+| [Avaloq](https://www.avaloq.com) 💰 | Wealth core | The core of choice for private banking and wealth management |
+| [Skaleet](https://www.skaleet.com) 💰 | Modular core | Composable, modular core for digital banks and EMIs |
+| [Nymbus](https://nymbus.com) ☁️ | Neobank-in-a-box | Digital bank and core platform for fast launches |
+| [10x Banking](https://www.10xbanking.com) 💰 | Cloud-native core | API-first core powering Chase UK and NatWest |
+| [Volaris](https://www.volarisgroup.com) 💰 | Cloud-native core | Event-driven, composable core built on Oracle technology |
+
+### Selection & vendor intelligence
+
+| Resource | Notes |
+|---|---|
+| [Celent](https://www.celent.com) | The analyst house famous for core-banking vendor evaluations and the XCelent awards |
+| [BIAN](https://www.bian.org) | The shared service-landscape blueprint and API model for modern core architecture |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Payment Gateways
+
+> The software and networks that **move money** between customers, merchants, banks, and countries. A gateway is the connective layer that hands a payment from an app, merchant, or bank to a rail (ACH, cards, wires, instant schemes) and returns status. The term spans merchant gateways (online checkout), acquiring processors, and the money-movement networks themselves.
+
+### Key concepts
+
+- **Rails vs gateways** — rails are the underlying settlement networks (ACH, SWIFT, Fedwire, card schemes); gateways and PSPs are the layers that route, authorize, and reconcile payments over them.
+- **Authorization vs settlement** — cards are authorized (hold) at checkout, then settled (captured) later; other rails settle directly.
+- **Clearing vs settlement** — clearing is the exchange/processing of payment instructions; settlement is where funds become final (netting between banks).
+- **Acquiring** — the merchant's side of card payments: acquiring bank, processor, and scheme fees.
+
+### Merchant gateways & PSPs
+
+| Platform | Notes |
+|---|---|
+| [Stripe](https://stripe.com) ⭐ | The developer default for online payments — checkout, billing, payouts |
+| [Adyen](https://www.adyen.com) ⭐ | Unified commerce payments at global scale |
+| [Checkout.com](https://www.checkout.com) | Enterprise acquiring and alternative payments |
+| [PayPal](https://www.paypal.com) | The consumer wallet and merchant checkout network |
+| [Braintree](https://www.braintreepayments.com) | PayPal's developer-first payment gateway |
+| [Worldpay](https://www.worldpay.com) | One of the largest global acquiring networks |
+| [Global Payments](https://www.globalpayments.com) | Omnichannel acquiring and issuer processing |
+| [ACI Worldwide](https://www.aciworldwide.com) | Enterprise real-time payment and acquiring software |
+| [Rapyd](https://www.rapyd.net) | Local-payment-network aggregation across 100+ countries |
+| [Mollie](https://www.mollie.com) | European gateway popular with SMBs |
+| [Paddle](https://www.paddle.com) | Merchant-of-record checkout for software |
+| [Nuvei](https://www.nuvei.com) | Global acquiring and alternative-payment processing |
+| [PPRO](https://www.ppro.com) | Alternative-payment-method aggregation |
+| [dLocal](https://dlocal.com) | Local payment methods across emerging markets |
+| [Wise Platform](https://wise.com/platform/) | Embedding cross-border payments and multi-currency accounts |
+| [Square](https://squareup.com) | Card-present and online payments for small business |
+
+### Rails & networks
+
+| Rail | Region | Notes |
+|---|---|---|
+| [ACH (NACHA)](https://www.nacha.org) ⭐ | US | The batched direct-deposit / bill-pay rail |
+| [Fedwire](https://www.frbservices.org/resources/financial-services/wires/) | US | The Fed's real-time gross-settlement wire for large-value transfers |
+| [FedNow](https://www.frbservices.org/financial-services/fednow) | US | The Fed's 24/7 instant-payment rail |
+| [RTP (The Clearing House)](https://www.theclearinghouse.org/payments/rtp) | US | Real-time payments from US banks |
+| [SEPA](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html) | EU | Euro credit transfers and direct debits; SEPA Instant for real time |
+| [UK Faster Payments](https://www.fasterpayments.org.uk) | UK | The UK's near-instant 24/7 interbank rail |
+| [SWIFT](https://www.swift.com) | Global | Correspondent messaging for cross-border payments |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Asset-Liability Management (ALM)
+
+> The discipline of **balancing a bank's deposits (liabilities) against its loans (assets)** to manage liquidity and interest-rate risk. ALM protects net interest margin (NIM), ensures the bank can fund itself in a crisis (LCR/NSFR), and is owned by the ALCO committee. It is the balance-sheet counterpart to the capital rules covered in Compliance & Regulation.
+
+### Key concepts
+
+- **Net interest income (NII) / margin (NIM)** — the core earnings engine: interest earned on assets minus interest paid on liabilities.
+- **Interest-rate risk** — repricing/gap risk (assets and liabilities reprice at different times), basis risk, and duration risk; measured via gap analysis, duration, and EVE (economic value of equity).
+- **Liquidity risk** — can the bank meet withdrawals and maturities? Measured by LCR (30-day) and NSFR (structural) under Basel III.
+- **Funds transfer pricing (FTP)** — attributing funding cost/benefit to business lines so each product's true margin is visible; ALM sets the internal yield curve.
+- **ALCO** — the asset-liability committee (treasury, finance, risk) that owns balance-sheet mix, hedging, and the contingency funding plan.
+- **Stress testing** — running the balance sheet against rate shocks and liquidity scenarios (ICAAP/ILAAP exercises).
+
+### ALM & treasury systems
+
+| System | Notes |
+|---|---|
+| [Murex](https://www.murex.com) ⭐ 💰 | The leading treasury, ALM, and risk system for large banks |
+| [Calypso](https://www.calypso.com) 💰 | Treasury, collateral, and risk management across markets |
+| [QRM](https://www.qrm.com) 💰 | Dedicated ALM and liquidity-management platform |
+| [Kaufman Hall](https://www.kaufmanhall.com) 💰 | ALM, budgeting, and balance-sheet planning (strong in US banking) |
+| [Intellect iGTB](https://www.intellectdesign.com/igtb/) 💰 | Global transaction-banking and treasury suite |
+| [Wall Street Systems](https://www.wallstreetsystems.com) 💰 | Treasury, payments, and liquidity management |
+| [Oracle Financial Services](https://www.oracle.com) 💰 | ALM, FTP, and liquidity-risk analytics on the Oracle suite |
+| [FIS](https://www.fisglobal.com) 💰 | Integrated treasury, ALM, and risk platforms |
+
+### Data & reference
+
+| Resource | Notes |
+|---|---|
+| [FRED](https://fred.stlouisfed.org) 🆓 | Yield-curve and interest-rate data for ALM analysis and FTP curve construction |
+| [Basel III](https://www.bis.org/bcbs/basel3.htm) ⭐ | The LCR/NSFR framework that ALM exists to satisfy |
 
 **[⬆ back to top](#table-of-contents)**
 
