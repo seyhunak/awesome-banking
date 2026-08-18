@@ -81,6 +81,10 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🗄️ [Data Warehouse & Data Lake](#data-warehouse--data-lake)
 - 🛠️ [Service Management & SLAs](#service-management--slas)
 - 🔄 [Change Management](#change-management)
+- ⚙️ [System Design](#system-design)
+- 🏗️ [Architecture](#architecture)
+- 🎨 [Design](#design)
+- 🔍 [Architectural Review](#architectural-review)
 
 ### Regional Banking
 
@@ -1670,6 +1674,157 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ServiceNow Change](https://www.servicenow.com) 💰 | ITSM | Change and release workflows with full audit trails — the bank-grade standard |
 | [Catchpoint](https://www.catchpoint.com) 💰 | Monitoring | Post-deploy validation and digital-experience monitoring after release |
 | [DORA (metric)](https://www.gitlab.com) | Measure | The four delivery metrics — deployment frequency, lead time, change-failure rate, MTTR — used to measure change safety |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## System Design
+
+> The engineering discipline of **designing a banking system that must be correct, available, fast, and cheap at scale** — before a single line of code. Banking raises the bar on generic system design: money movement demands **exactly-once semantics**, **idempotency**, **immutable ledgers**, and **provable correctness** under concurrency, while regulators expect capacity, latency, and failure behavior to be *documented and demonstrated*.
+
+### Key concepts
+
+- **Back-of-envelope math first** — transactions per second, peak-day spikes (payday, e-commerce events), data growth, and retention are the starting numbers for any design.
+- **Idempotency** — every payment, webhook, and retry must tolerate being re-sent; idempotency keys make "try again" safe.
+- **Exactly-once vs at-least-once** — distributed systems deliver at-least-once; exactly-once is achieved by making consumers idempotent (dedup + unique constraints).
+- **Immutability & audit** — append-only ledgers, event sourcing, and immutable audit trails are non-negotiable in banking.
+- **Consistency models** — banking favors strong consistency for balances (a read must reflect the last write); the CAP trade-off is managed with partition-tolerant, highly available writes plus reconciliation.
+- **High availability & recovery** — multi-AZ/multi-region design, RTO/RPO targets, and graceful degradation (read replicas, queue draining) for failure modes.
+- **Distributed transactions** — sagas and event-driven choreography replace 2PC in modern banking; the ledger is the source of truth, not the cache.
+
+### Core design patterns
+
+| Pattern | Use in banking |
+|---|---|
+| [CQRS](https://martinfowler.com/bliki/CQRS.html) | Separate write (ledger) from read (statements, balances, analytics) models for scale |
+| [Event sourcing](https://martinfowler.com/eaaDev/EventSourcing.html) | Store every change as an event — the natural fit for ledgers and full audit trails |
+| [Saga](https://microservices.io/patterns/data/saga.html) | Distributed transactions across services (payment → reserve → settle) without 2PC |
+| [Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html) | Incrementally replacing the monolithic core — the standard bank modernization path |
+| [Backend-for-Frontend](https://samnewman.io/patterns/architectural/bff/) | A dedicated API layer per client (mobile, web, partner) with its own auth and data shaping |
+
+### Design references & resources
+
+| Resource | Description |
+|---|---|
+| [System Design Primer](https://github.com/donnemartin/system-design-primer) ⭐ | The definitive free primer — scalability, CAP, caches, queues, and worked examples |
+| [High Scalability](https://highscalability.com) | Case studies of large-scale systems (real-world reference architectures) |
+| [Microservices.io](https://microservices.io) ⭐ | Chris Richardson's pattern catalog — decomposition, data, deployment, observability |
+| [Martin Fowler](https://martinfowler.com) ⭐ | The reference for CQRS, event sourcing, and incremental architecture thinking |
+| [Building Microservices (Newman)](https://www.samnewman.io/books/building_microservices/) | The practical book on service decomposition, data, and deployment |
+| [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) | The six-pillar review framework — operational excellence, security, reliability, performance, cost, sustainability |
+| [SRE Book (Google)](https://sre.google/sre-book/table-of-contents/) | Google's site-reliability engineering — SLIs, SLOs, error budgets, and capacity |
+| [12-Factor App](https://12factor.net) | The baseline for modern, deployable, scalable application design |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Architecture
+
+> The **shape and structure of the whole banking estate** — how cores, channels, data, payments, and integration fit together into a coherent, evolvable system. Architecture is the set of intentional decisions (and their trade-offs) that survive the project; it is captured in diagrams, decision records, and standards so the bank can change without collapsing.
+
+### Key concepts
+
+- **Architecture vs design** — architecture is the *macro* structure (services, boundaries, data flows, integration); design is the *micro* structure inside each component. Architecture changes are expensive; design changes are cheap.
+- **Layered vs hexagonal** — banks historically ran layered (presentation → business → data); modern systems favor *hexagonal/ports-and-adapters* so the core is protected from channels and vendors.
+- **Event-driven backbone** — Kafka-style event streaming as the nervous system connecting cores, data, analytics, and fraud.
+- **Architecture as code** — the system's structure documented and governed as code: ADRs, C4 models, and diagram-as-code kept in the repo.
+- **Business-driven boundaries** — services cut along business capabilities (onboarding, payments, lending, cards) not technical layers.
+- **Standards** — BIAN (banking domain model), TOGAF (enterprise process), ISO 20022 (messaging) keep vendor and system landscapes coherent.
+
+### Modeling & documentation
+
+| Tool | Type | Notes |
+|---|---|---|
+| [C4 Model](https://www.c4model.com) ⭐ | Notation | The four-level diagram standard (context → containers → components → code) used across banking architecture teams |
+| [Structurizr](https://structurizr.com) 🆓 | Diagram-as-code | C4 diagrams written in code and rendered — the standard for versioned architecture docs |
+| [Mermaid](https://mermaid.js.org) 🆓 | Diagram-as-code | Markdown-native diagrams for architecture views in repos and PRs |
+| [PlantUML](https://www.plantuml.com) 🆓 | Diagram-as-code | Text-based UML for sequence, component, and deployment views |
+| [draw.io / diagrams.net](https://www.drawio.com) 🆓 | Diagramming | The free, universal diagram editor — the default whiteboard-to-doc tool |
+| [Lucidchart](https://www.lucidchart.com) 💰 | Diagramming | Collaborative diagramming with AWS/GCP/Azure shape libraries |
+
+### Architecture references & standards
+
+| Resource | Description |
+|---|---|
+| [BIAN](https://www.bian.org) ⭐ | The banking service-landscape blueprint — the shared API/domain model for bank architecture |
+| [TOGAF](https://www.opengroup.org/togaf) | The enterprise-architecture framework used to map bank target states and roadmaps |
+| [Architecture Decision Records (ADR)](https://github.com/joelparkerhenderson/architecture-decision-record) ⭐ | The convention for recording architecture decisions — status, context, decision, consequences |
+| [12-Factor App](https://12factor.net) | The baseline for modern, deployable, scalable application architecture |
+| [InfoQ](https://www.infoq.com) | Architecture and engineering practice coverage with a strong banking/big-tech bent |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Design
+
+> The **micro-structure inside each component** — the domain model, APIs, data shapes, and code structure that make a banking service correct and maintainable. Where architecture decides *what services exist*, design decides *how each one behaves*: transactions, invariants, error handling, API contracts, and domain rules that cannot be violated.
+
+### Key concepts
+
+- **Domain modeling** — the banking domain's concepts (accounts, transactions, products, parties) modeled explicitly with their invariants (a balance cannot go negative unless overdraft is approved).
+- **Domain-Driven Design (DDD)** — bounded contexts, ubiquitous language, aggregates, and repositories — the most effective toolkit for modeling regulated financial domains.
+- **API-first design** — contracts (OpenAPI, JSON Schema) designed before implementation, versioned, and governed; the contract is the interface between every service and its consumers.
+- **Transactional integrity** — every operation that mutates money defines its transaction boundaries, isolation level, and retry/compensation behavior.
+- **Error design** — structured error codes, idempotency semantics, and safe retry behavior exposed to callers; failure modes are part of the API contract.
+- **Security in design** — authorization at the edge and in depth, field-level encryption, and audit logging designed in, not bolted on.
+
+### Design patterns & resources
+
+| Resource | Description |
+|---|---|
+| [Domain-Driven Design Community](https://www.dddcommunity.org) ⭐ | The home of DDD — tactical patterns, aggregates, and bounded contexts for complex domains |
+| [API Design Guide (Google)](https://cloud.google.com/apis/design) ⭐ | Google's public API design guidance — resources, methods, errors, and pagination |
+| [Microservices.io](https://microservices.io) | Service-level patterns — decomposition, data consistency, and testing |
+| [Martin Fowler](https://martinfowler.com) | The reference for design patterns and refactoring applied to real systems |
+| [Postman](https://www.postman.com) 💰 | API design, testing, documentation, and governance workflow |
+
+### Design review checklist
+
+- **Contracts** — is the API contract versioned, documented, and backward-compatible?
+- **Invariants** — are all domain rules enforced in code (not just UI)?
+- **Transactions** — are boundaries, isolation, and retry/compensation explicit?
+- **Idempotency** — can every mutating call be safely retried?
+- **Errors** — are errors structured, auditable, and safe to surface?
+- **Security** — is authorization enforced server-side and data protected in transit and at rest?
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Architectural Review
+
+> The **governance loop** that catches architecture drift before it becomes rework — a structured, repeatable review of designs against the bank's standards, risk appetite, and non-functional requirements. Reviews are where security, resilience, cost, and data concerns get a seat at the table before (not after) implementation.
+
+### Key concepts
+
+- **Review cadence** — lightweight reviews at design time, a formal review before approval, and post-implementation audits; reviews scale with risk and cost of change.
+- **Architecture Decision Records (ADRs)** — reviews should reference decisions and their recorded rationale; ADRs make review history auditable.
+- **Non-functional requirements (NFRs)** — performance, availability, scalability, security, and compliance targets are the core of what a review checks.
+- **Risk-based depth** — a payment core change gets a deeper review than an internal tool; depth scales with blast radius.
+- **Patterns review** — does the design follow the bank's agreed patterns (CQRS, event sourcing, API contracts) or introduce novel structure that must be justified?
+- **Post-review follow-through** — decisions are recorded, action items tracked, and the review itself becomes part of the change record.
+
+### Review frameworks & tools
+
+| Tool | Type | Notes |
+|---|---|---|
+| [AWS Well-Architected](https://aws.amazon.com/architecture/well-architected/) ⭐ | Framework | The six-pillar review lens — operational excellence, security, reliability, performance, cost, sustainability |
+| [ArchUnit](https://www.archunit.org) 🆓 | Automated checks | Enforce architecture rules in code (layers, dependencies, cycle-free) — reviews become tests |
+| [Risk Storming](https://riskstorming.com) 🆓 | Technique | A collaborative workshop technique for finding risks in diagrams before they ship |
+| [Architecture Decision Records](https://github.com/joelparkerhenderson/architecture-decision-record) ⭐ | Convention | The record of what was decided, why, and the alternatives considered |
+| [Structurizr](https://structurizr.com) 🆓 | Documentation | Versioned, reviewable C4 architecture as code |
+
+### Review checklist
+
+- **Security** — authn/authz, encryption, secrets, and data exposure reviewed with the security team.
+- **Resilience** — failure modes, RTO/RPO, retries, and degradation documented and tested.
+- **Performance & scale** — capacity math, latency targets, and load-test plan exist.
+- **Data & compliance** — data residency, retention, and regulatory reporting requirements mapped.
+- **Cost** — running cost vs value assessed (a review that catches a wrong database is cheaper than the rework).
+- **Decisions recorded** — ADRs written, approved, and linked to the change.
 
 **[⬆ back to top](#table-of-contents)**
 
