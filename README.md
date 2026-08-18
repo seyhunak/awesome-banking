@@ -44,29 +44,54 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ## 📑 Table of Contents
 
-| | Knowledge & Design | | Products & Segments | | Regional Banking |
-|---|---|---|---|---|---|
-| 📚 | [Banking Fundamentals](#banking-fundamentals--domain-knowledge) | 💳 | [Accounts](#accounts) | 🇦🇪 | [Banking in the UAE](#banking-in-the-uae) |
-| 🛡️ | [Security](#security) | 🏦 | [Savings & Deposits](#savings--deposits) | 🇸🇦 | [Banking in Saudi Arabia (KSA)](#banking-in-saudi-arabia-ksa) |
-| ⚖️ | [Compliance & Regulation](#compliance--regulation) | 💳 | [Credit Cards](#credit-cards) | 🇪🇺 | [Banking in the EU](#banking-in-the-eu) |
-| 🏗️ | [Banking Architecture](#banking-architecture) | 📝 | [Personal Loans](#personal-loans) | 🇬🇧 | [Banking in the UK](#banking-in-the-uk) |
-| 📱 | [Mobile Banking Design](#mobile-banking-design) | 🏠 | [Mortgage](#mortgage) | | |
-| 🧩 | [Low-Code & No-Code Tools](#low-code--no-code-tools) | 📈 | [Investment & Wealth](#investment--wealth) | | |
-| 🤖 | [AI in Banking](#ai-in-banking) | 🧾 | [Insurance](#insurance) | | |
-| 👥 | [Customers & Experience](#customers--experience) | 🌍 | [Trade Finance](#trade-finance) | | |
-| 🪪 | [KYC & Customer Due Diligence](#kyc--customer-due-diligence) | 💸 | [Domestic & International Remittance](#domestic--international-remittance) | | |
-| | | 👤 | [Personal Banking](#personal-banking) | | |
-| | | 🏢 | [Corporate Banking](#corporate-banking) | | |
-| | | 🕌 | [Conventional & Islamic Banking](#conventional--islamic-banking) | | |
-| | | 🔓 | [Open Banking & Open Finance](#open-banking--open-finance) | | |
-| | | 🧭 | [Core Sectors & Products](#core-sectors--products) | | |
-| | | 🖥️ | [Core Banking Systems (CBS)](#core-banking-systems-cbs) | | |
-| | | 🔀 | [Payment Gateways](#payment-gateways) | | |
-| | | 📊 | [Asset-Liability Management (ALM)](#asset-liability-management-alm) | | |
+### Knowledge & Design
 
-🎓 [Learning, Courses & Community](#learning-courses--community)
+- 📚 [Banking Fundamentals](#banking-fundamentals--domain-knowledge)
+- 🛡️ [Security](#security)
+- ⚖️ [Compliance & Regulation](#compliance--regulation)
+- 🏗️ [Banking Architecture](#banking-architecture)
+- 📱 [Mobile Banking Design](#mobile-banking-design)
+- 🧩 [Low-Code & No-Code Tools](#low-code--no-code-tools)
+- 🤖 [AI in Banking](#ai-in-banking)
+- 👥 [Customers & Experience](#customers--experience)
+- 🪪 [KYC & Customer Due Diligence](#kyc--customer-due-diligence)
 
-🏦 [Bank & Fintech Directory](#bank--fintech-directory)
+### Products & Segments
+
+- 💳 [Accounts](#accounts)
+- 🏦 [Savings & Deposits](#savings--deposits)
+- 💳 [Credit Cards](#credit-cards)
+- 📝 [Personal Loans](#personal-loans)
+- 🏠 [Mortgage](#mortgage)
+- 📈 [Investment & Wealth](#investment--wealth)
+- 🧾 [Insurance](#insurance)
+- 🌍 [Trade Finance](#trade-finance)
+- 💸 [Domestic & International Remittance](#domestic--international-remittance)
+- 👤 [Personal Banking](#personal-banking)
+- 🏢 [Corporate Banking](#corporate-banking)
+- 🕌 [Conventional & Islamic Banking](#conventional--islamic-banking)
+- 🧭 [Core Sectors & Products](#core-sectors--products)
+- 📊 [Asset-Liability Management (ALM)](#asset-liability-management-alm)
+
+### Technology & Operations
+
+- 🖥️ [Core Banking Systems (CBS)](#core-banking-systems-cbs)
+- 🔀 [Payment Gateways](#payment-gateways)
+- 🔓 [Open Banking & Open Finance](#open-banking--open-finance)
+- 🗄️ [Data Warehouse & Data Lake](#data-warehouse--data-lake)
+- 🛠️ [Service Management & SLAs](#service-management--slas)
+
+### Regional Banking
+
+- 🇦🇪 [Banking in the UAE](#banking-in-the-uae)
+- 🇸🇦 [Banking in Saudi Arabia (KSA)](#banking-in-saudi-arabia-ksa)
+- 🇪🇺 [Banking in the EU](#banking-in-the-eu)
+- 🇬🇧 [Banking in the UK](#banking-in-the-uk)
+
+### Reference
+
+- 🏦 [Bank & Fintech Directory](#bank--fintech-directory)
+- 🎓 [Learning, Courses & Community](#learning-courses--community)
 
 [Contributing](#contributing) · [Author](#author) · [License](#license)
 
@@ -1498,6 +1523,106 @@ Every section opens with a **domain primer** (the mental model you need), then l
 |---|---|
 | [FRED](https://fred.stlouisfed.org) 🆓 | Yield-curve and interest-rate data for ALM analysis and FTP curve construction |
 | [Basel III](https://www.bis.org/bcbs/basel3.htm) ⭐ | The LCR/NSFR framework that ALM exists to satisfy |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Data Warehouse & Data Lake
+
+> The **analytical brain** of a bank. The enterprise data warehouse (EDW) consolidates transaction, customer, risk, and finance data from every core and channel into a governed, report-ready store; the data lake keeps raw, structured and unstructured data at low cost for machine learning and exploration. Modern banks converge the two into a **lakehouse** — one platform with both open-format lake storage and warehouse-grade SQL.
+
+### Key concepts
+
+- **EDW vs data lake** — the EDW is curated, schema-on-write, and optimized for regulatory and finance reporting; the lake is raw, schema-on-read, and optimized for ML and data science.
+- **Lakehouse** — the modern convergence: open table formats (Delta Lake, Iceberg, Hudi) on object storage with warehouse performance (Snowflake, Databricks).
+- **ETL vs ELT** — banks historically extracted-transform-loaded; cloud platforms shift to ELT with transformation in the warehouse (dbt-style).
+- **Batch vs real-time** — the EDW is batch-led (overnight cycles for regulatory reporting); Kafka event streams feed real-time analytics and fraud alongside it.
+- **Data governance & lineage** — who may see what, where data came from, and how it was transformed; the pre-condition for BCBS 239 compliance.
+- **Regulatory reporting data** — risk aggregation (BCBS 239) is the highest-stakes analytics workload a bank runs; it demands traceability from source systems to report.
+
+### Regulatory reporting
+
+| Standard | Description |
+|---|---|
+| [BCBS 239](https://www.bis.org/basel_framework/chapter/BCBS/PART3/29.htm) ⭐ | The Basel standard for **risk-data aggregation and risk reporting** — governance, accuracy, timeliness, and completeness of the data feeding capital and risk reports |
+
+### Data warehouse & lakehouse platforms
+
+| Platform | Type | Notes |
+|---|---|---|
+| [Snowflake](https://www.snowflake.com) ⭐ ☁️ | Warehouse/lakehouse | The cloud-neutral standard for banking analytics — elastic compute, governed data sharing |
+| [Databricks](https://www.databricks.com) ⭐ ☁️ | Lakehouse | Lakehouse + ML on Apache Spark; strong for AI workloads on bank data |
+| [Teradata](https://www.teradata.com) 💰 | EDW | The classic enterprise data warehouse — still dominant in large bank regulatory reporting |
+| [Oracle Exadata](https://www.oracle.com/engineered-systems/exadata/) 💰 | EDW | Engineered database machine for high-volume bank data platforms |
+| [IBM Db2](https://www.ibm.com/db2) 💰 | EDW | Long-standing transactional/analytic database in bank estates |
+| [Amazon Redshift](https://aws.amazon.com/redshift/) ☁️ | Warehouse | AWS's cloud warehouse, common in AWS-native banks |
+| [Google BigQuery](https://cloud.google.com/bigquery) ☁️ | Warehouse | Serverless analytics warehouse on GCP |
+| [Microsoft Fabric](https://www.microsoft.com/en-us/microsoft-fabric) ☁️ | Lakehouse | Microsoft's unified data platform (SQL + lake + BI) |
+
+### Ingestion, transformation & integration
+
+| Tool | Type | Notes |
+|---|---|---|
+| [Informatica](https://www.informatica.com) 💰 | ETL/Integration | The enterprise data-integration mainstay for banking data warehouses |
+| [Talend](https://www.talend.com) 💰 | ETL | Open-ecosystem ETL/ELT with broad connectivity |
+| [Fivetran](https://www.fivetran.com) ☁️ | ELT | Managed connectors into cloud warehouses — low-maintenance pipeline plumbing |
+| [dbt](https://www.getdbt.com) ⭐ ☁️ | Transformation | The modern standard for transform-in-warehouse (ELT) — versioned, tested SQL |
+| [Confluent / Apache Kafka](https://www.confluent.io) ⭐ | Event streaming | The real-time backbone feeding the warehouse and fraud/analytics streams |
+
+### Data governance & cataloging
+
+| Tool | Type | Notes |
+|---|---|---|
+| [Collibra](https://www.collibra.com) 💰 | Governance | Enterprise data governance, catalog, and lineage — the BCBS 239 enabler |
+| [Alation](https://www.alation.com) 💰 | Catalog | Data catalog and search that documents bank data estates |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Service Management & SLAs
+
+> The **operating discipline** that keeps a bank's systems running to the standard customers, regulators, and contracts require. IT service management (ITSM) governs how services are designed, delivered, changed, and supported (ITIL); SLAs (service-level agreements) and SLOs (service-level objectives) turn that discipline into measurable availability, response, and recovery targets.
+
+### Key concepts
+
+- **ITSM & ITIL** — the framework of incident, problem, change, and release management that keeps bank operations controlled and auditable.
+- **SLA vs SLO vs SLI** — an SLI is a measured signal (e.g., uptime %), an SLO is the target (99.9% per month), and an SLA is the contractual commitment (with penalties) agreed with customers or internal business units.
+- **Availability & reliability** — "four nines" (99.99%) is the practical top end; beyond that you measure recovery (RTO) and data loss (RPO), not raw uptime.
+- **Incident → problem → change** — incidents get services back up, problems address root cause, and change management controls what gets deployed and when (including regulator-required change windows).
+- **Observability** — logs, metrics, and traces (Grafana, Datadog, Prometheus) tell you *why* a service is degrading, not just that it is.
+- **On-call & escalation** — severity levels, escalation trees, and runbooks (PagerDuty) decide who wakes up and when.
+- **Regulated operations** — operational resilience frameworks (DORA in the EU, BoE/EBA resilience rules) require banks to prove they can run critical services through disruption.
+
+### ITSM & service platforms
+
+| Platform | Type | Notes |
+|---|---|---|
+| [ServiceNow](https://www.servicenow.com) ⭐ 💰 | ITSM platform | The enterprise standard for incident, change, and request management in banks |
+| [BMC Helix](https://www.bmc.com) 💰 | ITSM platform | BMC's AI-driven service and operations management suite |
+| [Jira Service Management](https://www.atlassian.com/software/jira/service-management) 💰 | ITSM | Developer-friendly ITSM for engineering-led teams |
+| [Freshservice](https://www.freshworks.com/freshservice/) 💰 | ITSM | Cloud ITSM for mid-market banks and IT teams |
+
+### Monitoring, observability & on-call
+
+| Platform | Type | Notes |
+|---|---|---|
+| [Grafana](https://grafana.com) ⭐ 🆓 | Observability | The open-source standard for dashboards and alerting |
+| [Prometheus](https://prometheus.io) ⭐ 🆓 | Monitoring | The open-source metrics and alerting backbone of modern banks |
+| [Datadog](https://www.datadoghq.com) 💰 | Observability | Full-stack monitoring — metrics, logs, traces, and SLO tracking |
+| [Dynatrace](https://www.dynatrace.com) 💰 | Observability | AI-assisted APM and observability at enterprise scale |
+| [New Relic](https://newrelic.com) 💰 | Observability | Application monitoring and digital-experience telemetry |
+| [PagerDuty](https://www.pagerduty.com) 💰 | On-call | Incident response, on-call scheduling, and escalation automation |
+| [Splunk](https://www.splunk.com) 💰 | Observability | Log and machine-data analytics with strong banking adoption |
+
+### Frameworks & standards
+
+| Framework | Description |
+|---|---|
+| [ITIL 4](https://www.axelos.com/certifications/itil-service-management-certifications) ⭐ | The de-facto service-management framework — incident, problem, change, release, and continual improvement |
+| [ISO 20000](https://www.iso.org/standard/11935.html) | The international standard for IT service management systems |
+| [DORA](https://digital-strategy.ec.europa.eu/en/policies/digital-finance) | The EU's Digital Operational Resilience Act — banks must evidence resilience testing and SLAs for critical third parties |
 
 **[⬆ back to top](#table-of-contents)**
 
