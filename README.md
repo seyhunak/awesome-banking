@@ -58,6 +58,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | | | 👤 | [Personal Banking](#personal-banking) | | |
 | | | 🏢 | [Corporate Banking](#corporate-banking) | | |
 | | | 🕌 | [Conventional & Islamic Banking](#conventional--islamic-banking) | | |
+| | | 🔓 | [Open Banking & Open Finance](#open-banking--open-finance) | | |
 
 🎓 [Learning, Courses & Community](#learning-courses--community)
 
@@ -1240,6 +1241,81 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Wahed](https://wahed.com) 💰 | The leading halal robo-advisor for global investors |
 | [Zoya](https://zoya.finance) 💰 | The popular halal investing app — Shariah-screened stocks, ETFs, and funds |
 | [Sukuk platforms & funds](https://www.isdb.org) | Development and sovereign sukuk markets are the institutional foundation of Islamic capital markets |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Open Banking & Open Finance
+
+> Open banking is the **consent-based sharing of a customer's bank data with third parties** (account information and payment initiation). Open finance extends the same model beyond current accounts to loans, savings, cards, mortgages, pensions, and insurance; open data goes further into telecom, utilities, and beyond. The commercial prize is a **single, portable view of a customer's financial life** — and the death of data lock-in. PSD2 (EU) and the CMA order (UK) started the wave; PSD3/PSR, the US CFPB **Section 1033** rule, Australia's **CDR**, and Gulf frameworks are extending it.
+
+### Key concepts
+
+- **Consent is the product** — nothing is shared without the customer's explicit, revocable consent; the consent screen is the moment of trust.
+- **AISP / PISP** — Account Information Service Providers read data; Payment Initiation Service Providers initiate payments from the customer's own account (bank-agnostic checkout).
+- **PSD2 → PSD3 / PSR** — the EU's original open-banking directive is being replaced by PSD3 + the Payment Services Regulation (stricter APIs, stronger security, more participants).
+- **UK CMA Order** — the world's first mandated open-banking regime; now run by the FCA and including Variable Recurring Payments (VRP) and Confirmation of Payee.
+- **US Section 1033** — the CFPB's personal financial data rights rule: free, machine-readable access to bank data, with FDX as the industry API standard.
+- **Open finance vs open data** — open banking was phase one; regulators are now extending the consent model to the whole financial (and beyond-financial) stack.
+- **Standards matter more than regulation** — FAPI (financial-grade OAuth), OAuth 2.0, OIDC, mTLS, and PKCE are the technical substrate; Berlin Group/STET (EU) and OBIE (UK) define the API specs.
+- **Aggregation is the on-ramp** — screen-scraping and token-based aggregation (Plaid, TrueLayer, Tink, Yapily) gave open banking its first products: PFM, credit decisions, and instant payment initiation.
+
+### Regulations & frameworks by region
+
+| Region | Framework | Notes |
+|---|---|---|
+| 🇪🇺 EU | [PSD2 → PSD3 / PSR](https://www.eba.europa.eu/regulation-and-policy/payment-services-and-electronic-money) ⭐ | The original open-banking directive and its successor; AISP/PISP access rights, SCA, and open-API mandates |
+| 🇬🇧 UK | [Open Banking Ltd](https://www.openbanking.org.uk) ⭐ | The CMA-mandated regime — the world's reference implementation, now with VRP and Confirmation of Payee |
+| 🇺🇸 US | [CFPB Section 1033](https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/) | Personal financial data rights rule requiring free bank-data access; FDX API as the market standard |
+| 🇦🇺 Australia | [CDR (Consumer Data Right)](https://www.cdr.gov.au) | The broadest consent-based data regime — banking first, then energy, telecom, and beyond |
+| 🇮🇳 India | [Sahamati / Account Aggregator](https://sahamati.org.in) | The AA framework — licensed aggregators flow consent-based financial data (UPI-scale model) |
+| 🇧🇷 Brazil | [Open Finance Brasil](https://openfinancebrasil.org.br) | Mandated open finance across banking, cards, FX, insurance, and investments |
+| 🇸🇦 KSA | [SAMA Open Banking](https://www.sama.gov.sa/en-US/Pages/default.aspx) | SAMA's open-banking framework with AISP/PISP licensing and API standards |
+| 🇦🇪 UAE | [CBUAE Open Banking](https://www.cbuae.gov.ae) | The UAE's framework sits inside its Payments Infrastructure (Aani instant payments, open APIs) |
+
+### Standards & technology
+
+| Standard | Description |
+|---|---|
+| [FAPI (Financial-grade API)](https://openid.net/wg/fapi/) ⭐ | The OAuth 2.0/OIDC profile with the security bar financial APIs require — mTLS, PKCE, high assurance |
+| [OAuth 2.0](https://oauth.net) ⭐ | The delegation-and-authorization protocol every consent flow is built on |
+| [OpenID Connect](https://openid.net/connect/) | Identity layer on top of OAuth — used for customer authentication at the bank |
+| [Berlin Group](https://www.berlin-group.org) | The European payment-initiation and account-information API standard (NextGenPSD2) |
+| [STET](https://www.stet.eu) | The French PSD2 API scheme — an alternative EU API specification |
+| [FDX](https://www.fdx.org) | The Financial Data Exchange API — the de-facto US open-banking standard |
+| [ISO 20022](https://www.iso.org) | The rich-data messaging standard open-banking APIs increasingly serialize to |
+
+### Data access & aggregation platforms
+
+| Platform | Notes |
+|---|---|
+| [Plaid](https://plaid.com) ⭐ | The US standard for consent-based account connection — auth, balances, transactions, identity |
+| [TrueLayer](https://truelayer.com) ⭐ | European AIS/PIS with strong open-banking payment-initiation capabilities |
+| [Tink](https://tink.com) ⭐ | European aggregation and payment initiation (part of Visa) |
+| [Yapily](https://www.yapily.com) | Pan-European AIS/PIS API with rich coverage |
+| [MX](https://www.mx.com) | Data platform and personalization layer for banks and fintechs |
+| [Envestnet Yodlee](https://www.yodlee.com) | The veteran aggregation provider with deep transaction categorization |
+| [Finicity](https://www.finicity.com) | US open-banking data (part of Mastercard) |
+| [Flinks](https://flinks.com) | Canadian account connectivity and data platform |
+
+### Use cases & commercial models
+
+- **Bank-agnostic checkout** — pay from any account via PISP (TrueLayer/Tink-style) instead of card networks; lower merchant fees, instant settlement.
+- **A credit view from real cash flow** — lenders underwrite from consented transaction data instead of (or alongside) bureau scores; the engine of affordability-based lending and thin-file credit.
+- **PFM & consolidation** — aggregation turns a bank app (or a neobank, or a fintech) into the customer's single window on every account, card, and loan.
+- **VRP / Confirmation of Payee** — variable recurring payments (sweeping, subscriptions) and payee-name checks cut fraud and unlock new recurring-payment products.
+- **Identity & onboarding** — consented account data verifies income and identity, replacing paper bank statements in KYC and underwriting.
+- **Premium API services** — banks monetize the same data as a **read/write/verification** API tier (balance checks, income verification, fraud alerts) — the BaaS-adjacent "open banking as a business line."
+
+### Learning & reference
+
+| Resource | Description |
+|---|---|
+| [The Paypers](https://www.thepaypers.com) | The leading trade publication tracking open banking, open finance, and payments |
+| [BAI](https://www.bai.org) | Banking-industry research and events with strong digital/API coverage |
+| [Berlin Group](https://www.berlin-group.org) | The reference API specs for European open banking |
+| [Open Banking Ltd](https://www.openbanking.org.uk) | The UK regime's standards, specifications, and developer resources |
 
 **[⬆ back to top](#table-of-contents)**
 
