@@ -61,6 +61,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 🎓 [Learning, Courses & Community](#learning-courses--community)
 
+🏦 [Bank & Fintech Directory](#bank--fintech-directory)
+
 [Contributing](#contributing) · [Author](#author) · [License](#license)
 
 ---
@@ -1446,6 +1448,273 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ClearBank](https://www.clear.bank) | The clearing bank powering BaaS and fintech settlement |
 | [Atom Bank](https://www.atombank.co.uk) | UK app-only savings and mortgage bank |
 | [Allica](https://www.alliica.com) | Business bank for established SMEs |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Bank & Fintech Directory
+
+> Every bank and fintech company referenced across this guide, gathered into one place. Organized by region for licensed banks and by segment for fintech companies.
+
+### Licensed banks — Middle East
+
+| Bank | Country | Notes |
+|---|---|---|
+| [Emirates NBD](https://www.emiratesnbd.com) ⭐ | 🇦🇪 UAE | The largest bank in the UAE — retail, corporate, and Islamic |
+| [First Abu Dhabi Bank (FAB)](https://www.fab.ae) ⭐ | 🇦🇪 UAE | The largest bank in the region by assets |
+| [Abu Dhabi Commercial Bank](https://www.adcb.com) | 🇦🇪 UAE | Universal bank across retail, corporate, and wealth |
+| [Dubai Islamic Bank](https://www.dib.ae) | 🇦🇪 UAE | The world's first full-fledged Islamic bank (1975) |
+| [Mashreq](https://www.mashreqbank.com) | 🇦🇪 UAE | Dubai's oldest bank — Mashreq Neo and Global Network |
+| [ADIB](https://www.adib.ae) | 🇦🇪 UAE | Abu Dhabi Islamic Bank |
+| [Emirates Islamic](https://www.emiratesislamic.ae) | 🇦🇪 UAE | Islamic banking arm of Emirates NBD |
+| [RAKBANK](https://www.rakbank.ae) | 🇦🇪 UAE | Retail-focused — cards and personal finance |
+| [Commercial Bank of Dubai](https://www.cbd.ae) | 🇦🇪 UAE | Retail and corporate banking group |
+| [Al Rajhi Bank](https://www.alrajhibank.com.sa) ⭐ | 🇸🇦 KSA | The largest Islamic bank in the world by market value |
+| [SNB](https://www.snb.com.sa) ⭐ | 🇸🇦 KSA | Saudi National Bank — the largest by assets |
+| [Riyad Bank](https://www.riyadbank.com) | 🇸🇦 KSA | Universal bank with a strong corporate franchise |
+| [SABB](https://www.sabb.com) | 🇸🇦 KSA | HSBC-affiliated (merged with Alawwal) |
+| [Alinma Bank](https://www.alinma.com) | 🇸🇦 KSA | Fully Islamic retail and corporate bank |
+| [Banque Saudi Fransi](https://www.alfransi.com.sa) | 🇸🇦 KSA | Universal bank strong in corporate and trade services |
+| [Arab National Bank](https://www.anb.com.sa) | 🇸🇦 KSA | Retail, corporate, and treasury banking |
+| [Bank Albilad](https://www.bankalbilad.com) | 🇸🇦 KSA | Islamic retail bank |
+| [IsDB](https://www.isdb.org) | 🌍 Multilateral | Islamic Development Bank — development finance |
+
+### Licensed banks — Europe & UK
+
+| Bank | Country | Notes |
+|---|---|---|
+| [Deutsche Bank](https://www.db.com) | 🇩🇪 Germany | The largest German bank |
+| [BNP Paribas](https://group.bnpparibas.com) | 🇫🇷 France | The largest euro-area bank group |
+| [ING](https://www.ing.com) | 🇳🇱 Netherlands | Dutch universal bank and digital-banking leader |
+| [Santander](https://www.santander.com) | 🇪🇸 Spain | Global universal bank |
+| [BBVA](https://www.bbva.com) | 🇪🇸 Spain | Spanish bank with a strong digital and BaaS arm |
+| [Intesa Sanpaolo](https://www.intesasanpaolo.com) | 🇮🇹 Italy | Italy's largest retail bank |
+| [Barclays](https://www.barclays.co.uk) | 🇬🇧 UK | The largest UK retail bank |
+| [Lloyds](https://www.lloydsbank.com) | 🇬🇧 UK | The largest UK retail franchise |
+| [HSBC UK](https://www.hsbc.co.uk) | 🇬🇧 UK | Global bank with a strong UK retail arm |
+| [NatWest](https://www.natwest.com) | 🇬🇧 UK | The UK's biggest business bank |
+| [Nationwide](https://www.nationwide.co.uk) | 🇬🇧 UK | The UK's largest building society |
+| [Virgin Money](https://www.virginmoney.com) | 🇬🇧 UK | Full-service bank now part of Nationwide |
+| [ClearBank](https://www.clear.bank) | 🇬🇧 UK | Clearing bank powering BaaS and fintech settlement |
+
+### Digital banks & neobanks
+
+| Bank | Country | Notes |
+|---|---|---|
+| [Monzo](https://monzo.com) ⭐ | 🇬🇧 UK | PFM-focused neobank with a UK banking license |
+| [Starling Bank](https://www.starlingbank.com) ⭐ | 🇬🇧 UK | Digital bank strong in SME and marketplace banking |
+| [Revolut](https://www.revolut.com) ⭐ | 🇬🇧/🇪🇺 UK/EU | The super-app — FX, cards, investing, crypto |
+| [N26](https://n26.com) | 🇩🇪/🇪🇺 DE/EU | Fully licensed European digital bank |
+| [Chime](https://www.chime.com) | 🇺🇸 US | The largest US neobank |
+| [Varo](https://www.varomoney.com) | 🇺🇸 US | US mobile bank with its own national charter |
+| [Current](https://current.com) | 🇺🇸 US | US neobank with teen and spending tools |
+| [Ally](https://www.ally.com) | 🇺🇸 US | US digital bank — savings, checking, auto loans |
+| [SoFi](https://www.sofi.com) | 🇺🇸 US | The US super-app — banking, investing, lending |
+| [Marcus (Goldman Sachs)](https://www.marcus.com) | 🇺🇸 US | Online savings and personal loans from Goldman Sachs |
+| [Chase UK](https://www.chase.co.uk) | 🇬🇧 UK | JPMorgan's UK retail app — cashback and savings |
+| [Bunq](https://www.bunq.com) | 🇳🇱/🇪🇺 NL/EU | European mobile bank — multi-currency and sustainability |
+| [Zopa](https://www.zopa.com) | 🇬🇧 UK | From P2P pioneer to licensed UK digital bank |
+| [Tide](https://www.tide.co) | 🇬🇧 UK | UK SME banking — accounts, invoicing, expenses |
+| [Kroo](https://www.kroo.com) | 🇬🇧 UK | The sustainability-focused neobank |
+| [Atom Bank](https://www.atombank.co.uk) | 🇬🇧 UK | UK app-only savings and mortgage bank |
+| [Allica](https://www.alliica.com) | 🇬🇧 UK | Business bank for established SMEs |
+| [Liv](https://www.liv.ae) | 🇦🇪 UAE | Emirates NBD's digital-first lifestyle bank |
+| [Wio](https://www.wio.ae) | 🇦🇪 UAE | The region's first platform bank (FAB + partners) |
+| [Zand](https://www.zand.ae) | 🇦🇪 UAE | The UAE's first integrated digital bank |
+| [Al Maryah Community Bank](https://www.almaryahcb.ae) | 🇦🇪 UAE | Abu Dhabi digital bank focused on lending |
+| [STC Pay](https://www.stcpay.com.sa) | 🇸🇦 KSA | The kingdom's digital wallet from stc group |
+| [D360 Bank](https://d360.com.sa) | 🇸🇦 KSA | Digital bank backed by Saudi institutional investors |
+| [Rize](https://rize.sa) | 🇸🇦 KSA | Digital SME bank focused on micro-businesses |
+| [Meem](https://www.meem.sa) | 🇸🇦 KSA | Alinma's digital bank |
+| [Tahaluf](https://www.tahaluf.sa) | 🇸🇦 KSA | Digital bank from stc group |
+| [Lesan](https://lesan.sa) | 🇸🇦 KSA | Digital bank backed by the PIF ecosystem |
+
+### Payments, acquiring & card networks
+
+| Company | Segment | Notes |
+|---|---|---|
+| [Visa](https://www.visa.com) ⭐ | Network | The largest global card network |
+| [Mastercard](https://www.mastercard.com) ⭐ | Network | Visa's global competitor |
+| [American Express](https://www.americanexpress.com) | Network | Three-party model — issuer and network in one |
+| [Discover](https://www.discover.com) | Network | US card network |
+| [UnionPay](https://en.unionpay.com) | Network | The Chinese scheme with the largest cardholder base |
+| [JCB](https://www.global.jcb/en/) | Network | Japanese card scheme with global acceptance |
+| [Stripe](https://stripe.com) ⭐ | Acquiring | The developer default for online payments |
+| [Adyen](https://www.adyen.com) ⭐ | Acquiring | Unified commerce payments at global scale |
+| [Checkout.com](https://www.checkout.com) | Acquiring | Enterprise acquiring and alternative payments |
+| [Worldpay](https://www.worldpay.com) | Acquiring | One of the largest global acquiring networks (FIS) |
+| [Global Payments](https://www.globalpayments.com) | Acquiring | Omnichannel acquiring and issuer processing |
+| [Rapyd](https://www.rapyd.net) | Acquiring | Local-payment-network aggregation across 100+ countries |
+| [SWIFT](https://www.swift.com) ⭐ | Messaging | The correspondent network for cross-border payments |
+| [SWIFT gpi](https://www.swift.com/payments/global-payments-innovation) | Messaging | Cross-border payment tracking standard |
+| [Volante](https://www.volante.com) | Processing | Payments modernization and ISO 20022 processing |
+
+### Card issuing, BaaS & embedded finance
+
+| Company | Segment | Notes |
+|---|---|---|
+| [Marqeta](https://www.marqeta.com) ⭐ | Issuing | The modern card-issuing platform — tokenized, programmatic |
+| [Galileo (SoFi Tech Solutions)](https://www.galileo-ft.com) | Issuing | High-volume card and payment processing infrastructure |
+| [Lithic](https://www.lithic.com) | Issuing | Programmatic card issuing with instant card creation |
+| [Highnote](https://highnote.com) | Issuing | Card issuing and program management for fintechs |
+| [Bond](https://www.bond.tech) | Issuing/BaaS | BaaS for cards, accounts, and payments |
+| [Pismo](https://www.pismo.io) | Issuing | Cloud-native payments and card issuing (Visa) |
+| [i2c](https://www.i2cinc.com) | Issuing | Global card issuing and processing platform |
+| [Deserve](https://deserve.com) | Issuing | Credit-card issuing platform |
+| [Unit](https://www.unit.co) ⭐ | BaaS | Programmable BaaS — accounts, cards, payments |
+| [Solaris](https://www.solarisgroup.com) | BaaS | European licensed bank behind many fintechs |
+| [Railsr](https://www.railsr.com) | BaaS | UK/EU BaaS — card issuing, wallets, embedded banking |
+| [Treasury Prime](https://treasuryprime.com) | BaaS | US BaaS connecting fintechs to partner banks |
+| [SDK.finance](https://sdk.finance) | BaaS | Open-source-friendly banking and wallet platform |
+| [Modern Treasury](https://www.moderntreasury.com) | Ledger | Ledger-as-a-service and payment operations |
+| [Moov](https://moov.io) | Ledger | Open-source payments and money-movement infrastructure |
+| [LedgerFi](https://www.ledgerfi.com) | Ledger | Real-time ledger and treasury infrastructure |
+
+### Remittance & cross-border payments
+
+| Company | Segment | Notes |
+|---|---|---|
+| [Wise](https://wise.com) ⭐ | Consumer remittance | The transparent, mid-market-rate pioneer |
+| [Remitly](https://www.remitly.com) | Consumer remittance | Digital remittance focused on speed and emerging corridors |
+| [Western Union](https://www.westernunion.com) | Consumer remittance | The global cash and digital remittance network |
+| [MoneyGram](https://www.moneygram.com) | Consumer remittance | Global money movement with strong cash-out networks |
+| [WorldRemit (Zepz)](https://www.worldremit.com) | Consumer remittance | Digital remittance across 130+ countries |
+| [Ria](https://www.ria.com) | Consumer remittance | Cash and digital remittance with broad agent network |
+| [Xoom (PayPal)](https://www.xoom.com) | Consumer remittance | Fast digital remittance from the US |
+| [TransferGo](https://www.transfergo.com) | Consumer remittance | European remittance and borderless payments |
+| [OFX](https://www.ofx.com) | Remittance | International transfers for consumers and SMEs |
+| [Payoneer](https://www.payoneer.com) | B2B | Cross-border payments for freelancers, marketplaces, SMEs |
+| [Nium](https://www.nium.com) | B2B | Embedded cross-border payments and card issuance |
+| [Thunes](https://www.thunes.com) | B2B | Cross-border network connecting wallets, banks, mobile money |
+| [TerraPay](https://terrapay.com) | B2B | Interoperable payments network across 100+ countries |
+| [Airwallex](https://www.airwallex.com) | B2B | Global payments, FX, and treasury infrastructure |
+| [Ebury](https://www.ebury.com) | B2B | FX and international payments for SMEs |
+| [Convera](https://www.convera.com) | B2B | Enterprise cross-border payments and FX risk |
+| [dLocal](https://dlocal.com) | B2B | Local-payment-method aggregation across emerging markets |
+
+### Open banking, account aggregation & data
+
+| Company | Notes |
+|---|---|
+| [Plaid](https://plaid.com) ⭐ | The US standard for connecting bank accounts |
+| [MX](https://www.mx.com) | Financial data platform and personalization layer |
+| [Envestnet Yodlee](https://www.yodlee.com) | The veteran data-aggregation provider |
+| [TrueLayer](https://truelayer.com) | European open-banking aggregator (AIS/PIS) |
+| [Tink](https://tink.com) | European open-banking aggregator (part of Visa) |
+| [Yapily](https://www.yapily.com) | European open-banking aggregator |
+| [Flinks](https://flinks.com) | Canadian account-connectivity and data platform |
+| [Finicity](https://www.finicity.com) | Open-banking data (part of Mastercard) |
+| [YNAB](https://www.ynab.com) | Zero-based budgeting app |
+| [Rocket Money](https://www.rocketmoney.com) | Subscription management and bill negotiation |
+
+### KYC, identity & verification
+
+| Company | Notes |
+|---|---|
+| [Onfido](https://onfido.com) ⭐ | Document and biometric identity verification |
+| [Alloy](https://www.alloy.com) ⭐ | The decisioning engine orchestrating KYC/KYB providers |
+| [Persona](https://withpersona.com) | Identity platform and workflow builder |
+| [Jumio](https://www.jumio.com) | Identity verification and AML/KYC |
+| [Sumsub](https://sumsub.com) | Global KYB/KYC orchestration |
+| [Veriff](https://www.veriff.com) | IDV with 230+ document types |
+| [Trulioo](https://www.trulioo.com) | Identity and business verification across 195+ countries |
+| [Ondato](https://ondato.com) | Identity verification and AML workflow |
+| [iDenfy](https://www.idenfy.com) | ID verification with AML and fraud screening |
+| [AU10TIX](https://www.au10tix.com) | The veteran ID-verification vendor |
+| [Dun & Bradstreet](https://www.dnb.com) ⭐ | Business identity, credit, and ownership data |
+| [Moody's Orbis (Bureau van Dijk)](https://www.bvdinfo.com) | The company-and-ownership database for corporate KYC |
+| [OpenCorporates](https://opencorporates.com) | Open company-registry data |
+| [North Data](https://northdata.com) | European company-registry intelligence |
+
+### AML, screening & RegTech
+
+| Company | Notes |
+|---|---|
+| [ComplyAdvantage](https://complyadvantage.com) ⭐ | Real-time AML data, sanctions, PEP screening via API |
+| [NICE Actimize](https://www.niceactimize.com) ⭐ | The enterprise mainstay for AML transaction monitoring |
+| [LSEG World-Check](https://www.lseg.com/en/data-analytics/products/world-check) ⭐ | The screening database of record |
+| [Quantexa](https://www.quantexa.com) | Decision intelligence over connected data |
+| [Fenergo](https://www.fenergo.com) | Client lifecycle management and KYC automation |
+| [Dow Jones Risk & Compliance](https://www.dowjones.com/professional/risk/) | Watchlist and ownership research data |
+| [Wolters Kluwer OneSumX](https://www.wolterskluwer.com/en/solutions/onesumx) | Regulatory reporting, risk, and compliance suite |
+| [Regnology](https://www.regnology.net) | Regulatory reporting and data collection |
+| [AxiomSL (Moody's)](https://www.moodys.com) | Regulatory capital and reporting analytics |
+| [Lucinity](https://www.lucinity.com) | AI copilots for AML investigations |
+| [Flagright](https://flagright.com) | AML-compliance and fraud-detection APIs |
+| [Sanction Scanner](https://sanctionscanner.com) | Screening-as-an-API |
+| [Tookitaki](https://www.tookitaki.com) | AI-native AML and sanctions systems |
+| [Chainalysis](https://www.chainalysis.com) | Blockchain data, AML, and investigations |
+| [Elliptic](https://www.elliptic.co) | Crypto transaction monitoring |
+
+### Fraud detection & risk decisioning
+
+| Company | Notes |
+|---|---|
+| [Feedzai](https://feedzai.com) ⭐ | AI-first transaction monitoring and fraud risk |
+| [Featurespace](https://www.featurespace.com) | Real-time behavioral analytics |
+| [Sift](https://sift.com) | Digital trust and fraud platform |
+| [DataVisor](https://www.datavisor.com) | Unsupervised ML catching coordinated fraud rings |
+| [LexisNexis ThreatMetrix](https://risk.lexisnexis.com/products/threatmetrix) | Digital identity network for device risk scoring |
+| [Signifyd](https://www.signifyd.com) | AI e-commerce fraud decisions with chargeback guarantee |
+| [Forter](https://www.forter.com) | Real-time fraud decisioning |
+| [Ravelin](https://www.ravelin.com) | Payment-risk and fraud platform for marketplaces |
+| [BioCatch](https://www.biocatch.com) | Behavioral biometrics catching account-takeover |
+| [Incognia](https://incognia.com) | Location- and device-based fraud prevention |
+| [Verifi (Visa)](https://www.verifi.com) | Visa's dispute-automation suite |
+| [Ethoca (Mastercard)](https://www.ethoca.com) | Consumer-collaboration dispute resolution |
+| [Chargebacks911](https://chargebacks911.com) | Chargeback management and representment |
+| [FICO Falcon](https://www.fico.com/en/products/falcon-platform) | The industry-standard card fraud engine |
+| [FICO Platform](https://www.fico.com) | Decisioning across credit and fraud |
+| [FICO Debt Manager](https://www.fico.com/en/products/fico-debt-manager) | Collections-and-recovery system |
+
+### Lending, credit & wealth
+
+| Company | Segment | Notes |
+|---|---|---|
+| [Experian](https://www.experian.com) ⭐ | Credit bureau | Bureau data and PowerCurve decisioning |
+| [Klarna](https://www.klarna.com) ⭐ | BNPL | The global BNPL leader, expanding into banking |
+| [Affirm](https://www.affirm.com) | BNPL | US BNPL with transparent, risk-based pricing |
+| [Afterpay](https://www.afterpay.com) | BNPL | Installment payments (part of Block) |
+| [PayPal Pay Later](https://www.paypal.com) | BNPL | BNPL embedded in the PayPal checkout |
+| [Blend](https://blend.com) | Origination | Digital origination across consumer and mortgage lending |
+| [nCino](https://www.ncino.com) | Origination | Cloud banking platform for commercial and SME lending |
+| [MeridianLink](https://www.meridianlink.com) | Origination | Consumer-lending origination for banks and credit unions |
+| [Abrigo](https://www.abrigo.com) | Origination | Lending and compliance software for community banks |
+| [ICE Mortgage Technology](https://www.icemortgagetechnology.com) | Mortgage | The dominant US mortgage and consumer-lending platform |
+| [Zest AI](https://www.zest.ai) | Decisioning | Interpretable ML credit models |
+| [Scienaptic](https://scienaptic.com) | Decisioning | AI credit decisioning |
+| [Provenir](https://www.provenir.com) | Decisioning | Risk decisioning across consumer and SME lending |
+| [TrueAccord](https://trueaccord.com) | Collections | Digital-first, consumer-friendly debt collection |
+| [InDebted](https://indebted.com) | Collections | Digital collections with integrated payment plans |
+| [Betterment](https://www.betterment.com) | Robo-advice | The original robo-advisor |
+| [Wealthfront](https://www.wealthfront.com) | Robo-advice | Automated investing and financial planning |
+| [Vanguard](https://investor.vanguard.com) | Investing | The low-cost investing default and Digital Advisor |
+| [Interactive Brokers](https://www.interactivebrokers.com) | Brokerage | Full-featured brokerage at scale |
+| [Alpaca](https://alpaca.markets) | Brokerage API | Commission-free brokerage API |
+| [DriveWealth](https://www.drivewealth.com) | Brokerage | Fractional investing infrastructure |
+| [FNZ](https://www.fnz.com) | Wealthtech | The wealth-platform engine behind many banks |
+| [InvestCloud](https://www.investcloud.com) | Wealthtech | Digital wealth-management platform |
+| [Addepar](https://www.addepar.com) | Wealthtech | Portfolio analytics for advisors and private banks |
+| [Wahed](https://wahed.com) | Islamic investing | The leading halal robo-advisor |
+| [Zoya](https://zoya.finance) | Islamic investing | Halal investing app — Shariah-screened stocks, ETFs, funds |
+| [Coinbase](https://www.coinbase.com) | Digital assets | The largest US retail crypto exchange |
+| [Fireblocks](https://www.fireblocks.com) | Digital assets | Institutional custody and settlement infrastructure |
+
+### Insurance & insurtech
+
+| Company | Notes |
+|---|---|
+| [Guidewire](https://www.guidewire.com) ⭐ | The P&C insurance operating system |
+| [Lemonade](https://www.lemonade.com) | The AI-native, fully digital insurer |
+| [wefox](https://www.wefox.com) | Digital insurance platform across Europe |
+| [Cover Genius](https://covergenius.com) | Embedded insurance for retailers, travel, rentals |
+| [Qover](https://www.qover.com) | White-label, embedded insurance for platforms |
+| [bolttech](https://www.bolttech.io) | Insurance distribution and embedded solutions |
+| [Tractable](https://tractable.ai) | AI computer vision for claims |
+| [FRISS](https://www.friss.com) | AI fraud and risk detection for underwriting and claims |
+| [Verisk](https://www.verisk.com) | Data, analytics, and decision solutions for P&C |
+| [Origami Risk](https://www.origamirisk.com) | Risk-management and claims software |
 
 **[⬆ back to top](#table-of-contents)**
 
