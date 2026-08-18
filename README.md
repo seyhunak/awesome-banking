@@ -49,6 +49,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 📚 [Banking Fundamentals](#banking-fundamentals--domain-knowledge)
 - 🛡️ [Security](#security)
 - ⚖️ [Compliance & Regulation](#compliance--regulation)
+- 🧾 [FATCA & CRS](#fatca--crs)
+- 🛡️ [Consumer Protection](#consumer-protection)
 - ⚠️ [Risk Management](#risk-management)
 - 🧾 [ITGRC](#itgrc)
 - 🏗️ [Banking Architecture](#banking-architecture)
@@ -307,6 +309,79 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Lucinity](https://www.lucinity.com) 💰 | AI copilots for AML investigations, SARs, and reporting |
 | [Flagright](https://flagright.com) ☁️ | AML-compliance and fraud-detection APIs for modern stacks |
 | [Sanction Scanner](https://sanctionscanner.com) ☁️ | Screening-as-an-API with low false-positive tuning |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## FATCA & CRS
+
+> **Automatic exchange of information (AEOI)** — the global tax-transparency regime that forces banks to report their customers' offshore accounts to the taxman. **FATCA** (US, 2010) and **CRS** (OECD, 2014) are the two engines: banks identify accounts held by foreign tax residents, report them to their home regulator, which then exchanges the data with other jurisdictions automatically. Getting this wrong means **huge penalties and license risk** — FATCA/CRS compliance is a core, non-negotiable bank operation.
+
+### Key concepts
+
+- **FATCA (Foreign Account Tax Compliance Act)** — the US law requiring foreign financial institutions (FFIs) to report accounts held by US persons to the IRS (or via an IGA with the home regulator), or face 30% withholding on US-source payments.
+- **CRS (Common Reporting Standard)** — the OECD standard on automatic exchange of financial account information; over 100 jurisdictions exchange data under it, covering more accounts than FATCA.
+- **The account-review duty** — banks must identify reportable accounts by running due diligence on new and pre-existing customers (self-certifications, indicators of residency).
+- **Reporting fields** — customer name, address, TIN, account number, balance, and interest/dividend income — submitted annually in a standardized schema.
+- **IGAs (Intergovernmental Agreements)** — bilateral treaties between the US and home countries that let FFIs report locally instead of directly to the IRS.
+- **GIIN & CRS registration** — banks register with the IRS (GIIN) and local CRS registries; entities without a valid GIIN are flagged by counterparties.
+- **Penalties** — withholding, fines, and reputational damage; FATCA/CRS is audited as part of tax-compliance exams.
+
+### Reporting frameworks & guidance
+
+| Framework | What it governs |
+|---|---|
+| [FATCA (IRS)](https://www.irs.gov/businesses/corporations/foreign-account-tax-compliance-act-fatca) ⭐ | The US law, registration, filing, and withholding rules for foreign financial institutions |
+| [CRS (OECD)](https://www.oecd.org/tax/automatic-exchange/common-reporting-standard/) ⭐ | The OECD standard and the full XML schema for automatic exchange |
+| [AEOI portal (OECD)](https://www.oecd.org/tax/automatic-exchange/) | The hub for exchange implementation, guidance, and transparency reports |
+| [US Treasury](https://home.treasury.gov) | FATCA IGA list and US reporting-agreement framework |
+
+### Tax-compliance & onboarding software
+
+| Platform | Description |
+|---|---|
+| [Moody's](https://www.moodysanalytics.com) 💰 | FATCA/CRS reporting engines integrated with KYC/onboarding |
+| [ComplyAdvantage](https://complyadvantage.com) ☁️ | Screening and risk data that feeds FATCA/CRS due-diligence checks |
+| [Wolters Kluwer OneSumX](https://www.wolterskluwer.com/en/solutions/onesumx) 💰 | Regulatory reporting suite covering FATCA/CRS filings |
+| [Fenergo](https://www.fenergo.com) 💰 | Client-lifecycle and KYC automation that captures FATCA/CRS data at onboarding |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Consumer Protection
+
+> The **conduct side of banking** — the rules, frameworks, and obligations that ensure customers are treated fairly and can trust the bank with their money. Where prudential regulation protects the *system*, consumer protection protects the *person*: fair treatment, transparent pricing, responsible lending, complaint handling, and data privacy. Regulators now demand proof of good outcomes, not just compliance on paper.
+
+### Key concepts
+
+- **Fair treatment** — the bank must not exploit information asymmetry: clear terms, no hidden fees, and products that suit the customer.
+- **Responsible lending** — credit only where the customer can afford it, with affordability checks and clear disclosure (e.g., US Truth in Lending / TRID, EU Consumer Credit Directive).
+- **Transparent pricing** — APRs, fees, and charges disclosed in a way customers understand before they commit.
+- **Complaint handling** — a structured, timely, and fair process for resolving disputes; regulators track complaint data as a conduct signal.
+- **Data protection & privacy** — GDPR (EU), CCPA (California) and equivalents govern how banks use customer data (see [Compliance & Regulation](#compliance--regulation)).
+- **Outcomes-based regulation** — the modern shift (UK **Consumer Duty**) from "follow the rules" to "prove customers get good outcomes".
+- **Conduct & culture** — senior-manager accountability (UK SMCR) ties individual responsibility to consumer outcomes.
+
+### Regulatory bodies & rules
+
+| Regulator / Rule | Region | What it governs |
+|---|---|---|
+| [CFPB](https://www.consumerfinance.gov) ⭐ | US | Consumer financial products, fair lending, and enforcement (incl. Section 1033 data rights) |
+| [FCA Consumer Duty](https://www.fca.org.uk/firms/consumer-duty) ⭐ | UK | The conduct rule: deliver good outcomes for customers and prove it |
+| [EBA Consumer Protection](https://www.eba.europa.eu/regulation-and-policy/consumer-protection-and-financial-innovation) | EU | Consumer-credit, conduct, and innovation oversight across the single market |
+| [Truth in Lending Act / Regulation Z](https://www.federalreserve.gov) | US | APR, fee, and loan-term disclosure for consumer credit |
+| [GDPR](https://gdpr-info.eu) | EU | Personal-data protection and data-subject rights for bank customers |
+| [Bank of England](https://www.bankofengland.co.uk) | UK | Prudential regulator — deposit safety and system stability underpin consumer trust |
+
+### Consumer protection software & resources
+
+| Tool | Description |
+|---|---|
+| [Bankrate](https://www.bankrate.com) 🆓 | Rate and fee transparency benchmarks consumers use to compare banks |
+| [FDIC](https://www.fdic.gov) ⭐ | Deposit insurance and the consumer helpline for US bank complaints |
+| [FSCS](https://www.fscs.org.uk) | UK deposit-protection scheme for eligible bank and building-society deposits |
 
 **[⬆ back to top](#table-of-contents)**
 
