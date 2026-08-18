@@ -62,15 +62,23 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 - 💳 [Accounts](#accounts)
 - 🏦 [Savings & Deposits](#savings--deposits)
+- 💰 [Deposits](#deposits)
+- 🪙 [Gold and Silver](#gold-and-silver)
 - 💳 [Credit Cards](#credit-cards)
 - 📝 [Personal Loans](#personal-loans)
 - 🏠 [Mortgage](#mortgage)
 - 📈 [Investment & Wealth](#investment--wealth)
+- 💼 [Investment Banking](#investment-banking)
 - 🧾 [Insurance](#insurance)
 - 🌍 [Trade Finance](#trade-finance)
 - 💸 [Domestic & International Remittance](#domestic--international-remittance)
 - 👤 [Personal Banking](#personal-banking)
+- 🏬 [Retail Banking](#retail-banking)
+- 🧑 [Consumer Banking](#consumer-banking)
+- 📱 [Digital Banking](#digital-banking)
 - 🏢 [Corporate Banking](#corporate-banking)
+- 🏭 [Commercial Banking](#commercial-banking)
+- 🏪 [Business Banking](#business-banking)
 - 🕌 [Conventional & Islamic Banking](#conventional--islamic-banking)
 - 🧭 [Core Sectors & Products](#core-sectors--products)
 - 📊 [Asset-Liability Management (ALM)](#asset-liability-management-alm)
@@ -874,6 +882,59 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Deposits
+
+> Deposits are the **funding engine** of a bank — the raw material from which lending and investment are made. The deposit franchise is a strategic asset: sticky, insured, and cheaper than wholesale funding. Managing deposits well means pricing them attractively, matching their maturity to assets (ALM), and protecting the bank's liquidity position under stress.
+
+### Key concepts
+
+- **Core vs wholesale funding** — core deposits (retail/consumer) are stable and rate-insensitive; wholesale funding (interbank, CDs, bonds) is cheaper at times but flighty.
+- **The deposit franchise** — the base of stable, low-cost funding that lets a bank lend long while borrowing short; its value is measured in ALM, not just NIM.
+- **Deposit insurance** — FDIC (US, $250k), FSCS (UK, £85k), CDIC (Canada), and EU schemes protect depositors and prevent bank runs.
+- **Brokered deposits** — large, rate-sensitive deposits placed through brokers; attractive for growth but flagged by regulators as less stable.
+- **Run-risk management** — the classic failure mode: depositors lose confidence and withdraw en masse. Banks manage this with liquidity buffers (LCR) and stress testing.
+- **Pricing** — deposit rates are set against the yield curve and competitors; the customer gets a rate, the bank earns the spread on lending.
+
+### Deposit insurance & regulation
+
+| Body | Coverage |
+|---|---|
+| [FDIC](https://www.fdic.gov) ⭐ | US deposit insurance ($250,000 per depositor per bank) and bank examination |
+| [FSCS](https://www.fscs.org.uk) | UK protection (£85,000) covering banks, building societies, and credit unions |
+| [EDIS (EU)](https://www.europarl.europa.eu) | The EU Deposit Insurance Scheme under discussion to harmonize national schemes |
+| [Basel LCR/NSFR](https://www.bis.org/bcbs/basel3.htm) | Liquidity requirements that force banks to hold stable funding against their deposits |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Gold and Silver
+
+> Precious-metals banking — **bullion, gold-backed deposits, and metals trading** — is a specialized line in Gulf, Indian, Turkish, and Asian banking. Banks act as custodians and dealers, hold physical vaulted metal, lend against it, and offer digital/allocated accounts that let customers hold gold without physical bars. It is also a traditional store of value and inflation hedge for retail investors.
+
+### Key concepts
+
+- **Physical vs allocated vs digital** — banks offer *allocated* (customer-owned, physically vaulted) and *unallocated* (bank-owned pool) accounts, plus gold ETFs and digital gold.
+- **Gold loans** — lending against physical gold as collateral; a staple in India (pawn-style) and among SMEs.
+- **Metals trading** — bank trading desks deal in spot and forward gold/silver, hedging with futures and options.
+- **Custody** — secure vaulting, insurance, and audit for physical metals are core banking services.
+- **Islamic gold** — Shariah scholars set rules for gold trading (avoiding *gharar* and *riba*); AAOIFI published a Shariah Standard for gold.
+- **Pricing & benchmarks** — the London Bullion Market Association (LBMA) price and market is the global benchmark.
+
+### Markets, standards & platforms
+
+| Resource | Description |
+|---|---|
+| [LBMA](https://www.lbma.org.uk) ⭐ | The London Bullion Market Association — sets the global gold/silver price and market standards |
+| [World Gold Council](https://www.gold.org) ⭐ | The gold industry body — data, demand research, and gold-in-finance guidance |
+| [Perth Mint](https://www.perthmint.com) | The Australian government-backed mint — bullion products and storage |
+| [Dubai Gold & Commodities Exchange (DGCX)](https://www.dgcx.ae) | The Gulf's metals and commodities exchange |
+| [AAOIFI Gold Standard](https://aaoifi.com) | Shariah-compliance rules for gold trading and gold-backed finance |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Credit Cards
 
 > Credit cards are the most profitable and most complex retail product: a **four-party network** (cardholder, merchant, issuer, acquirer) with authorization, settlement, interchange, and dispute flows. The card data lives under **PCI DSS**, and modern card stacks are tokenized and API-first.
@@ -1291,6 +1352,93 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Retail Banking
+
+> Retail banking is the **consumer-facing mass-market business** — the accounts, cards, savings, loans, and mortgages that individuals and households use every day. It is the funding engine of most banks: stable, insured deposits that finance the rest of the balance sheet. Distribution, price, and convenience decide who wins; scale and cross-sell decide who profits.
+
+### Key concepts
+
+- **The retail product stack** — checking/current accounts, savings, cards, personal loans, mortgages, insurance, and increasingly investing and PFM.
+- **Distribution channels** — branches, call centers, online, and mobile; the channel mix is shifting decisively to digital, with branches for advice and complex sales.
+- **The economics** — deposits fund loans; the spread (NIM) plus fees; retail is low-margin but high-volume, stable, and deeply cross-sellable.
+- **Acquisition & retention** — mass-market CAC is spread over a long customer lifetime; switching costs keep customers sticky.
+- **Regulation** — consumer protection, responsible lending, transparency, and deposit insurance shape every retail product.
+- **Retail vs consumer vs personal banking** — the terms overlap; retail is the business line, consumer banking the regulatory/segmentation view, and personal banking the customer-facing product suite.
+
+### Retail banking resources
+
+| Resource | Description |
+|---|---|
+| [FDIC](https://www.fdic.gov) ⭐ | US retail banking data — deposits, branches, and industry statistics |
+| [Bankrate](https://www.bankrate.com) 🆓 | Consumer banking benchmarks — rates, fees, and product comparisons |
+| [Plaid](https://plaid.com) ⭐ ☁️ | The data layer connecting retail accounts to apps, budgeting, and open banking |
+| [Temenos Infinity](https://www.temenos.com/products/experience/) 💰 | Digital retail-banking experience layer for omnichannel journeys |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Consumer Banking
+
+> Consumer banking is the **individual-focused banking division** — the products and services designed for personal, everyday use. In many banks it is the retail division renamed, and in others the legal/regulated entity that holds consumer relationships, licenses, and obligations. The key distinction from retail banking is the *individual* lens: products are built for a person's life, not a household or a business.
+
+### Key concepts
+
+- **Individual focus** — one customer, one relationship: checking, savings, cards, loans, and insurance around a person's financial life.
+- **Consumer lending** — personal loans, cards, auto, and mortgages (see [Personal Loans](#personal-loans), [Credit Cards](#credit-cards), [Mortgage](#mortgage)).
+- **The consumer relationship** — the primary account and its switching costs are the anchor; everything else is cross-sell.
+- **Credit decisioning** — individual credit scoring, income verification, and responsible-lending checks (see [Decisioning & credit risk](#decisioning--credit-risk)).
+- **Consumer protection** — fair treatment, transparent pricing, complaint handling, and data privacy dominate the regulatory agenda.
+- **Consumer vs retail** — "retail" describes the mass-market business; "consumer" describes the individual-customer division and its regulators.
+
+### Consumer banking references
+
+| Resource | Description |
+|---|---|
+| [CFPB](https://www.consumerfinance.gov) ⭐ | US consumer financial protection — rules, supervision, and enforcement |
+| [FCA Consumer Duty](https://www.fca.org.uk/firms/consumer-duty) | The UK conduct standard: prove good outcomes for individual consumers |
+| [Consumer Financial Protection](https://www.ecb.europa.eu) | EU consumer-credit and conduct frameworks across member states |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Digital Banking
+
+> Digital banking is the **technology-led transformation of how banks are built and operated** — app-native products, API-first architecture, and data-driven personalization. It spans everything from digital-only challengers (neobanks) to incumbents modernizing their channels. The differentiators are user experience, speed-to-market, and the economics of operating without branch infrastructure.
+
+### Key concepts
+
+- **Digital-only vs digital-first** — neobanks have no branches; incumbents are digital-first with branches retained for advice and complexity.
+- **The stack** — a modern core (cloud-native), an API gateway, a mobile/web front end, real-time payments, and an event-driven data layer.
+- **Open banking as fuel** — APIs let third parties build on top of accounts, turning the bank into a platform (see [Open Banking & Open Finance](#open-banking--open-finance)).
+- **Onboarding & KYC** — digital identity verification, e-signatures, and biometrics make account opening fully remote.
+- **Personalization** — real-time data and AI drive product offers, insights, and fraud responses tailored to the customer.
+- **Economics** — no branches means dramatically lower cost-to-income ratios; the trade-off is reliance on digital acquisition and lower cross-sell in person.
+
+### Digital banking platforms
+
+| Platform | Description |
+|---|---|
+| [Backbase](https://www.backbase.com) ⭐ 💰 | The leading digital-banking engagement platform for omnichannel journeys |
+| [Temenos Infinity](https://www.temenos.com/products/experience/) 💰 | Temenos' omnichannel digital experience layer |
+| [Q2](https://www.q2.com) 💰 | Digital banking for US mid-market and credit unions |
+| [nCino](https://www.ncino.com) 💰 | The cloud platform for commercial and small-business banking |
+| [Thought Machine Vault](https://www.thoughtmachine.net) 💰 | Cloud-native core powering digital-first banks |
+| [Mambu](https://mambu.com) 💰 | API-first SaaS core for neobanks and digital lenders |
+
+### Digital banking learning
+
+| Resource | Description |
+|---|---|
+| [McKinsey Banking](https://www.mckinsey.com) | Strategy and digital-transformation research for banking |
+| [Bain Financial Services](https://www.bain.com) | Banking strategy, digital, and customer-experience insights |
+| [Finextra](https://www.finextra.com) | Banking technology news — core, digital, payments, and innovation |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Corporate Banking
 
 > **Corporate/wholesale banking** serves businesses, from SMEs to global corporates and financial institutions. The products are relationship-based and complex: cash management, trade and supply chain finance, lending and syndication, treasury services, escrow, and depositary. Relationships are managed by bankers who orchestrate a small army of product specialists — and the systems are accordingly heavier than retail.
@@ -1325,6 +1473,88 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [SAP](https://www.sap.com) 💰 | ERP and payments integration for corporates and their banks |
 | [SWIFT for Corporates](https://www.swift.com/corporates) ⭐ | Direct corporate connectivity to the SWIFT network |
 | [EBICS](https://www.ebics.org) | The European file-exchange standard between corporates and banks |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Commercial Banking
+
+> Commercial banking serves **businesses, from small companies to mid-market corporates** — the segment between consumer/retail and large corporate banking. It is relationship-led and credit-driven: commercial loans, business deposits, cash management, trade finance, and FX, delivered through dedicated relationship managers. The credit risk is business risk — assessed on financials, industry, and management — and collateral matters.
+
+### Key concepts
+
+- **The commercial segment** — small business (SME) through mid-market corporates; larger than retail, smaller than investment-grade corporates.
+- **Commercial lending** — term loans, revolving credit facilities (RCFs), lines of credit, equipment/asset finance, and owner-occupied real estate.
+- **Cash management** — business accounts, payments, sweeping, and collection services for the company's operating cycle.
+- **Trade & supply chain** — LCs, guarantees, invoice discounting, and SCF (see [Trade Finance](#trade-finance)).
+- **Credit underwriting** — financial-statement analysis, cash flow, collateral coverage, industry risk, and covenant monitoring.
+- **Commercial vs corporate** — "commercial" is the mid-market/small-business business; "corporate" serves the largest companies with global and capital-markets products.
+
+### Commercial banking platforms
+
+| Platform | Description |
+|---|---|
+| [nCino](https://www.ncino.com) ⭐ 💰 | The cloud lending platform for commercial and small-business banking |
+| [Finastra](https://www.finastra.com) 💰 | Commercial lending, payments, and cash-management software |
+| [Temenos](https://www.temenos.com) 💰 | Core and digital banking for commercial and transaction banking |
+| [Bottomline](https://www.bottomline.com) 💰 | Business payments and cash-management software |
+| [SAP](https://www.sap.com) 💰 | ERP and payments integration for commercial clients |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Business Banking
+
+> Business banking is the **small-company and SME banking line** — current accounts, cards, lending, and cash-management tools built for businesses with a handful to a few hundred employees. It is the bridge between consumer banking and commercial banking: high-volume, relationship-light, but loyal and cross-sellable. The modern battle is digital — SME banking is where neobanks (Revolut, Tide, Starling) have won the most ground.
+
+### Key concepts
+
+- **The SME segment** — sole traders, micro-businesses, and small companies; millions of them, each with modest but sticky banking needs.
+- **The product set** — business current accounts, business debit/credit cards, working-capital loans, invoice finance, and payroll services.
+- **Onboarding & KYC** — KYB (know your business): entity verification, UBO checks, and account-signatory documentation.
+- **Cash management for SMEs** — invoicing, expense cards, multi-currency accounts, and accounting-software integration (Xero, QuickBooks).
+- **The neobank threat** — digital SME banks win on onboarding speed, transparent pricing, and integrated tools; incumbents respond with digital business platforms.
+- **Business vs commercial** — "business banking" is the SME/micro line; "commercial banking" is the mid-market line above it.
+
+### Business banking platforms & tools
+
+| Platform | Description |
+|---|---|
+| [Tide](https://www.tide.co) ⭐ 💰 | UK SME banking — accounts, invoicing, and expense tools |
+| [Revolut Business](https://www.revolut.com) ⭐ 💰 | Multi-currency business accounts and cards for SMEs |
+| [Starling Business](https://www.starlingbank.com) 💰 | Business accounts and marketplace banking for UK SMEs |
+| [Xero](https://www.xero.com) 💰 | Accounting integration — the data layer under SME banking |
+| [Finastra](https://www.finastra.com) 💰 | SME lending and business banking software |
+| [Nova Credit](https://www.novacredit.com) 💰 | Credit data for thin-file and immigrant SME/consumer borrowers |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Investment Banking
+
+> Investment banking is the **capital-markets and advisory business** — helping companies, governments, and institutions raise capital, execute mergers and acquisitions, and manage complex financing. It is relationship-heavy, talent-intensive, and fee-driven: M&A advisory, equity and debt issuance (IPOs), restructuring, and trading/distribution. The economics are different from lending — investment banks earn fees, not spread.
+
+### Key concepts
+
+- **The three engines** — **advisory** (M&A, restructuring), **capital markets** (equity/debt origination — IPOs, bonds), and **markets/trading** (FICC, equities, derivatives).
+- **Origination & underwriting** — the bank structures, prices, and places securities, taking distribution risk for the issuer.
+- **M&A** — buy-side and sell-side advisory, fairness opinions, financing, and post-merger integration support.
+- **Client coverage vs products** — coverage bankers own the client relationship; product bankers (M&A, ECM, DCM, leverage) sell the deals.
+- **Markets division** — trading for clients and the bank's own book, with the research franchise driving institutional relationships.
+- **Regulation & capital** — investment banks sit under the same prudential umbrella (Basel, MiFID II) but are dominated by market conduct, conflicts, and volatility risk.
+- **Investment banking vs wealth management** — IB is institutional/capital-markets; wealth management is the retail and HNW investing business (see [Investment & Wealth](#investment--wealth)).
+
+### Investment banking references
+
+| Resource | Description |
+|---|---|
+| [Goldman Sachs Investment Banking](https://www.goldmansachs.com/what-we-do/investment-banking/) ⭐ | Advisory, capital raising, and financing |
+| [Morgan Stanley Investment Banking](https://www.morganstanley.com/what-we-do/investment-banking) | M&A and capital-markets advisory |
+| [J.P. Morgan Investment Banking](https://www.jpmorgan.com/investment-banking) | Global advisory and capital markets |
+| [MiFID II](https://www.esma.europa.eu) | EU market-conduct and transparency rules governing IB activity |
 
 **[⬆ back to top](#table-of-contents)**
 
