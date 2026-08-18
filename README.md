@@ -44,20 +44,20 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ## 📑 Table of Contents
 
-| | Knowledge & Design | | Products & Segments |
-|---|---|---|---|
-| 📚 | [Banking Fundamentals](#banking-fundamentals--domain-knowledge) | 💳 | [Accounts](#accounts) |
-| 🛡️ | [Security](#security) | 🏦 | [Savings & Deposits](#savings--deposits) |
-| ⚖️ | [Compliance & Regulation](#compliance--regulation) | 💳 | [Credit Cards](#credit-cards) |
-| 🏗️ | [Banking Architecture](#banking-architecture) | 📝 | [Personal Loans](#personal-loans) |
-| 📱 | [Mobile Banking Design](#mobile-banking-design) | 🏠 | [Mortgage](#mortgage) |
-| 🧩 | [Low-Code & No-Code Tools](#low-code--no-code-tools) | 📈 | [Investment & Wealth](#investment--wealth) |
-| 🤖 | [AI in Banking](#ai-in-banking) | 🧾 | [Insurance](#insurance) |
-| 👥 | [Customers & Experience](#customers--experience) | 🌍 | [Trade Finance](#trade-finance) |
-| 🪪 | [KYC & Customer Due Diligence](#kyc--customer-due-diligence) | 💸 | [Domestic & International Remittance](#domestic--international-remittance) |
-| | | 👤 | [Personal Banking](#personal-banking) |
-| | | 🏢 | [Corporate Banking](#corporate-banking) |
-| | | 🕌 | [Conventional & Islamic Banking](#conventional--islamic-banking) |
+| | Knowledge & Design | | Products & Segments | | Regional Banking |
+|---|---|---|---|---|---|
+| 📚 | [Banking Fundamentals](#banking-fundamentals--domain-knowledge) | 💳 | [Accounts](#accounts) | 🇦🇪 | [Banking in the UAE](#banking-in-the-uae) |
+| 🛡️ | [Security](#security) | 🏦 | [Savings & Deposits](#savings--deposits) | 🇸🇦 | [Banking in Saudi Arabia (KSA)](#banking-in-saudi-arabia-ksa) |
+| ⚖️ | [Compliance & Regulation](#compliance--regulation) | 💳 | [Credit Cards](#credit-cards) | 🇪🇺 | [Banking in the EU](#banking-in-the-eu) |
+| 🏗️ | [Banking Architecture](#banking-architecture) | 📝 | [Personal Loans](#personal-loans) | 🇬🇧 | [Banking in the UK](#banking-in-the-uk) |
+| 📱 | [Mobile Banking Design](#mobile-banking-design) | 🏠 | [Mortgage](#mortgage) | | |
+| 🧩 | [Low-Code & No-Code Tools](#low-code--no-code-tools) | 📈 | [Investment & Wealth](#investment--wealth) | | |
+| 🤖 | [AI in Banking](#ai-in-banking) | 🧾 | [Insurance](#insurance) | | |
+| 👥 | [Customers & Experience](#customers--experience) | 🌍 | [Trade Finance](#trade-finance) | | |
+| 🪪 | [KYC & Customer Due Diligence](#kyc--customer-due-diligence) | 💸 | [Domestic & International Remittance](#domestic--international-remittance) | | |
+| | | 👤 | [Personal Banking](#personal-banking) | | |
+| | | 🏢 | [Corporate Banking](#corporate-banking) | | |
+| | | 🕌 | [Conventional & Islamic Banking](#conventional--islamic-banking) | | |
 
 🎓 [Learning, Courses & Community](#learning-courses--community)
 
@@ -108,6 +108,33 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Corporate Finance Institute (CFI)](https://corporatefinanceinstitute.com) | Structured courses and free references on banking, credit, and corporate finance |
 | [FRED (St. Louis Fed)](https://fred.stlouisfed.org) 🆓 | Free economic and financial data — rates, spreads, money supply — for real examples |
 | [Investopedia](https://www.investopedia.com) 🆓 | Accessible explainers for every banking term a PM or engineer will meet |
+| [Euromoney Learning](https://www.euromoneylearning.com) 💰 | Structured courses on trade finance, treasury, and risk from the trade press |
+| [The Financial Brand](https://thefinancialbrand.com) 🆓 | Retail-banking, digital, and marketing intelligence for banking leaders |
+
+### Business models
+
+| Model | Description |
+|---|---|
+| **Universal bank** | Retail + corporate + investment banking under one roof — the European and Asian default |
+| **Retail / commercial bank** | Consumers and SMEs; the US community and regional model |
+| **Investment bank** | Capital markets, advisory, trading, and research — deposit-taking not required |
+| **Private bank** | Wealth management, advice, and bespoke products for high-net-worth clients |
+| **Digital / neobank** | App-native challenger built on BaaS and open APIs |
+| **Development bank** | State-backed long-term finance (e.g., IsDB, EIB, KfW) |
+| **Islamic bank** | Shariah-compliant balance sheet (see [Conventional & Islamic Banking](#conventional--islamic-banking)) |
+
+### Economics & ratios
+
+| Term | Meaning |
+|---|---|
+| **NIM** | Net interest margin — the spread between what the bank pays for deposits and earns on loans |
+| **ROE / ROTE** | Return on (tangible) equity — the shareholder performance yardstick |
+| **CET1** | Common Equity Tier 1 — the highest-quality capital ratio (Basel floor: 4.5%) |
+| **LCR** | Liquidity coverage ratio — high-quality liquid assets vs 30-day net outflows |
+| **NSFR** | Net stable funding ratio — structural funding stability over one year |
+| **Cost-to-income** | Operating cost ÷ income — the efficiency ratio every bank reports |
+| **Provisioning** | Money set aside for expected loan losses (IFRS 9 / CECL) |
+| **Pass-through** | How central-bank policy rates flow to deposit and lending rates |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -146,6 +173,16 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Okta](https://www.okta.com) · [Ping Identity](https://www.pingidentity.com) ☁️ | Enterprise identity platforms — SSO, MFA, and customer identity (CIAM) |
 | [OWASP](https://owasp.org) 🆓 🔓 | The reference body for web/app security guidance, testing guides, and the Top 10 |
 
+### Identity & authentication
+
+| Platform | Description |
+|---|---|
+| [Keycloak](https://www.keycloak.org) 🔓 | The open-source IAM standard — SSO, MFA, social login, and federation |
+| [Auth0](https://auth0.com) ☁️ | Developer-first identity — drop-in SSO and MFA for customer apps |
+| [Microsoft Entra ID](https://www.microsoft.com/en-us/security/business/identity-access/microsoft-entra-id) ☁️ | The enterprise identity default in Microsoft shops (formerly Azure AD) |
+| [Incognia](https://incognia.com) ☁️ | Location- and device-based fraud prevention for mobile banking |
+| [BioCatch](https://www.biocatch.com) 💰 | Behavioral biometrics that catch account-takeover and mule behavior in real time |
+
 ### Fraud detection & prevention
 
 | Platform | Description |
@@ -156,6 +193,20 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [NICE Actimize](https://www.niceactimize.com) ⭐ 💰 | The enterprise mainstay for fraud and AML across banking, cards, and brokerage |
 | [DataVisor](https://www.datavisor.com) 💰 | Unsupervised machine learning that catches coordinated fraud rings early |
 | [LexisNexis ThreatMetrix](https://risk.lexisnexis.com/products/threatmetrix) ☁️ | Digital identity network that fingerprints devices and behavior for risk scoring |
+| [Signifyd](https://www.signifyd.com) 💰 | AI e-commerce fraud decisions with a chargeback guarantee |
+| [Forter](https://www.forter.com) 💰 | Real-time fraud decisioning for payments and account creation |
+| [Ravelin](https://www.ravelin.com) 💰 | Payment-risk and fraud platform for marketplaces and platforms |
+
+### Application security & DevSecOps
+
+| Tool | Description |
+|---|---|
+| [Snyk](https://snyk.io) ☁️ | Dependency, container, and code scanning wired into the CI/CD pipeline |
+| [GitHub Advanced Security](https://github.com/features/security) 🔓 | Secret scanning, code scanning (CodeQL), and dependency review |
+| [Burp Suite](https://portswigger.net/burp) 💰 | The standard tool for manual and automated web-app penetration testing |
+| [OWASP ZAP](https://www.zaproxy.org) 🔓 | Free, open-source DAST for automated app-layer security testing |
+| [Wazuh](https://wazuh.com) 🔓 | Open-source SIEM/XDR for log monitoring, alerting, and compliance |
+| [Elastic Security](https://www.elastic.co/security) · [Splunk](https://www.splunk.com) 💰 | Enterprise SIEM platforms for security operations and threat hunting |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -185,6 +236,13 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [MiFID II](https://www.esma.europa.eu) | EU | Investment services and market conduct (applies to banks' wealth arms) |
 | [OFAC Sanctions](https://ofac.treasury.gov) | US | Specially Designated Nationals (SDN) list and sanctions screening |
 | [CFPB Section 1033](https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/) | US | Personal financial data rights — the US open-banking rule |
+| [EU AML package / AMLA](https://www.consilium.europa.eu/en/policies/anti-money-laundering/) | EU | The single EU AML rulebook and the new AMLA supervisor (Frankfurt) |
+| [DORA](https://digital-strategy.ec.europa.eu/en/policies/digital-finance) | EU | Digital Operational Resilience Act — ICT risk, resilience testing, and third-party oversight |
+| [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | EU | Risk-tiered rules for AI — high-risk systems include credit scoring |
+| [Consumer Duty](https://www.fca.org.uk/firms/consumer-duty) | UK | The FCA conduct rule: deliver good outcomes for customers, and prove it |
+| [SEC](https://www.sec.gov) | US | Securities regulation for banks' broker-dealer and advisory arms |
+| [FINRA](https://www.finra.org) | US | Broker-dealer conduct, exams, and enforcement |
+| [Model Risk Management (SR 11-7 → SR 26-2)](https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm) | US | Fed/OCC/FDIC guidance governing every model a bank runs |
 
 ### RegTech & compliance platforms
 
@@ -198,6 +256,10 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Dow Jones Risk & Compliance](https://www.dowjones.com/professional/risk/) ☁️ | Watchlist and ownership research data with global coverage |
 | [Regnology](https://www.regnology.net) 💰 | Regulatory reporting and data collection for prudential and markets regulation |
 | [AxiomSL (Moody's)](https://www.moodys.com) 💰 | Regulatory capital and reporting analytics across jurisdictions |
+| [Wolters Kluwer OneSumX](https://www.wolterskluwer.com/en/solutions/onesumx) 💰 | Regulatory reporting, risk, and compliance suite (FINREP/COREP, Basel, LCR/NSFR) |
+| [Lucinity](https://www.lucinity.com) 💰 | AI copilots for AML investigations, SARs, and reporting |
+| [Flagright](https://flagright.com) ☁️ | AML-compliance and fraud-detection APIs for modern stacks |
+| [Sanction Scanner](https://sanctionscanner.com) ☁️ | Screening-as-an-API with low false-positive tuning |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -233,6 +295,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [NCR Voyix](https://www.ncrvoyix.com) 💰 | Mid-market core | Payments and digital banking across retail and mid-market banks |
 | [Skaleet](https://www.skaleet.com) 💰 | Modular core | Composable, modular core for digital banks and EMIs |
 | [Nymbus](https://nymbus.com) ☁️ | Neobank-in-a-box | Digital bank and core platform aimed at launching banks fast |
+| [10x Banking](https://www.10xbanking.com) 💰 | Cloud-native core | API-first, AI-enabled core powering Chase UK and NatWest |
+| [Volaris](https://www.volarisgroup.com) 💰 | Cloud-native core | Event-driven, composable core built on Oracle technology |
 
 ### Digital banking & engagement layers
 
@@ -264,6 +328,24 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [MuleSoft](https://www.mulesoft.com) ☁️ | Integration platform connecting legacy cores to modern channels |
 | [Snowflake](https://www.snowflake.com) · [Databricks](https://www.databricks.com) ⭐ ☁️ | Cloud data platforms for the banking data warehouse/lakehouse |
 
+### APIs, open banking & integration
+
+| Tool | Description |
+|---|---|
+| [OpenAPI](https://www.openapis.org) ⭐ | The API-contract standard every bank's developer portal exposes |
+| [Postman](https://www.postman.com) 💰 | API design, testing, documentation, and governance workflow |
+| [Kong](https://konghq.com) ☁️ | The API gateway and platform layer for banking APIs |
+| [MuleSoft](https://www.mulesoft.com) ☁️ | Enterprise integration connecting cores to channels and partners |
+| [Akamai](https://www.akamai.com) · [Cloudflare](https://www.cloudflare.com) ☁️ | Edge security, DDoS protection, and API shielding |
+
+### Enterprise architecture & standards
+
+| Standard | Description |
+|---|---|
+| [BIAN](https://www.bian.org) ⭐ | Banking Industry Architecture Network — the shared service-landscape blueprint and API model for core banking |
+| [TOGAF](https://www.opengroup.org/togaf) | The enterprise-architecture framework used to map bank target states |
+| [ArchiMate](https://www.opengroup.org/archimate-forum) | The modeling language for architecture views and stakeholder communication |
+
 **[⬆ back to top](#table-of-contents)**
 
 ---
@@ -291,6 +373,19 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Goldman Sachs Marquee](https://www.marquee.gs) | A public example of a serious financial design system and developer platform |
 | [Backbase Design System](https://www.backbase.com) | A banking-specific design system for retail and business journeys |
 | [Design Guidelines for Financial Data](https://www.figma.com) | Figma hosts community banking/FinTech UI kits — a fast starting point for prototypes |
+| [Carbon Design System (IBM)](https://carbondesignsystem.com) 🔓 | Enterprise design system with strong data-dense, dashboard-grade patterns |
+| [Polaris (Shopify)](https://polaris.shopify.com) 🔓 | Reference for merchant and small-business financial interfaces |
+| [Primer (GitHub)](https://primer.style) 🔓 | A well-documented open-source design system with strong tokens |
+| [GOV.UK Design System](https://design-system.service.gov.uk) 🔓 | The accessibility-and-consistency benchmark for regulated public services |
+
+### UX patterns & inspiration
+
+| Resource | Description |
+|---|---|
+| [Mobbin](https://mobbin.com) 💰 | Searchable screenshot library of real banking-app flows and screens |
+| [UX Archive](https://uxarchive.com) 🆓 | Interaction-level reference for flows and micro-interactions |
+| [Pttrns](https://pttrns.com) 💰 | Curated mobile UI patterns for app screens |
+| [Dribbble](https://dribbble.com) 🆓 | Design inspiration and motion examples for finance and fintech |
 
 ### UX research & testing
 
@@ -299,6 +394,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Figma](https://www.figma.com) ⭐ | The standard design tool — prototypes, design systems, and handoff |
 | [Maze](https://maze.co) 💰 | Rapid usability testing on prototypes — catch confusion before code |
 | [Optimal Workshop](https://www.optimalworkshop.com) 💰 | Card sorts and tree tests to validate navigation and information architecture |
+| [UsabilityHub](https://usabilityhub.com) ☁️ | Quick five-second and preference tests on designs |
+| [Overflow](https://overflow.io) 💰 | User-flow diagrams and handoff for multi-screen journeys |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -333,6 +430,17 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Airtable](https://airtable.com) 💰 | Spreadsheet-database hybrid for ops tracking and light workflow |
 | [Quickbase](https://www.quickbase.com) 💰 | No-code database apps built for operational workflows |
 | [Knack](https://www.knack.com) 💰 | No-code databases and apps for small teams |
+
+### Document & workflow automation
+
+| Platform | Description |
+|---|---|
+| [DocuSign](https://www.docusign.com) ☁️ | E-signature and agreement workflow — the default for account opening and loans |
+| [Nintex](https://www.nintex.com) 💰 | Process automation, document generation, and e-forms |
+| [Kissflow](https://kissflow.com) 💰 | Low-code workflow, case management, and approvals |
+| [UiPath](https://www.uipath.com) 💰 | RPA — automating legacy mainframe and screen workflows |
+| [Automation Anywhere](https://www.automationanywhere.com) 💰 | Enterprise RPA and intelligent automation |
+| [Hyland OnBase](https://www.hyland.com) 💰 | Enterprise content and document management for banking |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -387,6 +495,18 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Cognigy](https://cognigy.com) 💰 | Contact-center AI with low-code conversational flows |
 | [IBM watsonx Assistant](https://www.ibm.com/watsonx) 💰 | Conversational AI on the enterprise watsonx platform |
 | [LivePerson](https://www.liveperson.com) 💰 | Conversational commerce and messaging for banking customer care |
+| [Kasisto KAI](https://kasisto.com) 💰 | Conversational AI built specifically for banking — intents, flows, and PSD2-aware |
+| [Boost.ai](https://www.boost.ai) 💰 | No-code conversational AI for financial-services customer service |
+
+### AI governance & model risk
+
+| Standard / Platform | Description |
+|---|---|
+| [Model Risk Management (SR 26-2)](https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm) ⭐ | The Fed/OCC/FDIC guidance (successor to SR 11-7) every model in a bank must satisfy |
+| [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) | The US framework for trustworthy, governable AI |
+| [EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai) | The EU's risk-tiered AI regulation — high-risk systems include credit scoring |
+| [Credo AI](https://www.credo.ai) 💰 | AI-governance software for inventory, risk, and compliance |
+| [Holistic AI](https://www.holisticai.com) 💰 | AI-risk assessment and remediation platform |
 
 ### Generative AI & ML platforms
 
@@ -433,6 +553,23 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Segment](https://segment.com) ☁️ | Customer data platform for unified customer profiles |
 | [Amperity](https://amperity.com) · [mParticle](https://www.mparticle.com) ☁️ | Enterprise customer data infrastructure for personalization |
 
+### Personalization & engagement
+
+| Platform | Description |
+|---|---|
+| [Braze](https://www.braze.com) 💰 | Cross-channel customer engagement and lifecycle messaging |
+| [Iterable](https://iterable.com) 💰 | Marketing automation and journey orchestration for digital banking |
+| [SAP Emarsys](https://emarsys.com) 💰 | Personalization for high-volume B2C banking and commerce |
+
+### Customer insights & analytics
+
+| Tool | Description |
+|---|---|
+| [ThoughtSpot](https://www.thoughtspot.com) 💰 | Search-and-AI analytics for business teams |
+| [Looker](https://cloud.google.com/looker) ☁️ | Embedded analytics and data modeling for banking products |
+| [Tableau](https://www.tableau.com) 💰 | Visual analytics for operations and performance |
+| [Mixpanel](https://mixpanel.com) 💰 | Product and funnel analytics for digital channels |
+
 **[⬆ back to top](#table-of-contents)**
 
 ---
@@ -472,6 +609,17 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ComplyAdvantage](https://complyadvantage.com) ☁️ | Real-time watchlist data and screening via API |
 | [Dow Jones Risk & Compliance](https://www.dowjones.com/professional/risk/) ☁️ | Third-party risk, ownership, and sanctions research |
 | [LexisNexis Risk Solutions](https://risk.lexisnexis.com) ☁️ | Identity, fraud, and compliance data across the US and global markets |
+| [Sanction Scanner](https://sanctionscanner.com) ☁️ | Screening-as-an-API with low false-positive tuning |
+
+### KYB & entity verification
+
+| Platform | Description |
+|---|---|
+| [Dun & Bradstreet](https://www.dnb.com) ⭐ ☁️ | The global standard for business identity, credit, and ownership data |
+| [Moody's Orbis (Bureau van Dijk)](https://www.bvdinfo.com) ☁️ | The company-and-ownership database behind corporate KYC |
+| [OpenCorporates](https://opencorporates.com) 🔓 | Open company-registry data for verification and screening |
+| [North Data](https://northdata.com) 🔓 | European company-registry intelligence |
+| [Trulioo Business](https://www.trulioo.com) ☁️ | Business verification across 330+ data sources |
 
 ### AML transaction monitoring & analytics
 
@@ -521,6 +669,19 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [UK Faster Payments](https://www.fasterpayments.org.uk) | UK | The UK's near-instant, 24/7 interbank rail |
 | [UPI (NPCI)](https://www.npci.org.in) | India | India's interoperable instant-payments system — billions of transactions monthly |
 | [SWIFT](https://www.swift.com) ⭐ | Global | The correspondent network for cross-border payments and messaging |
+| [CHAPS](https://www.bankofengland.co.uk/payments/chaps) | UK | The UK's large-value real-time gross settlement |
+| [Bacs](https://www.bacs.co.uk) | UK | The UK's batched direct-debit and direct-credit rail |
+| [Zengin](https://www.zengin-net.jp/en/) | Japan | Japan's domestic interbank network |
+| [PIX](https://www.bcb.gov.br/en/financialstability/pix_en) | Brazil | Brazil's instant-payments system — the global reference for adoption |
+
+### Account identifiers & standards
+
+| Standard | Description |
+|---|---|
+| [IBAN](https://www.iban.com) ⭐ | ISO 13616 — the international account-number format used across Europe and beyond |
+| [BIC / SWIFT code](https://www.swift.com) | ISO 9362 — the bank identifier used with IBANs and SWIFT messaging |
+| [EPC (European Payments Council)](https://www.europeanpaymentscouncil.eu) | Maintains the SEPA rulebooks and IBAN-validation standards |
+| [ISO 20022](https://www.iso20022.org) | The message standard behind modern payments and account data |
 
 ### Ledger & account infrastructure
 
@@ -558,6 +719,18 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [DepositAccounts](https://www.depositaccounts.com) 🆓 | Deep deposit-rate tracking and product comparison |
 | [FRED](https://fred.stlouisfed.org) 🆓 | Yield-curve and interest-rate data for pricing and ALM analysis |
 | [Murex](https://www.murex.com) · [Calypso](https://www.calypso.com) 💰 | Treasury, ALM, and risk systems that price and manage deposit books |
+
+### Deposit products
+
+| Product | Description |
+|---|---|
+| Instant-access savings | Liquid, lower-rate — the everyday savings bucket |
+| Money-market account | Rate tracks short-term money-market instruments; often used for excess liquidity |
+| Term deposit / CD | Fixed term and rate; breaking early costs penalty or lost interest |
+| Notice account | Withdrawal requires an advance-notice period |
+| Fixed-rate / structured deposit | Fixed coupon, or return linked to an index or basket |
+| Salary / premium account | Higher rate and perks conditional on salary direct-debit |
+| Islamic profit-sharing deposit | Mudarabah-based — the Shariah-compliant alternative to interest |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -598,6 +771,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Highnote](https://highnote.com) ☁️ | Card issuing and program management for modern fintechs |
 | [Bond](https://www.bond.tech) ☁️ | BaaS for cards, accounts, and payments |
 | [Pismo](https://www.pismo.io) 💰 | Cloud-native payments and card issuing platform (acquired by Visa) |
+| [i2c](https://www.i2cinc.com) 💰 | Global card issuing and processing platform for banks and brands |
+| [Deserve](https://deserve.com) ☁️ | Credit-card issuing platform with credit lifecycle automation |
 
 ### Acquiring & processing
 
@@ -617,6 +792,14 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [FICO Falcon](https://www.fico.com/en/products/falcon-platform) ⭐ 💰 | The industry-standard card fraud-detection engine |
 | [Feedzai](https://feedzai.com) 💰 | AI card fraud and dispute automation |
 | [Sift](https://sift.com) 💰 | Digital trust for payments, account abuse, and chargebacks |
+
+### Disputes & chargebacks
+
+| Platform | Description |
+|---|---|
+| [Verifi (Visa)](https://www.verifi.com) 💰 | Visa's dispute-automation and chargeback-prevention suite |
+| [Ethoca (Mastercard)](https://www.ethoca.com) 💰 | Consumer-collaboration dispute resolution and alerts |
+| [Chargebacks911](https://chargebacks911.com) 💰 | Chargeback management, representment, and prevention services |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -663,6 +846,14 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Afterpay](https://www.afterpay.com) 💰 | Installment payments (part of Block) |
 | [PayPal Pay Later](https://www.paypal.com) 💰 | BNPL embedded in the PayPal checkout |
 
+### Collections & debt recovery
+
+| Platform | Description |
+|---|---|
+| [FICO Debt Manager](https://www.fico.com/en/products/fico-debt-manager) 💰 | The collections-and-recovery system used across US lenders |
+| [TrueAccord](https://trueaccord.com) 💰 | Digital-first, consumer-friendly debt collection |
+| [InDebted](https://indebted.com) 💰 | Digital collections with integrated payment plans |
+
 **[⬆ back to top](#table-of-contents)**
 
 ---
@@ -706,6 +897,13 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ICE (Black Knight) Servicing](https://www.icemortgagetechnology.com) 💰 | The dominant US mortgage-servicing platform (MSP) |
 | [Fiserv Mortgage Servicing](https://www.fiserv.com) 💰 | Core and secondary-market servicing at scale |
 | [Sagent](https://www.sagent.com) 💰 | Modern, digital-first mortgage servicing |
+
+### Valuation & property analytics
+
+| Platform | Description |
+|---|---|
+| [HouseCanary](https://www.housecanary.com) 💰 | Property valuation and analytics for underwriting and portfolio risk |
+| [Regrid](https://regrid.com) 💰 | Parcel-boundary and property data for appraisal and review workflows |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -762,6 +960,15 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Fireblocks](https://www.fireblocks.com) 💰 | Institutional custody and settlement infrastructure for digital assets |
 | [Chainalysis](https://www.chainalysis.com) 💰 | Blockchain data, AML, and investigations for crypto flows |
 
+### Wealthtech & platform infrastructure
+
+| Platform | Description |
+|---|---|
+| [FNZ](https://www.fnz.com) 💰 | The wealth-platform engine behind many banks' retail investing and pensions |
+| [InvestCloud](https://www.investcloud.com) 💰 | Digital wealth-management platform — advice, portfolio, and client reporting |
+| [Addepar](https://www.addepar.com) 💰 | Portfolio analytics for advisors, family offices, and private banks |
+| [Temenos Wealth](https://www.temenos.com/products/wealth-management/) 💰 | Wealth core, advice, and digital on the Temenos platform |
+
 **[⬆ back to top](#table-of-contents)**
 
 ---
@@ -787,6 +994,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Sapiens](https://sapiens.com) 💰 | Core insurance across life, P&C, and reinsurance |
 | [EIS Group](https://www.eisgroup.com) 💰 | Cloud-native core for P&C and life with an API-first model |
 | [OneShield](https://www.oneshield.com) 💰 | Policy, billing, and claims software for specialty and P&C |
+| [Verisk](https://www.verisk.com) 💰 | Data, analytics, and decision solutions for P&C and bancassurance |
+| [Origami Risk](https://www.origamirisk.com) 💰 | Risk-management and claims software for enterprises and insurers |
 
 ### Bancassurance & embedded insurance
 
@@ -798,6 +1007,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Tractable](https://tractable.ai) 💰 | AI computer vision for claims (photo-based estimates) |
 | [FRISS](https://www.friss.com) 💰 | AI fraud and risk detection for underwriting and claims |
 | [Lemonade](https://www.lemonade.com) 💰 | The AI-native, fully digital insurer — a reference for modern insurance UX |
+| [wefox](https://www.wefox.com) 💰 | Digital insurance platform across Europe — distribution and embedded cover |
 
 ### Insurance regulation
 
@@ -832,6 +1042,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Traydstream](https://www.traydstream.com) 💰 | AI-powered trade-document checking against LC terms |
 | [Enigio](https://www.enigio.com) 💰 | Digital original documents (trace:original) for eBLs and trade |
 | [ICC](https://iccwbo.org) ⭐ | Publishers of the trade rules (UCP 600, URDG, URC) every product references |
+| [Surecomp](https://www.surecomp.com) 💰 | Trade-finance and treasury software for banks |
+| [ITFA](https://www.itfa.org) | The trade association driving eBL and digital-trade standards |
 
 ### Supply chain finance
 
@@ -872,6 +1084,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Ria](https://www.ria.com) 💰 | Cash and digital remittance with broad agent network |
 | [Xoom (PayPal)](https://www.xoom.com) 💰 | Fast digital remittance from the US |
 | [TransferGo](https://www.transfergo.com) 💰 | European remittance and borderless payments |
+| [OFX](https://www.ofx.com) 💰 | International transfers for consumers and SMEs with strong FX rates |
+| [Payoneer](https://www.payoneer.com) 💰 | Cross-border payments for freelancers, marketplaces, and SMEs |
 
 ### B2B cross-border & payments infrastructure
 
@@ -921,6 +1135,11 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Varo](https://www.varomoney.com) | US mobile bank with its own national bank charter |
 | [Current](https://current.com) | US neobank with teen and spending tools |
 | [Zopa](https://www.zopa.com) | From P2P lending pioneer to licensed UK digital bank |
+| [Ally](https://www.ally.com) | US digital bank — high-yield savings, no-fee checking, auto loans |
+| [SoFi](https://www.sofi.com) | The US super-app — banking, investing, lending, and credit |
+| [Marcus (Goldman Sachs)](https://www.marcus.com) | Online savings and personal loans from Goldman Sachs |
+| [Bunq](https://www.bunq.com) | European mobile bank — multi-currency accounts and savings |
+| [Tide](https://www.tide.co) | UK SME banking — accounts, invoicing, and expense tools |
 
 ### Personal finance & budgeting tools
 
@@ -966,6 +1185,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [nCino](https://www.ncino.com) 💰 | Commercial and small-business lending origination |
 | [Bottomline](https://www.bottomline.com) 💰 | Business payments, treasury, and cash-management software |
 | [SAP](https://www.sap.com) 💰 | ERP and payments integration for corporates and their banks |
+| [SWIFT for Corporates](https://www.swift.com/corporates) ⭐ | Direct corporate connectivity to the SWIFT network |
+| [EBICS](https://www.ebics.org) | The European file-exchange standard between corporates and banks |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -998,6 +1219,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [IsDB](https://www.isdb.org) | The Islamic Development Bank — development finance and industry leadership |
 | [IIFM](https://www.iifm.net) | International Islamic Financial Market — standardizes Islamic capital- and money-market products |
 | [FATF](https://www.fatf-gafi.org) | Islamic banks follow the same AML/CFT standard as conventional — compliance is not waived |
+| [ISRA](https://isra.my) | International Shari'ah Research Academy — research, journals, and training for Islamic finance |
+| [Amanie Advisors](https://www.amanie.com) 💰 | The leading Shariah-advisory and audit firm across the Gulf and Asia |
 
 ### Islamic banking software & platforms
 
@@ -1015,6 +1238,214 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Wahed](https://wahed.com) 💰 | The leading halal robo-advisor for global investors |
 | [Zoya](https://zoya.finance) 💰 | The popular halal investing app — Shariah-screened stocks, ETFs, and funds |
 | [Sukuk platforms & funds](https://www.isdb.org) | Development and sovereign sukuk markets are the institutional foundation of Islamic capital markets |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in the UAE
+
+> The UAE is the Gulf's **financial hub**: two international financial centres (DIFC in Dubai, ADGM in Abu Dhabi) with common-law courts, a dual regulator (CBUAE for onshore banking, DFSA/FSRA for the centres), and an aggressive push on **digital payments (Aani instant payments) and open banking**. It is also the region's richest Islamic-banking market.
+
+### Key concepts
+
+- **Dual banking** — onshore banks are licensed by the **Central Bank of the UAE (CBUAE)**; international institutions can instead operate from **DIFC (DFSA)** or **ADGM (FSRA)** under common law with more liberal rules.
+- **Ownership & regulation** — foreign banks operate through branches or locally incorporated subsidiaries; CBUAE regulates retail, wholesale, and Islamic banking (the same window).
+- **Payments** — **UAESWITCH** is the national payments switch; **Aani** (Al Etihad Payments) is the instant-payment rail; cheques are processed via cheque imaging.
+- **AML/CFT** — the UAE was on the FATF grey list (2022–2024) and has been removed since; the CBUAE's goAML portal is the mandatory filing channel.
+- **Crypto & virtual assets** — VARA (Dubai) and ADGM's FSRA license crypto exchanges; the UAE is the most crypto-friendly jurisdiction in the Gulf.
+
+### Regulators & infrastructure
+
+| Body | Description |
+|---|---|
+| [CBUAE](https://www.centralbank.ae) ⭐ | The Central Bank of the UAE — onshore licensing, payments, and regulation |
+| [DFSA](https://www.dfsa.ae) | Dubai Financial Services Authority — regulator of DIFC |
+| [ADGM (FSRA)](https://www.adgm.com) | Abu Dhabi Global Market and its Financial Services Regulatory Authority |
+| [DIFC](https://www.difc.ae) | The Dubai International Financial Centre — common-law jurisdiction for finance |
+| [SCA](https://www.sca.gov.ae) | Securities and Commodities Authority — capital-markets oversight |
+| [Aani](https://www.aani.ae) | The UAE's instant-payments platform (Al Etihad Payments) |
+
+### Major banks
+
+| Bank | Notes |
+|---|---|
+| [Emirates NBD](https://www.emiratesnbd.com) ⭐ | The largest bank in the UAE — retail, corporate, and Islamic (Emirates Islamic) |
+| [First Abu Dhabi Bank (FAB)](https://www.fab.ae) ⭐ | The largest bank in the region by assets |
+| [Abu Dhabi Commercial Bank](https://www.adcb.com) | Universal bank across retail, corporate, and wealth |
+| [Dubai Islamic Bank](https://www.dib.ae) | The world's first full-fledged Islamic bank (1975) |
+| [Mashreq](https://www.mashreqbank.com) | Dubai's oldest bank — home of Mashreq Neo and Mashreq Global Network |
+| [ADIB](https://www.adib.ae) | Abu Dhabi Islamic Bank — Islamic retail and corporate banking |
+| [Emirates Islamic](https://www.emiratesislamic.ae) | The Islamic banking arm of Emirates NBD |
+| [RAKBANK](https://www.rakbank.ae) | Retail-focused bank strong in cards and personal finance |
+| [Commercial Bank of Dubai](https://www.cbd.ae) | Retail and corporate banking group |
+
+### Digital banks & fintech
+
+| Platform | Notes |
+|---|---|
+| [Liv](https://www.liv.ae) | Emirates NBD's digital-first lifestyle bank |
+| [Wio](https://www.wio.ae) | The region's first platform bank (FAB + partners) |
+| [Zand](https://www.zand.ae) | The UAE's first integrated digital bank |
+| [Al Maryah Community Bank](https://www.almaryahcb.ae) | Abu Dhabi digital bank focused on lending |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in Saudi Arabia (KSA)
+
+> Saudi Arabia runs the Gulf's **largest banking market** and is the epicentre of Islamic finance. SAMA (the central bank) regulates a concentrated system of mega-banks plus a fast-growing wave of **digital banks** (STC Pay, D360, Rize, Meem, Tahaluf) under a dedicated framework. Payments run on **mada** (cards), **SADAD** (bill payments), **SARIE** (RTGS) and **SPI** (instant payments).
+
+### Key concepts
+
+- **Islamic is default** — most Saudi banks operate Islamic windows or fully Shariah-compliant books; Al Rajhi and Alinma are fully Islamic.
+- **Concentration** — the top ten banks (SNB, Al Rajhi, Riyad, SABB, BSFR, ANB, Alinma, SAIB, Albilad, Aljazira) dominate; mergers (NCB–Samba → SNB; SABB–Alawwal) created megabanks.
+- **Payments** — **mada** is the domestic debit/card scheme; **SADAD** is the ubiquitous bill-payment platform; **SARIE** moves large values in real time; **SPI** powers instant person-to-person transfers.
+- **Vision 2030** — the National Transformation Program pushes digitization, fintech licensing, and open banking; the target is 70% cashless transactions.
+- **Open banking** — SAMA published an open-banking framework; banks must expose APIs under its standards.
+
+### Regulators & infrastructure
+
+| Body | Description |
+|---|---|
+| [SAMA](https://www.sama.gov.sa) ⭐ | Saudi Central Bank — licensing, payments, and monetary policy |
+| [CMA](https://cma.org.sa) | Capital Market Authority — securities, asset management, and fintech |
+| [mada](https://www.mada.com.sa) | The Saudi domestic card scheme |
+| [SADAD](https://www.sadad.com) | The national bill-payment and presentment system |
+| [SARIE / SPI](https://www.sama.gov.sa) | Real-time gross settlement and instant-payments infrastructure |
+
+### Major banks
+
+| Bank | Notes |
+|---|---|
+| [Al Rajhi Bank](https://www.alrajhibank.com.sa) ⭐ | The largest Islamic bank in the world by market value |
+| [SNB](https://www.snb.com.sa) ⭐ | Saudi National Bank — the largest by assets (NCB + Samba merger) |
+| [Riyad Bank](https://www.riyadbank.com) | Universal bank with a strong corporate franchise |
+| [SABB](https://www.sabb.com) | HSBC-affiliated (merged with Alawwal) |
+| [Alinma Bank](https://www.alinma.com) | Fully Islamic retail and corporate bank |
+| [Banque Saudi Fransi](https://www.alfransi.com.sa) | Universal bank strong in corporate and trade services |
+| [Arab National Bank](https://www.anb.com.sa) | Retail, corporate, and treasury banking |
+| [Bank Albilad](https://www.bankalbilad.com) | Islamic retail bank |
+
+### Digital banks & fintech
+
+| Platform | Notes |
+|---|---|
+| [STC Pay](https://www.stcpay.com.sa) | The kingdom's digital wallet from stc group |
+| [D360 Bank](https://d360.com.sa) | Digital bank backed by Saudi institutional investors |
+| [Rize](https://rize.sa) | Digital SME bank focused on micro-businesses |
+| [Meem](https://www.meem.sa) | Alinma's digital bank |
+| [Tahaluf](https://www.tahaluf.sa) | Digital bank from stc group |
+| [Lesan](https://lesan.sa) | Digital bank backed by the PIF ecosystem |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in the EU
+
+> The EU is the world's **most integrated banking market**: a single banking license (passporting), harmonized rulebooks (CRR/CRD, PSD, GDPR, DORA, AML), one payments market (SEPA), and a centralized supervisor for the largest banks (the ECB). The 2020s agenda is the **Capital Markets Union, PSD3/PSR, DORA, and the single AML authority (AMLA)**.
+
+### Key concepts
+
+- **Single passport** — a license in one member state grants access across the EEA; banks and EMIs passport through subsidiaries or branches.
+- **Two-layer supervision** — the **ECB/SSM** directly supervises ~110 significant banks; national authorities (e.g., BaFin, ACPR, Banca d'Italia) handle the rest under EBA convergence.
+- **Payments** — **SEPA** standardizes euro credit transfers and direct debits; **SEPA Instant** and **TIPS** deliver near-real-time euro payments; local schemes (iDEAL in NL, BLIK in PL, Bizum in ES) persist for domestic use.
+- **The 2020s rulebook** — **PSD3 + PSR** (successor to PSD2), **DORA** (ICT resilience), the **AML package** (single rulebook + AMLA in Frankfurt), **CRR3/CRD6** (Basel III final), **MiFID II/MiFIR**, **GDPR**, and the **AI Act**.
+- **Open banking** — PSD2's AISP/PISP access rights made the EU the global leader in open-banking APIs (Tink, TrueLayer, Yapily, Plaid EU).
+
+### Regulators & infrastructure
+
+| Body | Description |
+|---|---|
+| [ECB](https://www.ecb.europa.eu) ⭐ | Monetary policy and direct supervision of significant euro-area banks |
+| [EBA](https://www.eba.europa.eu) ⭐ | The rulebook-setter for banking, payments, and AML convergence |
+| [ESMA](https://www.esma.europa.eu) | Securities and markets regulation (MiFID II, EMIR) |
+| [EIOPA](https://www.eiopa.europa.eu) | Insurance and occupational pensions (Solvency II) |
+| [EPC](https://www.europeanpaymentscouncil.eu) | Maintains the SEPA schemes and rulebooks |
+| [AMLA](https://finance.ec.europa.eu/financial-crime/anti-money-laundering-and-countering-financing-terrorism_en) | The new EU AML authority (Frankfurt, operational from 2025–2028) |
+
+### Payment rails & schemes
+
+| Rail / Scheme | Region | Notes |
+|---|---|---|
+| [SEPA / SEPA Instant](https://www.ecb.europa.eu/paym/integration/retail/sepa/html/index.en.html) ⭐ | Euro area | Standardized euro credit transfers and instant payments |
+| [TARGET Services (T2 / TIPS)](https://www.ecb.europa.eu/paym/target/html/index.en.html) | Euro area | Large-value RTGS (T2) and instant settlement (TIPS) in central bank money |
+| [iDEAL](https://www.ideal.nl/en/) | NL | The Dutch instant online-payments default |
+| [BLIK](https://www.blik.com) | PL | Poland's mobile instant-payment standard |
+| [Bizum](https://bizum.es) | ES | Spain's mobile P2P and payment-scheme standard |
+| [girocard](https://www.girocard.eu) | DE | The German debit-card scheme |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [Revolut](https://www.revolut.com) ⭐ | The EU super-app with a Lithuanian banking license (passported) |
+| [N26](https://n26.com) | Fully licensed digital bank (BaFin) |
+| [Bunq](https://www.bunq.com) | Dutch digital bank with multi-currency and sustainability focus |
+| [Adyen](https://www.adyen.com) | Dutch acquiring and payments infrastructure leader |
+| [Klarna](https://www.klarna.com) | Swedish BNPL and payments company |
+| [Deutsche Bank](https://www.db.com) | The largest German bank |
+| [BNP Paribas](https://group.bnpparibas.com) | The largest euro-area bank group |
+| [ING](https://www.ing.com) | Dutch universal bank and digital-banking leader |
+| [Santander](https://www.santander.com) | Global universal bank headquartered in Spain |
+| [BBVA](https://www.bbva.com) | Spanish bank with a strong digital and BaaS arm |
+| [Intesa Sanpaolo](https://www.intesasanpaolo.com) | Italy's largest retail bank |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in the UK
+
+> The UK is one of the world's **deepest and most competitive banking markets** — a global hub for wholesale finance, a hyper-competitive retail market that produced the modern neobank, and the birthplace of **open banking** (CMA order) and **faster payments**. Regulation is split between the Bank of England/PRA (prudential) and the FCA (conduct), with the Payment Systems Regulator (PSR) overseeing payment systems.
+
+### Key concepts
+
+- **Twin-peaks regulation** — the **PRA** (Bank of England) supervises prudential soundness; the **FCA** regulates conduct and consumer protection; the **PSR** regulates payment systems.
+- **Open banking** — the CMA-mandated regime made the UK the world's reference implementation; it now includes **Variable Recurring Payments (VRP)** and Confirmation of Payee.
+- **Payments** — **Faster Payments** (24/7 instant), **Bacs** (batched direct debit/credit), **CHAPS** (large-value RTGS), and the long-planned **New Payments Architecture (NPA)**.
+- **Consumer protection** — the **Consumer Duty** (fair-value rule), FSCS deposit protection (£85,000), and the Senior Managers & Certification Regime (SMCR) define how banks behave.
+- **Challenger ecosystem** — Monzo, Starling, Revolut, Chase UK, Zopa, Kroo, Atom, and ClearBank make the UK the most competitive digital-banking market in Europe.
+
+### Regulators & infrastructure
+
+| Body | Description |
+|---|---|
+| [Bank of England](https://www.bankofengland.co.uk) ⭐ | Central bank, monetary policy, and financial stability |
+| [PRA](https://www.bankofengland.co.uk/prudential-regulation) | Prudential Regulation Authority — banks, insurers, and major investment firms |
+| [FCA](https://www.fca.org.uk) ⭐ | Conduct and consumer-protection regulator |
+| [PSR](https://www.psr.org.uk) | Payment Systems Regulator |
+| [FSCS](https://www.fscs.org.uk) | Deposit-protection scheme (£85,000 per person per institution) |
+| [Open Banking Ltd](https://www.openbanking.org.uk) | The regime's standards and operating entity |
+
+### Payment rails
+
+| Rail | Description |
+|---|---|
+| [Faster Payments](https://www.bankofengland.co.uk/payments) | The UK's near-instant 24/7 interbank rail |
+| [CHAPS](https://www.bankofengland.co.uk/payments/chaps) | Large-value real-time gross settlement |
+| [Bacs](https://www.bacs.co.uk) | Batched direct-debit and direct-credit rail |
+| [New Payments Architecture](https://www.bankofengland.co.uk/payments) | The future NPA settlement platform being implemented |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [Monzo](https://monzo.com) ⭐ | The PFM-focused neobank with a UK banking license |
+| [Starling Bank](https://www.starlingbank.com) | Digital bank strong in SME and marketplace banking |
+| [Chase UK](https://www.chase.co.uk) | JPMorgan's UK retail app — cashback and savings |
+| [Barclays](https://www.barclays.co.uk) | The largest UK retail bank |
+| [Lloyds](https://www.lloydsbank.com) | The largest UK retail franchise |
+| [HSBC UK](https://www.hsbc.co.uk) | Global bank with a strong UK retail arm |
+| [NatWest](https://www.natwest.com) | The UK's biggest business bank |
+| [Nationwide](https://www.nationwide.co.uk) | The UK's largest building society |
+| [Virgin Money](https://www.virginmoney.com) | Full-service bank now part of Nationwide |
+| [Kroo](https://www.kroo.com) | The sustainability-focused neobank |
+| [ClearBank](https://www.clear.bank) | The clearing bank powering BaaS and fintech settlement |
+| [Atom Bank](https://www.atombank.co.uk) | UK app-only savings and mortgage bank |
+| [Allica](https://www.alliica.com) | Business bank for established SMEs |
 
 **[⬆ back to top](#table-of-contents)**
 
