@@ -1,0 +1,87 @@
+name: Link Check
+
+# A curated guide decays quietly: projects get acquired, docs move, vendors
+# reorganize, URLs rot. This catches that automatically.
+#
+#   pull_request / push -> fails the run, so rot never lands on main
+#   schedule            -> opens (or updates) an issue instead of failing,
+#                          since a link that died this week is not the fault
+#                          of whoever pushed last
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**.md'
+      - '.lycheeignore'
+      - 'lychee.toml'
+      - '.github/workflows/link-check.yml'
+  pull_request:
+    paths:
+      - '**.md'
+      - '.lycheeignore'
+      - 'lychee.toml'
+      - '.github/workflows/link-check.yml'
+  schedule:
+    # Mondays, 06:00 UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: link-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  link-check:
+    name: Check links
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write # only used by the scheduled run, to file the report
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      # lychee skips URLs it has already seen recently. Without this, every
+      # run re-checks all links and burns time on hosts that rate-limit.
+      - name: Restore lychee cache
+        uses: actions/cache@v6
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run lychee
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --config lychee.toml --no-progress .
+          output: ./lychee/out.md
+          # Fail the job on PRs and pushes; on schedule, report via issue.
+          fail: ${{ github.event_name != 'schedule' }}
+        env:
+          # Raises the github.com API rate limit, which matters because many
+          # entries in this list point at GitHub repositories.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v7
+        with:
+          name: lychee-report
+          path: ./lychee/out.md
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: File an issue for broken links
+        if: github.event_name == 'schedule' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v6
+        with:
+          title: 'Broken links detected in the guide'
+          content-filepath: ./lychee/out.md
+          labels: |
+            broken-links
+            automated

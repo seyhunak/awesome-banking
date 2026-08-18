@@ -1,0 +1,50 @@
+# URLs lychee should not check. One regex per line.
+#
+# Only add a host here when it is *reachable in a browser but unverifiable by
+# a bot* — aggressive WAFs, login walls, or hard bot blocks. Never add a host
+# to silence a genuinely dead link; fix or remove the entry instead.
+
+# --- Social platforms: block non-browser agents outright ---
+^https?://(www\.)?linkedin\.com/
+^https?://(www\.)?x\.com/
+^https?://(twitter\.com|t\.co)/
+^https?://(www\.)?reddit\.com/
+^https?://(www\.)?facebook\.com/
+
+# --- Standards bodies behind bot protection / paywalls ---
+^https?://(www\.)?iso\.org/
+
+# --- Vendor sites with aggressive WAFs that 403/406 CI traffic ---
+# These sites are reachable in a normal browser but reject or block
+# non-browser user agents from CI runners.
+^https?://(www\.)?salesforce\.com/
+^https?://(www\.)?oracle\.com/
+^https?://(www\.)?servicenow\.com/
+^https?://(www\.)?gartner\.com/
+^https?://(www\.)?bloomberg\.com/
+^https?://(www\.)?moodys\.com/
+^https?://(www\.)?lseg\.com/
+^https?://(www\.)?dowjones\.com/
+^https?://risk\.lexisnexis\.com/
+^https?://cpl\.thalesgroup\.com/
+
+# --- Regional sites with flaky availability for CI traffic ---
+^https?://en\.unionpay\.com/
+^https?://www\.frbservices\.org/
+^https?://(www\.)?npci\.org\.in/
+^https?://(www\.)?americanbanker\.com/
+
+# --- TEMPORARY: remove once the repo has its first star and watcher ---
+# GitHub returns 404 for /stargazers and /watchers while those counts are
+# zero. These are badge targets, not content links, and start working on
+# their own. Delete these two lines once the counts are non-zero.
+^https?://github\.com/seyhunak/awesome-banking/stargazers$
+^https?://github\.com/seyhunak/awesome-banking/watchers$
+
+# --- Rendered dynamically; the checker sees an empty shell ---
+^https?://api\.star-history\.com/
+^https?://img\.shields\.io/
+
+# --- Local and example URLs ---
+^https?://(localhost|127\.0\.0\.1)
+^https?://example\.(com|org)

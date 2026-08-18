@@ -1,0 +1,9 @@
+# lychee link-checker cache (regenerated on every run, restored from CI cache)
+.lycheecache
+
+# lychee report output
+/lychee/
+
+# OS noise
+.DS_Store
+Thumbs.db
