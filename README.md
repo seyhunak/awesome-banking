@@ -105,7 +105,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 | Resource | Description |
 |---|---|
-| [BIS publications](https://www.bis.org/publ/index.htm) ⭐ | The authoritative library of banking regulation, payment-system, and market papers |
+| [BIS publications](https://www.bis.org/index.htm) ⭐ | The authoritative library of banking regulation, payment-system, and market papers |
 | [Corporate Finance Institute (CFI)](https://corporatefinanceinstitute.com) | Structured courses and free references on banking, credit, and corporate finance |
 | [FRED (St. Louis Fed)](https://fred.stlouisfed.org) 🆓 | Free economic and financial data — rates, spreads, money supply — for real examples |
 | [Investopedia](https://www.investopedia.com) 🆓 | Accessible explainers for every banking term a PM or engineer will meet |
@@ -185,7 +185,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [GDPR](https://gdpr-info.eu) | EU | Personal data protection, data-subject rights, and fines up to 4% of turnover |
 | [MiFID II](https://www.esma.europa.eu) | EU | Investment services and market conduct (applies to banks' wealth arms) |
 | [OFAC Sanctions](https://ofac.treasury.gov) | US | Specially Designated Nationals (SDN) list and sanctions screening |
-| [CFPB Section 1033](https://www.consumerfinance.gov/rules-policy/final-rules/1033-personal-financial-data-rights/) | US | Personal financial data rights — the US open-banking rule |
+| [CFPB Section 1033](https://www.consumerfinance.gov/rules-policy/final-rules/required-rulemaking-on-personal-financial-data-rights/) | US | Personal financial data rights — the US open-banking rule |
 
 ### RegTech & compliance platforms
 
@@ -251,7 +251,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Unit](https://www.unit.co) ⭐ 💰 | Programmable BaaS — accounts, cards, and payments for product teams |
 | [Solaris](https://www.solarisgroup.com) 💰 | European licensed bank behind many fintechs' banking products |
 | [Railsr](https://www.railsr.com) 💰 | UK/EU BaaS — card issuing, wallets, and embedded banking (formerly Railsbank) |
-| [Galileo](https://www.galileo.com) 💰 | Payment and card processing infrastructure at scale (part of SoFi) |
+| [Galileo (SoFi Tech Solutions)](https://www.galileo-ft.com) 💰 | Payment and card processing infrastructure at scale (part of SoFi) |
 | [Treasury Prime](https://treasuryprime.com) 💰 | US BaaS connecting fintechs to partner banks |
 | [ClearBank](https://www.clear.bank) 💰 | UK clearing bank offering BaaS for payment accounts and settlement |
 | [SDK.finance](https://sdk.finance) 🔓 💰 | Open-source-friendly banking and wallet platform |
@@ -594,7 +594,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | Platform | Description |
 |---|---|
 | [Marqeta](https://www.marqeta.com) ⭐ ☁️ | The modern card-issuing platform — tokenized, programmatic, developer-first |
-| [Galileo](https://www.galileo.com) 💰 | High-volume card and payment processing infrastructure |
+| [Galileo (SoFi Tech Solutions)](https://www.galileo-ft.com) 💰 | High-volume card and payment processing infrastructure |
 | [Lithic](https://www.lithic.com) ☁️ | Programmatic card issuing with instant card creation |
 | [Highnote](https://highnote.com) ☁️ | Card issuing and program management for modern fintechs |
 | [Bond](https://www.bond.tech) ☁️ | BaaS for cards, accounts, and payments |
@@ -1014,7 +1014,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | Platform | Description |
 |---|---|
 | [Wahed](https://wahed.com) 💰 | The leading halal robo-advisor for global investors |
-| [Ajar](https://www.ajar.co) 💰 | Shariah-compliant real-estate investing in Saudi Arabia |
+| [Zoya](https://zoya.finance) 💰 | The popular halal investing app — Shariah-screened stocks, ETFs, and funds |
 | [Sukuk platforms & funds](https://www.isdb.org) | Development and sovereign sukuk markets are the institutional foundation of Islamic capital markets |
 
 **[⬆ back to top](#table-of-contents)**
@@ -1044,7 +1044,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [CFA Institute](https://www.cfainstitute.org) | The credential for investment and wealth professionals |
 | [GARP](https://www.garp.org) | The FRM — the risk-management credential banks respect |
 | [CFI (Corporate Finance Institute)](https://corporatefinanceinstitute.com) | Practical, role-based courses for banking and credit |
-| [BIS Education & Research](https://www.bis.org/publ/index.htm) | The deepest free source on payments, banking structure, and regulation |
+| [BIS Education & Research](https://www.bis.org/index.htm) | The deepest free source on payments, banking structure, and regulation |
 
 ---
 

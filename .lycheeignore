@@ -43,6 +43,8 @@
 ^https?://(www\.)?marquee\.gs/
 ^https?://(www\.)?optimalblue\.com/
 ^https?://(www\.)?fasterpayments\.org\.uk/
+^https?://www\.consumerfinance\.gov/
+^https?://(www\.)?path-solutions\.com/
 
 # --- TEMPORARY: remove once the repo has its first star and watcher ---
 # GitHub returns 404 for /stargazers and /watchers while those counts are
