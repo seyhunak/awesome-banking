@@ -49,6 +49,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 📚 [Banking Fundamentals](#banking-fundamentals--domain-knowledge)
 - 🛡️ [Security](#security)
 - ⚖️ [Compliance & Regulation](#compliance--regulation)
+- ⚠️ [Risk Management](#risk-management)
+- 🧾 [ITGRC](#itgrc)
 - 🏗️ [Banking Architecture](#banking-architecture)
 - 📱 [Mobile Banking Design](#mobile-banking-design)
 - 🧩 [Low-Code & No-Code Tools](#low-code--no-code-tools)
@@ -297,6 +299,104 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Lucinity](https://www.lucinity.com) 💰 | AI copilots for AML investigations, SARs, and reporting |
 | [Flagright](https://flagright.com) ☁️ | AML-compliance and fraud-detection APIs for modern stacks |
 | [Sanction Scanner](https://sanctionscanner.com) ☁️ | Screening-as-an-API with low false-positive tuning |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Risk Management
+
+> The discipline of **identifying, measuring, and controlling the risks a bank is paid to take** — credit, market, liquidity, operational, and strategic. Regulation (Basel) sets the capital floor for these risks; the bank's own risk function sets the *appetite* and ensures exposures stay inside it. Risk management in banking is a **line function**: every business decision is a risk decision, and every risk is owned, measured, and reported.
+
+### Key concepts
+
+- **Risk types** — credit (borrower default), market (rates, FX, prices), liquidity (funding gaps), operational (process, people, systems, fraud), and strategic/reputational.
+- **Three lines of defense** — the operating business takes risk; the risk function (2LOD) sets limits and measures; internal audit (3LOD) independently challenges both.
+- **Risk appetite** — the board-approved statement of how much risk the bank will accept, translated into limits (e.g., concentration caps, VaR limits, liquidity buffers).
+- **ICAAP / ORSA** — the internal capital adequacy process banks run to show regulators they hold capital for their *own* risk profile, not just the minimum.
+- **Basel pillars** — Pillar 1 (minimum capital), Pillar 2 (supervisory review of risk not captured in Pillar 1), Pillar 3 (market disclosure).
+- **Measurement tools** — expected loss (probability × exposure × loss-given-default), Value-at-Risk (VaR)/CVaR, stress testing, and economic capital.
+- **Early-warning indicators** — leading metrics (delinquency, NPL formation, funding concentration) that trigger action before limits are breached.
+
+### Risk frameworks & standards
+
+| Framework | What it governs |
+|---|---|
+| [Basel III / Basel framework](https://www.federalreserve.gov/supervisionreg/basel/basel-default.htm) ⭐ | The global prudential standard — capital, leverage, liquidity (LCR/NSFR), and counterparty risk |
+| [Basel II operational risk](https://www.bis.org/bcbs/publ/d456.htm) | The operational-risk measurement standards (AMA / standardized approaches) |
+| [COSO ERM](https://www.coso.org) ⭐ | The enterprise-risk-management framework — risk culture, appetite, and response |
+| [ISO 31000](https://www.iso.org/standard/69547.html) | The international risk-management principles and guidelines |
+| [IIA Three Lines](https://www.theiia.org) | The internal-audit "three lines of defense" model used across banks |
+| [FSB](https://www.fsb.org) | The Financial Stability Board — global standards for systemic-risk and resolution |
+
+### Risk platforms & analytics
+
+| Platform | Type | Notes |
+|---|---|---|
+| [Moody's Analytics](https://www.moodysanalytics.com) 💰 | Credit & economic | Credit-risk models, expected-loss frameworks, and macroeconomic scenarios |
+| [SAS Risk Management](https://www.sas.com/en_us/software/risk-management.html) 💰 | Enterprise risk | Credit, market, and operational risk analytics on one platform |
+| [MSCI (RiskMetrics)](https://www.msci.com) 💰 | Market risk | VaR, risk attribution, and portfolio risk analytics |
+| [Numerix](https://www.numerix.com) 💰 | Derivatives & valuation | Pricing and market-risk analytics for treasury and capital markets |
+| [Wolters Kluwer OneSumX](https://www.wolterskluwer.com/en/solutions/onesumx) 💰 | Prudential | Basel, LCR/NSFR, stress testing, and regulatory capital reporting |
+| [FIS Ambit](https://www.fisglobal.com) 💰 | Capital & risk | Risk and finance analytics for capital management (formerly Ambit) |
+
+### Learning & professional certification
+
+| Resource | Description |
+|---|---|
+| [GARP FRM](https://www.garp.org) ⭐ | The Financial Risk Manager certification — the industry standard for risk professionals |
+| [PRMIA PRM](https://www.prmia.org) | The Professional Risk Manager designation — an alternative to the FRM |
+| [Risk.net](https://www.risk.net) | The leading news and analysis source for market, credit, and operational risk |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## ITGRC
+
+> **IT Governance, Risk, and Compliance** — the discipline that keeps the bank's *technology and data* governed, its IT risks measured, and its IT controls demonstrable. Where Risk Management covers the bank's business risks, ITGRC covers the risks inside the IT estate: access, change, data, availability, and third parties. It is the layer regulators inspect when they ask "how do you control your systems?"
+
+### Key concepts
+
+- **IT governance** — decision rights and accountability for IT: who decides IT spend, architecture, and priorities, and how IT is aligned to business objectives.
+- **IT risk** — the risk that technology fails, is misused, or lets the bank down (cyber, availability, change, data integrity, vendor dependency).
+- **IT controls / ITGC** — IT General Controls: access management, change management, backup/recovery, and program development controls that underpin financial reporting (SOX 404).
+- **Auditability** — every system must be able to prove its controls: who accessed what, what changed, what was approved, and what was tested.
+- **GRC platforms** — single tools that consolidate policies, risks, controls, assessments, and audit findings into one register.
+- **Frameworks** — COBIT (governance), ISO 27001 (security management), NIST CSF (cyber), and ITIL (service delivery) form the ITGRC toolkit.
+- **Third-party & cloud risk** — vendor risk management: assessing, monitoring, and reporting on the suppliers the bank depends on (DORA formalizes this in the EU).
+
+### Governance & control frameworks
+
+| Framework | What it governs |
+|---|---|
+| [COBIT](https://www.isaca.org/resources/cobit) ⭐ | ISACA's IT governance and management framework — the bridge between business goals and IT controls |
+| [ISO 27001](https://www.iso.org/standard/27001.html) | The information-security management standard (ISMS) banks and vendors certify against |
+| [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework) ⭐ | The US cyber-risk framework — identify, protect, detect, respond, recover |
+| [ITIL 4](https://www.axelos.com/certifications/itil-service-management-certifications) | Service-management practices for governed, controlled IT delivery |
+| [SOX 404](https://www.sec.gov) | US internal-controls-over-financial-reporting requirement — ITGC evidence is mandatory |
+| [DORA](https://digital-strategy.ec.europa.eu/en/policies/digital-finance) | EU ICT risk and third-party oversight — vendor management becomes regulated activity |
+
+### GRC & audit platforms
+
+| Platform | Type | Notes |
+|---|---|---|
+| [ServiceNow GRC](https://www.servicenow.com) ⭐ 💰 | GRC | Risk, compliance, and audit workflows integrated with the enterprise platform |
+| [Archer (RSA)](https://www.archerirm.com) 💰 | GRC | The enterprise GRC mainstay — risk registers, controls, and assessments |
+| [MetricStream](https://www.metricstream.com) 💰 | GRC | Governance, risk, and compliance across risk, audit, and vendor management |
+| [AuditBoard](https://www.auditboard.com) 💰 | Audit & SOX | Audit-management and SOX compliance platform with ITGC evidence workflows |
+| [OneTrust](https://www.onetrust.com) 💰 | Privacy & GRC | Privacy, risk, and ESG compliance automation (GDPR, vendor assessments) |
+| [Splunk](https://www.splunk.com) 💰 | Observability | Logs and audit trails that evidence controls and support investigations |
+| [GRC Partners](https://www.grcpartners.com) 💰 | Consulting | Advisory and implementation for GRC and risk technology programs |
+
+### ITGRC checklist
+
+- **Access** — is access granted, reviewed, and revoked on a defined cycle (least privilege)?
+- **Change** — do all production changes flow through an approved, tested, reversible process?
+- **Data** — is data classified, encrypted, retained, and disposed per policy?
+- **Vendors** — is every critical third party assessed, monitored, and reported?
+- **Audit evidence** — can every control be demonstrated from system logs and records?
+- **Governance** — are IT risks in the risk register, and is IT strategy aligned to business strategy?
 
 **[⬆ back to top](#table-of-contents)**
 
