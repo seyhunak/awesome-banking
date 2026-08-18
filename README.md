@@ -997,7 +997,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [AAOIFI](https://aaoifi.com) ⭐ | The accounting and Shariah standards body for Islamic finance |
 | [IFSB](https://www.ifsb.org) ⭐ | Islamic Financial Services Board — prudential standards for the industry |
 | [IsDB](https://www.isdb.org) | The Islamic Development Bank — development finance and industry leadership |
-| [CIBAFI](https://www.cibafi.org) | The global association of Islamic financial institutions |
+| [IIFM](https://www.iifm.net) | International Islamic Financial Market — standardizes Islamic capital- and money-market products |
 | [FATF](https://www.fatf-gafi.org) | Islamic banks follow the same AML/CFT standard as conventional — compliance is not waived |
 
 ### Islamic banking software & platforms
