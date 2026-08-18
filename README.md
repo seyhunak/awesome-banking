@@ -80,6 +80,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🔓 [Open Banking & Open Finance](#open-banking--open-finance)
 - 🗄️ [Data Warehouse & Data Lake](#data-warehouse--data-lake)
 - 🛠️ [Service Management & SLAs](#service-management--slas)
+- 🔄 [Change Management](#change-management)
 
 ### Regional Banking
 
@@ -1623,6 +1624,52 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ITIL 4](https://www.axelos.com/certifications/itil-service-management-certifications) ⭐ | The de-facto service-management framework — incident, problem, change, release, and continual improvement |
 | [ISO 20000](https://www.iso.org/standard/11935.html) | The international standard for IT service management systems |
 | [DORA](https://digital-strategy.ec.europa.eu/en/policies/digital-finance) | The EU's Digital Operational Resilience Act — banks must evidence resilience testing and SLAs for critical third parties |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Change Management
+
+> The **controlled process of getting new software, infrastructure, and configuration into production** — the discipline that turns code into a banking service without breaking the one customers depend on. In a regulated bank, change is not a release problem but a **risk and audit problem**: every change must be approved, scheduled, tested, reversible, and recorded. The modern evolution is *change enablement* — faster, safer delivery through automation rather than slower approval.
+
+### Key concepts
+
+- **Change vs release** — a *change* is a single approved, recorded modification; a *release* is the batch of changes deployed together. Change management governs the former; release management the latter.
+- **Change lifecycle** — request → assess (risk, impact) → approve (CAB) → schedule → test → deploy → review. The **Change Advisory Board (CAB)** is where risk, engineering, and operations sign off.
+- **Change windows** — banks still use scheduled maintenance windows (often nights/weekends) for core systems; cloud-native banks shrink or remove them with zero-downtime deploys.
+- **Rollback & reversibility** — every change needs a tested back-out plan; the first question a bank asks is "how do we get back?"
+- **Emergency change** — urgent fixes (security patches, critical incidents) take a fast path with post-hoc approval — but still with audit trail.
+- **Environment promotion** — dev → test → staging → production, with gates (tests, approvals, freeze periods) at each step; regulatory reporting and core systems often require hardened release windows.
+- **Configuration as code** — infrastructure, feature flags, and pipeline definitions live in code (IaC), making changes reviewable, versioned, and reproducible — the precondition for auditability.
+
+### Release engineering & CI/CD
+
+| Platform | Type | Notes |
+|---|---|---|
+| [GitLab](https://www.gitlab.com) ⭐ 🆓 | CI/CD | Single-platform pipelines — build, test, deploy, and change tracking in one place |
+| [Bitbucket Pipelines](https://bitbucket.org) 💰 | CI/CD | Atlassian's cloud pipelines for teams already on Jira |
+| [Harness](https://harness.io) 💰 | CI/CD | AI-driven delivery — approvals, rollbacks, and progressive deployment built in |
+| [GoCD](https://www.gocd.org) 🆓 | CI/CD | Open-source pipelines with first-class modeling of environment promotion |
+| [Octopus Deploy](https://octopus.com) 💰 | Release | Release orchestration and environment promotion for .NET/enterprise stacks |
+| [GitHub Actions](https://github.com/features/actions) 🆓 | CI/CD | The developer-default automation platform for build/test/deploy workflows |
+| [Terraform](https://www.terraform.io) ⭐ 🆓 | IaC | The standard infrastructure-as-code tool — versioned, reviewable change to environments |
+
+### Feature flags & progressive delivery
+
+| Platform | Type | Notes |
+|---|---|---|
+| [LaunchDarkly](https://launchdarkly.com) ⭐ 💰 | Feature flags | Flag management for dark launches, canary releases, and instant rollback |
+| [Split](https://www.split.io) 💰 | Feature flags | Flags plus experimentation, so delivery teams also A/B test safely |
+
+### Change tracking & audit
+
+| Platform | Type | Notes |
+|---|---|---|
+| [Jira](https://www.atlassian.com/software/jira) 💰 | Workflow | The common hub for change tickets, approvals, and CAB records |
+| [ServiceNow Change](https://www.servicenow.com) 💰 | ITSM | Change and release workflows with full audit trails — the bank-grade standard |
+| [Catchpoint](https://www.catchpoint.com) 💰 | Monitoring | Post-deploy validation and digital-experience monitoring after release |
+| [DORA (metric)](https://www.gitlab.com) | Measure | The four delivery metrics — deployment frequency, lead time, change-failure rate, MTTR — used to measure change safety |
 
 **[⬆ back to top](#table-of-contents)**
 
