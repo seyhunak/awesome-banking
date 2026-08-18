@@ -198,7 +198,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [LSEG World-Check](https://www.lseg.com/en/data-analytics/products/world-check) ☁️ | The screening database of record for PEPs, sanctions, and adverse media |
 | [Dow Jones Risk & Compliance](https://www.dowjones.com/professional/risk/) ☁️ | Watchlist and ownership research data with global coverage |
 | [Regnology](https://www.regnology.net) 💰 | Regulatory reporting and data collection for prudential and markets regulation |
-| [AxiomSL (Moody's)](https://www.moodys.com/web/en/us/solutions/regulatory-and-reporting.html) 💰 | Regulatory capital and reporting analytics across jurisdictions |
+| [AxiomSL (Moody's)](https://www.moodys.com) 💰 | Regulatory capital and reporting analytics across jurisdictions |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -290,7 +290,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Material Design 3](https://m3.material.io) ⭐ | Google's design system for Android experiences |
 | [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/) ⭐ | Web Content Accessibility Guidelines — the accessibility contract for banking UIs |
 | [Goldman Sachs Marquee](https://www.marquee.gs) | A public example of a serious financial design system and developer platform |
-| [Backbase Design System](https://www.backbase.com/design-system/) | A banking-specific design system for retail and business journeys |
+| [Backbase Design System](https://www.backbase.com) | A banking-specific design system for retail and business journeys |
 | [Design Guidelines for Financial Data](https://www.figma.com) | Figma hosts community banking/FinTech UI kits — a fast starting point for prototypes |
 
 ### UX research & testing
@@ -870,7 +870,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Western Union](https://www.westernunion.com) 💰 | The global cash and digital remittance network |
 | [MoneyGram](https://www.moneygram.com) 💰 | Global money movement with strong cash-out networks |
 | [WorldRemit (Zepz)](https://www.worldremit.com) 💰 | Digital remittance across 130+ countries |
-| [Ria](https://www.riamoneytransfer.com) 💰 | Cash and digital remittance with broad agent network |
+| [Ria](https://www.ria.com) 💰 | Cash and digital remittance with broad agent network |
 | [Xoom (PayPal)](https://www.xoom.com) 💰 | Fast digital remittance from the US |
 | [TransferGo](https://www.transfergo.com) 💰 | European remittance and borderless payments |
 
@@ -1040,7 +1040,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 | Resource | Description |
 |---|---|
-| [Wharton FinTech (Coursera)](https://www.coursera.org/specializations/wharton-fintech) | University specialization covering fintech, payments, and disruption |
+| [Wharton FinTech](https://online.wharton.upenn.edu) | Wharton Online's fintech programs covering innovation, payments, and disruption |
 | [CFA Institute](https://www.cfainstitute.org) | The credential for investment and wealth professionals |
 | [GARP](https://www.garp.org) | The FRM — the risk-management credential banks respect |
 | [CFI (Corporate Finance Institute)](https://corporatefinanceinstitute.com) | Practical, role-based courses for banking and credit |

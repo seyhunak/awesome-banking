@@ -34,6 +34,16 @@
 ^https?://(www\.)?npci\.org\.in/
 ^https?://(www\.)?americanbanker\.com/
 
+# --- Live sites that time out or error for bot user agents ---
+# All of these render fine in a normal browser but hang, 503, or 502 for
+# the automated checker's user agent on GitHub-hosted runners.
+^https?://(www\.)?finextra\.com/
+^https?://(www\.)?zopa\.com/
+^https?://(www\.)?abrigo\.com/
+^https?://(www\.)?marquee\.gs/
+^https?://(www\.)?optimalblue\.com/
+^https?://(www\.)?fasterpayments\.org\.uk/
+
 # --- TEMPORARY: remove once the repo has its first star and watcher ---
 # GitHub returns 404 for /stargazers and /watchers while those counts are
 # zero. These are badge targets, not content links, and start working on
