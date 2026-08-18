@@ -13,7 +13,6 @@ Conventional & Islamic · Retail & Corporate · from account opening to remittan
 [![GitHub watchers](https://img.shields.io/github/watchers/seyhunak/awesome-banking?style=for-the-badge&logo=github&color=00BFFF)](https://github.com/seyhunak/awesome-banking/watchers)
 [![GitHub contributors](https://img.shields.io/github/contributors/seyhunak/awesome-banking?style=for-the-badge&logo=github&color=FF69B4)](https://github.com/seyhunak/awesome-banking/graphs/contributors)
 
-[![Link Check](https://img.shields.io/github/actions/workflow/status/seyhunak/awesome-banking/link-check.yml?branch=main&style=flat-square&logo=githubactions&logoColor=white&label=links)](https://github.com/seyhunak/awesome-banking/actions/workflows/link-check.yml)
 [![License: MIT](https://img.shields.io/github/license/seyhunak/awesome-banking?style=flat-square&color=green)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
 [![Last commit](https://img.shields.io/github/last-commit/seyhunak/awesome-banking?style=flat-square&logo=git&logoColor=white)](https://github.com/seyhunak/awesome-banking/commits/main)
