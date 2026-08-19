@@ -116,6 +116,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 ### Reference
 
 - 🏦 [Bank & Fintech Directory](#bank--fintech-directory)
+- 💼 [Bank Careers & Job Portals](#bank-careers--job-portals)
 - 🎓 [Learning, Courses & Community](#learning-courses--community)
 
 [Contributing](#contributing) · [Author](#author) · [License](#license)
@@ -3123,6 +3124,364 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [FRISS](https://www.friss.com) | AI fraud and risk detection for underwriting and claims |
 | [Verisk](https://www.verisk.com) | Data, analytics, and decision solutions for P&C |
 | [Origami Risk](https://www.origamirisk.com) | Risk-management and claims software |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Bank Careers & Job Portals
+
+> Candidate careers pages for banks across the UAE, KSA, MENA, Africa, the EU, the UK, Azerbaijan, the Caucasus, and Central Asia — plus multilateral development banks. Compiled for job hunting: the URLs below are **best-effort candidate URLs, not yet verified** — confirm the exact path before applying. When a dedicated careers page isn't listed, the bank's main site is the starting point (look for *Careers* / *Kariyer* / *Jobs* in the footer).
+
+### UAE 🇦🇪
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Emirates NBD](https://www.emiratesnbd.com/en/careers) | https://www.emiratesnbd.com/en/careers |
+| [First Abu Dhabi Bank (FAB)](https://www.bankfab.com/en-ae/careers) | https://www.bankfab.com/en-ae/careers |
+| [Abu Dhabi Commercial Bank (ADCB)](https://www.adcb.com/en/careers/) | https://www.adcb.com/en/careers/ |
+| [Dubai Islamic Bank (DIB)](https://www.dib.ae/careers) | https://www.dib.ae/careers |
+| [Mashreq](https://careers.mashreqbank.com) | https://careers.mashreqbank.com |
+| [Abu Dhabi Islamic Bank (ADIB)](https://www.adib.ae/en/careers) | https://www.adib.ae/en/careers |
+| [Emirates Islamic](https://www.emiratesislamic.ae/en/careers/) | https://www.emiratesislamic.ae/en/careers/ |
+| [RAKBANK](https://www.rakbank.ae/en/careers) | https://www.rakbank.ae/en/careers |
+| [Commercial Bank of Dubai (CBD)](https://www.cbd.ae/careers) | https://www.cbd.ae/careers |
+| [Sharjah Islamic Bank](https://www.sib.ae/en/careers) | https://www.sib.ae/en/careers |
+| [National Bank of Fujairah (NBF)](https://www.nbf.ae/en/careers) | https://www.nbf.ae/en/careers |
+| [United Arab Bank (UAB)](https://www.uab.ae/careers/) | https://www.uab.ae/careers/ |
+| [Commercial Bank International (CBI)](https://www.cbiuae.ae/en/careers) | https://www.cbiuae.ae/en/careers |
+| [Bank of Sharjah](https://www.bankofsharjah.com/en/careers) | https://www.bankofsharjah.com/en/careers |
+| [Ajman Bank](https://www.ajmanbank.ae/en/careers) | https://www.ajmanbank.ae/en/careers |
+| [Al Maryah Community Bank](https://www.almaryahcb.ae/careers) | https://www.almaryahcb.ae/careers |
+| [Wio](https://www.wio.ae/careers) | https://www.wio.ae/careers |
+| [Zand](https://www.zand.ae/careers) | https://www.zand.ae/careers |
+| [HSBC UAE](https://www.hsbc.com/careers) | https://www.hsbc.com/careers |
+| [Standard Chartered UAE](https://www.sc.com/en/careers/) | https://www.sc.com/en/careers/ |
+| [Citi UAE](https://careers.citi.com) | https://careers.citi.com |
+| [CBUAE (central bank)](https://www.centralbank.ae/en/careers) | https://www.centralbank.ae/en/careers |
+| [ADGM](https://www.adgm.com/careers) | https://www.adgm.com/careers |
+| [DIFC](https://www.difc.ae/careers) | https://www.difc.ae/careers |
+
+### Saudi Arabia (KSA) 🇸🇦
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Al Rajhi Bank](https://www.alrajhibank.com.sa/en/careers) | https://www.alrajhibank.com.sa/en/careers |
+| [Saudi National Bank (SNB)](https://www.snb.com.sa/en/careers) | https://www.snb.com.sa/en/careers |
+| [Riyad Bank](https://www.riyadbank.com/en/careers) | https://www.riyadbank.com/en/careers |
+| [SABB](https://www.sabb.com/en/careers) | https://www.sabb.com/en/careers |
+| [Alinma Bank](https://www.alinma.com/en/careers) | https://www.alinma.com/en/careers |
+| [Banque Saudi Fransi (BSF)](https://www.alfransi.com.sa/en/careers) | https://www.alfransi.com.sa/en/careers |
+| [Arab National Bank (ANB)](https://www.anb.com.sa/en/careers) | https://www.anb.com.sa/en/careers |
+| [Bank Albilad](https://www.bankalbilad.com/en/careers) | https://www.bankalbilad.com/en/careers |
+| [Saudi Investment Bank (SAIB)](https://www.saib.com.sa/en/careers) | https://www.saib.com.sa/en/careers |
+| [Bank AlJazira](https://www.baj.com.sa/en/careers) | https://www.baj.com.sa/en/careers |
+| [Gulf International Bank (GIB)](https://www.gib.com/en/careers) | https://www.gib.com/en/careers |
+| [D360 Bank](https://d360.com.sa/careers) | https://d360.com.sa/careers |
+| [Rize](https://rize.sa/careers) | https://rize.sa/careers |
+| [stc bank](https://stcpay.com.sa/en/careers) | https://stcpay.com.sa/en/careers |
+| [Meem (Alinma Digital)](https://www.meem.sa/careers) | https://www.meem.sa/careers |
+| [Tahaluf](https://www.tahaluf.sa/careers) | https://www.tahaluf.sa/careers |
+| [SAMA (central bank)](https://www.sama.gov.sa/en-us/careers) | https://www.sama.gov.sa/en-us/careers |
+
+### Qatar 🇶🇦
+
+| Bank | Candidate careers URL |
+|---|---|
+| [QNB](https://www.qnb.com/sites/qnb/qnbglobal/en/careers) | https://www.qnb.com/sites/qnb/qnbglobal/en/careers |
+| [Qatar Islamic Bank](https://www.qib.com.qa/en/careers) | https://www.qib.com.qa/en/careers |
+| [Commercial Bank of Qatar](https://www.cbq.qa/en/careers) | https://www.cbq.qa/en/careers |
+| [Doha Bank](https://www.dohabank.com.qa/en/careers) | https://www.dohabank.com.qa/en/careers |
+| [Masraf Al Rayan](https://www.alrayan.com/en/careers) | https://www.alrayan.com/en/careers |
+| [Dukhan Bank](https://www.dukhanbank.com/en/careers) | https://www.dukhanbank.com/en/careers |
+| [Qatar Central Bank](https://www.qcb.gov.qa/en/careers) | https://www.qcb.gov.qa/en/careers |
+
+### Bahrain 🇧🇭
+
+| Bank | Candidate careers URL |
+|---|---|
+| [National Bank of Bahrain (NBB)](https://www.nbbonline.com/en/careers) | https://www.nbbonline.com/en/careers |
+| [Ahli United Bank (AUB)](https://www.ahliunited.com/en/careers) | https://www.ahliunited.com/en/careers |
+| [Gulf International Bank (GIB)](https://www.gib.com/en/careers) | https://www.gib.com/en/careers |
+| [BBK](https://www.bbkonline.com/en/careers) | https://www.bbkonline.com/en/careers |
+| [Al Salam Bank](https://www.alsalambahrain.com/en/careers) | https://www.alsalambahrain.com/en/careers |
+| [Bahrain Islamic Bank](https://www.bisb.com/en/careers) | https://www.bisb.com/en/careers |
+| [Ithmaar Bank](https://www.ithmaarbank.com/en/careers) | https://www.ithmaarbank.com/en/careers |
+| [Central Bank of Bahrain (CBB)](https://www.cbb.gov.bh/careers) | https://www.cbb.gov.bh/careers |
+
+### Kuwait 🇰🇼
+
+| Bank | Candidate careers URL |
+|---|---|
+| [National Bank of Kuwait (NBK)](https://www.nbk.com/en/careers) | https://www.nbk.com/en/careers |
+| [Kuwait Finance House (KFH)](https://www.kfh.com/en/careers) | https://www.kfh.com/en/careers |
+| [Al Ahli Bank of Kuwait (ABK)](https://www.eahli.com/en/careers) | https://www.eahli.com/en/careers |
+| [Burgan Bank](https://www.burgan.com/en/careers) | https://www.burgan.com/en/careers |
+| [Gulf Bank](https://www.gulfbank.com/en/careers) | https://www.gulfbank.com/en/careers |
+| [Boubyan Bank](https://www.boubyanbank.com/en/careers) | https://www.boubyanbank.com/en/careers |
+| [Kuwait International Bank (KIB)](https://www.kib.com.kw/en/careers) | https://www.kib.com.kw/en/careers |
+| [Warba Bank](https://www.warbabank.com/en/careers) | https://www.warbabank.com/en/careers |
+| [Central Bank of Kuwait (CBK)](https://www.cbk.gov.kw/en/careers) | https://www.cbk.gov.kw/en/careers |
+
+### Oman 🇴🇲
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Bank Muscat](https://www.bankmuscat.com/en/careers) | https://www.bankmuscat.com/en/careers |
+| [National Bank of Oman (NBO)](https://www.nbo.om/en/careers) | https://www.nbo.om/en/careers |
+| [Oman Arab Bank](https://www.oman-arabbank.com/en/careers) | https://www.oman-arabbank.com/en/careers |
+| [Bank Dhofar](https://www.bankdhofar.com/en/careers) | https://www.bankdhofar.com/en/careers |
+| [Ahli Bank](https://www.ahlibank.com.om/en/careers) | https://www.ahlibank.com.om/en/careers |
+| [Bank Nizwa](https://www.banknizwa.om/en/careers) | https://www.banknizwa.om/en/careers |
+| [Sohar International](https://www.soharintl.com/en/careers) | https://www.soharintl.com/en/careers |
+| [Central Bank of Oman (CBO)](https://cbo.gov.om/en/careers) | https://cbo.gov.om/en/careers |
+
+### Jordan 🇯🇴
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Arab Bank](https://www.arabbank.com/en/careers) | https://www.arabbank.com/en/careers |
+| [Bank al Etihad](https://www.bankaletihad.com/en/careers) | https://www.bankaletihad.com/en/careers |
+| [Housing Bank for Trade and Finance](https://www.thb.com.jo/en/careers) | https://www.thb.com.jo/en/careers |
+| [Jordan Kuwait Bank](https://www.jkb.com.jo/en/careers) | https://www.jkb.com.jo/en/careers |
+| [Capital Bank of Jordan](https://www.capitalbank.jo/en/careers) | https://www.capitalbank.jo/en/careers |
+| [Islamic International Arab Bank](https://www.iiabank.com.jo/en/careers) | https://www.iiabank.com.jo/en/careers |
+| [Cairo Amman Bank](https://www.cab.jo/en/careers) | https://www.cab.jo/en/careers |
+| [Jordan Islamic Bank](https://www.jib.jo/en/careers) | https://www.jib.jo/en/careers |
+| [Central Bank of Jordan (CBJ)](https://www.cbj.gov.jo/en/careers) | https://www.cbj.gov.jo/en/careers |
+
+### Lebanon 🇱🇧
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Bank Audi](https://www.bankaudi.com.lb/en/careers) | https://www.bankaudi.com.lb/en/careers |
+| [BLOM Bank](https://www.blombank.com/en/careers) | https://www.blombank.com/en/careers |
+| [Byblos Bank](https://www.byblosbank.com/en/careers) | https://www.byblosbank.com/en/careers |
+| [Fransabank](https://www.fransabank.com/en/careers) | https://www.fransabank.com/en/careers |
+| [Bank of Beirut](https://www.bankofbeirut.com/en/careers) | https://www.bankofbeirut.com/en/careers |
+| [Credit Libanais](https://www.creditlibanais.com.lb/en/careers) | https://www.creditlibanais.com.lb/en/careers |
+| [Banque du Liban (BDL)](https://www.bdl.gov.lb/careers) | https://www.bdl.gov.lb/careers |
+
+### Turkey 🇹🇷
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Ziraat Bankası](https://www.ziraatbank.com.tr/tr/kariyer) | https://www.ziraatbank.com.tr/tr/kariyer |
+| [İş Bankası](https://www.isbank.com.tr/kariyer) | https://www.isbank.com.tr/kariyer |
+| [Garanti BBVA](https://www.garantibbva.com.tr/kariyer) | https://www.garantibbva.com.tr/kariyer |
+| [Akbank](https://www.akbank.com/tr-tr/kariyer) | https://www.akbank.com/tr-tr/kariyer |
+| [Yapı Kredi](https://www.yapikredi.com.tr/kariyer) | https://www.yapikredi.com.tr/kariyer |
+| [QNB Finansbank](https://www.qnbfinansbank.com/kariyer) | https://www.qnbfinansbank.com/kariyer |
+| [Halkbank](https://www.halkbank.com.tr/kariyer) | https://www.halkbank.com.tr/kariyer |
+| [Vakıfbank](https://www.vakifbank.com.tr/kariyer) | https://www.vakifbank.com.tr/kariyer |
+| [DenizBank](https://www.denizbank.com/kariyer) | https://www.denizbank.com/kariyer |
+| [TEB](https://www.teb.com.tr/kariyer) | https://www.teb.com.tr/kariyer |
+| [ING Türkiye](https://www.ing.com.tr/kariyer) | https://www.ing.com.tr/kariyer |
+| [TCMB (central bank)](https://www.tcmb.gov.tr/kariyer) | https://www.tcmb.gov.tr/kariyer |
+
+### Azerbaijan 🇦🇿
+
+| Bank | Candidate careers URL |
+|---|---|
+| [International Bank of Azerbaijan (IBA)](https://www.ibar.az/en/careers) | https://www.ibar.az/en/careers |
+| [PASHA Bank](https://www.pashabank.az/en/careers) | https://www.pashabank.az/en/careers |
+| [Kapital Bank](https://www.kapitalbank.az/en/careers) | https://www.kapitalbank.az/en/careers |
+| [AccessBank](https://www.accessbank.az/en/careers) | https://www.accessbank.az/en/careers |
+| [ABB (Azerbaijan)](https://www.abb-bank.az/en/careers) | https://www.abb-bank.az/en/careers |
+| [Unibank](https://www.unibank.az/en/careers) | https://www.unibank.az/en/careers |
+| [Bank Respublika](https://bankrespublika.az/en/careers) | https://bankrespublika.az/en/careers |
+| [Azer Turk Bank](https://www.azerturkbank.az/en/careers) | https://www.azerturkbank.az/en/careers |
+| [Xalq Bank](https://www.xalqbank.az/en/careers) | https://www.xalqbank.az/en/careers |
+| [Rabitabank](https://www.rabitabank.az/en/careers) | https://www.rabitabank.az/en/careers |
+| [Yelo Bank](https://www.yelo.az/en/careers) | https://www.yelo.az/en/careers |
+| [Central Bank of Azerbaijan (CBA)](https://www.cbar.az/pages/careers) | https://www.cbar.az/pages/careers |
+
+### Caucasus — Georgia 🇬🇪 & Armenia 🇦🇲
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [TBC Bank](https://www.tbcbank.ge/en/careers) | 🇬🇪 | https://www.tbcbank.ge/en/careers |
+| [Bank of Georgia](https://bankofgeorgia.ge/en/careers) | 🇬🇪 | https://bankofgeorgia.ge/en/careers |
+| [Liberty Bank](https://libertybank.ge/en/careers) | 🇬🇪 | https://libertybank.ge/en/careers |
+| [National Bank of Georgia](https://www.nbg.gov.ge/en/careers) | 🇬🇪 | https://www.nbg.gov.ge/en/careers |
+| [Ameriabank](https://www.ameriabank.am/en/careers) | 🇦🇲 | https://www.ameriabank.am/en/careers |
+| [Ardshinbank](https://www.ardshinbank.am/en/careers) | 🇦🇲 | https://www.ardshinbank.am/en/careers |
+| [AraratBank](https://www.araratbank.am/en/careers) | 🇦🇲 | https://www.araratbank.am/en/careers |
+| [Converse Bank](https://www.conversebank.am/en/careers) | 🇦🇲 | https://www.conversebank.am/en/careers |
+| [ACBA Bank](https://www.acba.am/en/careers) | 🇦🇲 | https://www.acba.am/en/careers |
+| [Central Bank of Armenia (CBA)](https://www.cba.am/en/careers) | 🇦🇲 | https://www.cba.am/en/careers |
+
+### Central Asia — Kazakhstan 🇰🇿 & Uzbekistan 🇺🇿
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [Halyk Bank](https://halykbank.kz/en/careers) | 🇰🇿 | https://halykbank.kz/en/careers |
+| [Kaspi.kz](https://kaspi.kz/careers) | 🇰🇿 | https://kaspi.kz/careers |
+| [Jusan Bank](https://jusan.kz/en/careers) | 🇰🇿 | https://jusan.kz/en/careers |
+| [ForteBank](https://forte.bank/en/careers) | 🇰🇿 | https://forte.bank/en/careers |
+| [Freedom Holding](https://freedomholdingcorp.com/careers) | 🇰🇿 | https://freedomholdingcorp.com/careers |
+| [National Bank of Kazakhstan](https://nationalbank.kz/en/careers) | 🇰🇿 | https://nationalbank.kz/en/careers |
+| [SQB (Uzpromstroybank)](https://sqb.uz/en/careers) | 🇺🇿 | https://sqb.uz/en/careers |
+| [Hamkorbank](https://hamkorbank.uz/en/careers) | 🇺🇿 | https://hamkorbank.uz/en/careers |
+| [Kapitalbank (UZ)](https://kapitalbank.uz/en/careers) | 🇺🇿 | https://kapitalbank.uz/en/careers |
+| [Anorbank](https://anorbank.uz/en/careers) | 🇺🇿 | https://anorbank.uz/en/careers |
+| [TBC Uzbekistan](https://tbcu.uz/en/careers) | 🇺🇿 | https://tbcu.uz/en/careers |
+| [Central Bank of Uzbekistan (CBU)](https://cbu.uz/en/careers) | 🇺🇿 | https://cbu.uz/en/careers |
+
+### Africa — pan-African & multilateral
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [African Development Bank (AfDB)](https://www.afdb.org/en/careers) | 🌍 | https://www.afdb.org/en/careers |
+| [Afreximbank](https://www.afreximbank.com/careers) | 🌍 | https://www.afreximbank.com/careers |
+| [Ecobank](https://www.ecobank.com/careers) | 🌍 | https://www.ecobank.com/careers |
+| [United Bank for Africa (UBA)](https://www.ubagroup.com/careers) | 🌍 | https://www.ubagroup.com/careers |
+| [Standard Bank Group](https://careers.standardbank.com) | 🌍 | https://careers.standardbank.com |
+| [Attijariwafa Bank](https://www.attijariwafa.com/en/careers) | 🇲🇦 | https://www.attijariwafa.com/en/careers |
+| [BMCE Bank of Africa](https://www.bmcebankofafrica.ma/en/careers) | 🇲🇦 | https://www.bmcebankofafrica.ma/en/careers |
+| [Banque Centrale Populaire (BCP)](https://www.bcp.ma/en/careers) | 🇲🇦 | https://www.bcp.ma/en/careers |
+
+### Africa — North (Egypt, Morocco, Tunisia)
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [National Bank of Egypt (NBE)](https://www.nbe.com.eg/en/careers) | 🇪🇬 | https://www.nbe.com.eg/en/careers |
+| [Banque Misr](https://www.banquemisr.com/en/careers) | 🇪🇬 | https://www.banquemisr.com/en/careers |
+| [CIB Egypt](https://www.cibeg.com/en/careers) | 🇪🇬 | https://www.cibeg.com/en/careers |
+| [QNB Al Ahli](https://www.qnbalahli.com/en/careers) | 🇪🇬 | https://www.qnbalahli.com/en/careers |
+| [Banque du Caire](https://www.banqueducaire.com/en/careers) | 🇪🇬 | https://www.banqueducaire.com/en/careers |
+| [AAIB](https://www.aaib.com/en/careers) | 🇪🇬 | https://www.aaib.com/en/careers |
+| [Alex Bank](https://www.alexbank.com/en/careers) | 🇪🇬 | https://www.alexbank.com/en/careers |
+| [EFG Holding](https://www.efgholding.com/careers) | 🇪🇬 | https://www.efgholding.com/careers |
+| [Central Bank of Egypt (CBE)](https://www.cbe.org.eg/en/careers) | 🇪🇬 | https://www.cbe.org.eg/en/careers |
+| [CIH Bank](https://www.cihbank.ma/en/careers) | 🇲🇦 | https://www.cihbank.ma/en/careers |
+| [BIAT](https://www.biat.com.tn/en/careers) | 🇹🇳 | https://www.biat.com.tn/en/careers |
+| [Bank Al-Maghrib](https://www.bkam.ma/en/careers) | 🇲🇦 | https://www.bkam.ma/en/careers |
+
+### Africa — West & Central
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [Zenith Bank](https://www.zenithbank.com/careers) | 🇳🇬 | https://www.zenithbank.com/careers |
+| [GTCO (GTBank)](https://www.gtbank.com/careers) | 🇳🇬 | https://www.gtbank.com/careers |
+| [Access Bank](https://www.accessbankplc.com/careers) | 🇳🇬 | https://www.accessbankplc.com/careers |
+| [First Bank of Nigeria](https://www.firstbanknigeria.com/careers) | 🇳🇬 | https://www.firstbanknigeria.com/careers |
+| [Stanbic IBTC](https://www.stanbicibtc.com/careers) | 🇳🇬 | https://www.stanbicibtc.com/careers |
+| [Fidelity Bank](https://www.fidelitybank.ng/careers) | 🇳🇬 | https://www.fidelitybank.ng/careers |
+| [Kuda](https://kuda.com/careers) | 🇳🇬 | https://kuda.com/careers |
+| [Moniepoint](https://www.moniepoint.com/careers) | 🇳🇬 | https://www.moniepoint.com/careers |
+| [OPay](https://www.opayweb.com/careers) | 🇳🇬 | https://www.opayweb.com/careers |
+| [Flutterwave](https://flutterwave.com/careers) | 🇳🇬 | https://flutterwave.com/careers |
+| [GCB Bank](https://www.gcbbank.com.gh/careers) | 🇬🇭 | https://www.gcbbank.com.gh/careers |
+| [Central Bank of Nigeria (CBN)](https://www.cbn.gov.ng/careers) | 🇳🇬 | https://www.cbn.gov.ng/careers |
+
+### Africa — East
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [KCB Group](https://www.kcbgroup.com/careers) | 🇰🇪 | https://www.kcbgroup.com/careers |
+| [Equity Bank Group](https://equitybankgroup.com/careers) | 🇰🇪 | https://equitybankgroup.com/careers |
+| [Co-operative Bank of Kenya](https://www.co-opbank.co.ke/careers) | 🇰🇪 | https://www.co-opbank.co.ke/careers |
+| [NCBA Group](https://ncbagroup.com/careers) | 🇰🇪 | https://ncbagroup.com/careers |
+| [I&M Bank](https://www.imbankgroup.com/careers) | 🇰🇪 | https://www.imbankgroup.com/careers |
+| [Stanbic Kenya](https://www.stanbicbank.co.ke/careers) | 🇰🇪 | https://www.stanbicbank.co.ke/careers |
+| [Absa Kenya](https://www.absabank.co.ke/careers) | 🇰🇪 | https://www.absabank.co.ke/careers |
+| [Diamond Trust Bank (DTB)](https://www.dtbafrica.com/careers) | 🇰🇪 | https://www.dtbafrica.com/careers |
+| [Central Bank of Kenya (CBK)](https://www.centralbank.go.ke/careers) | 🇰🇪 | https://www.centralbank.go.ke/careers |
+| [Bank of Kigali](https://www.bk.rw/careers) | 🇷🇼 | https://www.bk.rw/careers |
+| [CRDB Bank](https://www.crdbbank.co.tz/careers) | 🇹🇿 | https://www.crdbbank.co.tz/careers |
+| [NMB Bank](https://www.nmbbank.co.tz/careers) | 🇹🇿 | https://www.nmbbank.co.tz/careers |
+| [Bank of Tanzania (BoT)](https://www.bot.go.tz/careers) | 🇹🇿 | https://www.bot.go.tz/careers |
+| [dfcu Bank](https://www.dfcugroup.com/careers) | 🇺🇬 | https://www.dfcugroup.com/careers |
+| [Commercial Bank of Ethiopia](https://combanket.et/en/careers) | 🇪🇹 | https://combanket.et/en/careers |
+
+### Africa — Southern
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [FNB (FirstRand)](https://www.fnb.co.za/careers) | 🇿🇦 | https://www.fnb.co.za/careers |
+| [Absa Group](https://www.absa.africa/careers) | 🇿🇦 | https://www.absa.africa/careers |
+| [Nedbank](https://www.nedbank.co.za/careers) | 🇿🇦 | https://www.nedbank.co.za/careers |
+| [Investec](https://www.investec.com/en_za/careers) | 🇿🇦 | https://www.investec.com/en_za/careers |
+| [Capitec](https://www.capitecbank.co.za/careers) | 🇿🇦 | https://www.capitecbank.co.za/careers |
+| [African Bank](https://www.africanbank.co.za/careers) | 🇿🇦 | https://www.africanbank.co.za/careers |
+| [South African Reserve Bank (SARB)](https://www.resbank.co.za/en/home/about-us/careers) | 🇿🇦 | https://www.resbank.co.za/en/home/about-us/careers |
+
+### European Union 🇪🇺
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [Deutsche Bank](https://careers.db.com) | 🇩🇪 | https://careers.db.com |
+| [Commerzbank](https://www.commerzbank.com/en/careers) | 🇩🇪 | https://www.commerzbank.com/en/careers |
+| [BNP Paribas](https://careers.bnpparibas.com) | 🇫🇷 | https://careers.bnpparibas.com |
+| [Société Générale](https://careers.societegenerale.com) | 🇫🇷 | https://careers.societegenerale.com |
+| [Crédit Agricole](https://careers.credit-agricole.com) | 🇫🇷 | https://careers.credit-agricole.com |
+| [ING](https://www.ing.jobs) | 🇳🇱 | https://www.ing.jobs |
+| [ABN AMRO](https://www.abnamro.com/en/careers) | 🇳🇱 | https://www.abnamro.com/en/careers |
+| [Rabobank](https://www.rabobank.jobs) | 🇳🇱 | https://www.rabobank.jobs |
+| [KBC](https://www.kbc.com/en/careers) | 🇧🇪 | https://www.kbc.com/en/careers |
+| [Belfius](https://www.belfius.be/en/careers) | 🇧🇪 | https://www.belfius.be/en/careers |
+| [UBS](https://www.ubs.com/en/careers.html) | 🇨🇭 | https://www.ubs.com/en/careers.html |
+| [Julius Baer](https://www.juliusbaer.com/en/careers) | 🇨🇭 | https://www.juliusbaer.com/en/careers |
+| [Santander](https://www.santander.com/en/careers) | 🇪🇸 | https://www.santander.com/en/careers |
+| [BBVA](https://www.bbva.com/en/careers) | 🇪🇸 | https://www.bbva.com/en/careers |
+| [CaixaBank](https://www.caixabank.com/en/careers) | 🇪🇸 | https://www.caixabank.com/en/careers |
+| [Banco Sabadell](https://www.grupbancsabadell.com/en/careers) | 🇪🇸 | https://www.grupbancsabadell.com/en/careers |
+| [Intesa Sanpaolo](https://www.intesasanpaolo.com/en/careers) | 🇮🇹 | https://www.intesasanpaolo.com/en/careers |
+| [UniCredit](https://www.unicreditgroup.eu/en/careers) | 🇮🇹 | https://www.unicreditgroup.eu/en/careers |
+| [Nordea](https://www.nordea.com/en/careers) | 🇸🇪 | https://www.nordea.com/en/careers |
+| [SEB](https://sebgroup.com/careers) | 🇸🇪 | https://sebgroup.com/careers |
+| [Swedbank](https://www.swedbank.com/en/careers) | 🇸🇪 | https://www.swedbank.com/en/careers |
+| [Handelsbanken](https://www.handelsbanken.com/en/careers) | 🇸🇪 | https://www.handelsbanken.com/en/careers |
+| [Danske Bank](https://www.danskebank.com/en/careers) | 🇩🇰 | https://www.danskebank.com/en/careers |
+| [OP Financial Group](https://www.opcareers.fi) | 🇫🇮 | https://www.opcareers.fi |
+| [Erste Group](https://www.erstegroup.com/en/careers) | 🇦🇹 | https://www.erstegroup.com/en/careers |
+| [Raiffeisen Bank International](https://www.rbinternational.com/en/careers) | 🇦🇹 | https://www.rbinternational.com/en/careers |
+| [BAWAG Group](https://www.bawaggroup.com/en/careers) | 🇦🇹 | https://www.bawaggroup.com/en/careers |
+| [PKO Bank Polski](https://www.pkobp.pl/kariera) | 🇵🇱 | https://www.pkobp.pl/kariera |
+| [Bank Millennium](https://www.bankmillennium.pl/kariera) | 🇵🇱 | https://www.bankmillennium.pl/kariera |
+| [OTP Bank](https://www.otpbank.hu/careers) | 🇭🇺 | https://www.otpbank.hu/careers |
+| [ECB (European Central Bank)](https://www.ecb.europa.eu/careers/html/index.en.html) | 🇪🇺 | https://www.ecb.europa.eu/careers/html/index.en.html |
+| [EIB](https://www.eib.org/en/careers) | 🇪🇺 | https://www.eib.org/en/careers |
+| [EBRD](https://www.ebrd.com/careers) | 🇪🇺 | https://www.ebrd.com/careers |
+
+### United Kingdom 🇬🇧
+
+| Bank | Candidate careers URL |
+|---|---|
+| [HSBC](https://www.hsbc.com/careers) | https://www.hsbc.com/careers |
+| [Barclays](https://jobs.barclays.co.uk) | https://jobs.barclays.co.uk |
+| [Lloyds Banking Group](https://www.lloydsbankinggroup.com/careers) | https://www.lloydsbankinggroup.com/careers |
+| [NatWest Group](https://careers.natwestgroup.com) | https://careers.natwestgroup.com |
+| [Nationwide](https://www.nationwide-jobs.co.uk) | https://www.nationwide-jobs.co.uk |
+| [Standard Chartered](https://www.sc.com/en/careers/) | https://www.sc.com/en/careers/ |
+| [Virgin Money](https://www.virginmoney.com/careers) | https://www.virginmoney.com/careers |
+| [TSB](https://www.tsb.co.uk/careers) | https://www.tsb.co.uk/careers |
+| [Metro Bank](https://www.metrobankonline.co.uk/careers) | https://www.metrobankonline.co.uk/careers |
+| [Monzo](https://monzo.com/careers) | https://monzo.com/careers |
+| [Starling Bank](https://www.starlingbank.com/careers) | https://www.starlingbank.com/careers |
+| [Revolut](https://www.revolut.com/careers) | https://www.revolut.com/careers |
+| [Wise](https://www.wise.com/careers) | https://www.wise.com/careers |
+| [Tide](https://www.tide.co/careers) | https://www.tide.co/careers |
+| [ClearBank](https://www.clear.bank/careers) | https://www.clear.bank/careers |
+| [Zopa](https://www.zopa.com/careers) | https://www.zopa.com/careers |
+| [Atom Bank](https://www.atombank.co.uk/careers) | https://www.atombank.co.uk/careers |
+| [Allica Bank](https://www.alliica.com/careers) | https://www.alliica.com/careers |
+| [Bank of England](https://www.bankofengland.co.uk/careers) | https://www.bankofengland.co.uk/careers |
+
+### Multilateral & development banks 🌍
+
+| Bank | Candidate careers URL |
+|---|---|
+| [World Bank Group](https://www.worldbank.org/en/about/careers) | https://www.worldbank.org/en/about/careers |
+| [IMF](https://www.imf.org/en/About/careers) | https://www.imf.org/en/About/careers |
+| [IFC](https://www.ifc.org/en/about/careers) | https://www.ifc.org/en/about/careers |
+| [BIS](https://www.bis.org/about/jobs.htm) | https://www.bis.org/about/jobs.htm |
+| [Islamic Development Bank (IsDB)](https://www.isdb.org/careers) | https://www.isdb.org/careers |
+| [Arab Monetary Fund](https://www.amf.org.ae/careers) | https://www.amf.org.ae/careers |
+| [Asian Development Bank (ADB)](https://www.adb.org/about/careers) | https://www.adb.org/about/careers |
+| [AIIB](https://www.aiib.org/en/about-aiib/careers/index.html) | https://www.aiib.org/en/about-aiib/careers/index.html |
+| [New Development Bank](https://www.ndb.int/careers) | https://www.ndb.int/careers |
 
 **[⬆ back to top](#table-of-contents)**
 
