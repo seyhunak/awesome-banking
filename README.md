@@ -51,6 +51,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - ⚖️ [Compliance & Regulation](#compliance--regulation)
 - 🧾 [FATCA & CRS](#fatca--crs)
 - 🛡️ [Consumer Protection](#consumer-protection)
+- 🌱 [Sustainable Finance / ESG](#sustainable-finance--esg)
 - ⚠️ [Risk Management](#risk-management)
 - 🧾 [ITGRC](#itgrc)
 - 🏗️ [Banking Architecture](#banking-architecture)
@@ -70,11 +71,16 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 📝 [Personal Loans](#personal-loans)
 - 🏠 [Mortgage](#mortgage)
 - 📈 [Investment & Wealth](#investment--wealth)
+- 🏛️ [Custody & Fund Administration](#custody--fund-administration)
+- 📈 [Securities Services](#securities-services)
 - 💼 [Investment Banking](#investment-banking)
 - 🧾 [Insurance](#insurance)
 - 🌍 [Trade Finance](#trade-finance)
 - 💸 [Domestic & International Remittance](#domestic--international-remittance)
+- 💱 [Foreign Exchange (FX)](#foreign-exchange-fx)
+- 🏦 [CBDCs & Digital Currency](#cbdcs--digital-currency)
 - 👤 [Personal Banking](#personal-banking)
+- 🤝 [Microfinance & Financial Inclusion](#microfinance--financial-inclusion)
 - 🏬 [Retail Banking](#retail-banking)
 - 🧑 [Consumer Banking](#consumer-banking)
 - 📱 [Digital Banking](#digital-banking)
@@ -95,6 +101,8 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🔄 [Change Management](#change-management)
 - ⚙️ [System Design](#system-design)
 - 🏗️ [Architecture](#architecture)
+- ☁️ [Cloud for Banking](#cloud-for-banking)
+- 🔄 [Payment Orchestration](#payment-orchestration)
 - 🎨 [Design](#design)
 - 🔍 [Architectural Review](#architectural-review)
 
@@ -382,6 +390,63 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Bankrate](https://www.bankrate.com) 🆓 | Rate and fee transparency benchmarks consumers use to compare banks |
 | [FDIC](https://www.fdic.gov) ⭐ | Deposit insurance and the consumer helpline for US bank complaints |
 | [FSCS](https://www.fscs.org.uk) | UK deposit-protection scheme for eligible bank and building-society deposits |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Sustainable Finance / ESG
+
+> Sustainable finance is the **allocation of capital toward environmental and social outcomes** — not philanthropy, but risk-adjusted capital deployment with explicit ESG criteria. For banks, it is now a **regulatory requirement** (EU Taxonomy, SFDR, CSRD) and a **product imperative**: green bonds, sustainability-linked loans, ESG data, and transition finance are the instruments. The core tension is between credible impact measurement and greenwashing risk.
+
+### Key concepts
+
+- **EU Taxonomy** — the EU's classification system defining which economic activities are environmentally sustainable; banks must disclose taxonomy alignment.
+- **SFDR (Sustainable Finance Disclosure Regulation)** — EU regulation requiring financial products to be classified as Article 6, 8, or 9 based on sustainability intent; transparency obligations for both products and entities.
+- **CSRD (Corporate Sustainability Reporting Directive)** — expands ESG reporting to all large companies and listed SMEs; banks must report on climate risks and impacts.
+- **Green bonds / sustainability bonds** — debt instruments where proceeds are earmarked for green projects (renewable energy, clean transport); the ICMA Green Bond Principles are the market standard.
+- **Sustainability-linked loans (SLLs)** — loans where pricing is tied to the borrower's ESG performance targets (KPIs, margin step-up/down); the LMA SLL Principles govern structure.
+- **TCFD / ISSB** — the Task Force on Climate-related Financial Disclosures and the International Sustainability Standards Board are converging global baseline standards.
+- **Transition finance** — financing the decarbonization of high-emission sectors (steel, cement, aviation) that cannot simply switch to green alternatives overnight.
+- **Climate risk** — physical risk (floods, heat) and transition risk (policy, technology, market shifts) both affect credit and market risk; regulators now require scenario analysis.
+
+### Standards & frameworks
+
+| Standard / Body | Description |
+|---|---|
+| [EU Taxonomy](https://finance.ec.europa.eu) ⭐ | The EU's classification of environmentally sustainable economic activities |
+| [SFDR](https://www.esma.europa.eu) | EU sustainable-finance disclosure rules for financial products |
+| [ICMA Green Bond Principles](https://www.icmagroup.org) | The voluntary market standard for green bond issuance |
+| [LMA Sustainability-Linked Loan Principles](https://www.lma.eu.com) | The framework for SLLs — KPI-linked pricing and margin adjustment |
+| [TCFD](https://www.fsb-tcfd.org) | Climate-related financial disclosure recommendations |
+| [ISSB (IFRS)](https://www.ifrs.org) | Global baseline sustainability disclosure standards |
+| [PCAF](https://www.partnershipforcarbonaccountingfinancials.org) | The standard for measuring financed emissions (Scope 3, Category 15) |
+| [GFANZ](https://www.gfanzero.com) | The Glasgow Financial Alliance for Net Zero — banking-sector net-zero commitments |
+| [IIGCC](https://www.iigcc.org) | The Institutional Investors Group on Climate Change — investor stewardship and policy |
+
+### Sustainable finance data & analytics
+
+| Platform | Description |
+|---|---|
+| [MSCI ESG Research](https://www.msci.com) 💰 | ESG ratings and climate data for companies and portfolios |
+| [S&P Global ESG](https://www.spglobal.com) 💰 | Corporate ESG scores and sustainability data |
+| [Bloomberg ESG](https://www.bloomberg.com/professional/) 💰 | ESG data, carbon metrics, and green bond analytics |
+| [Sustainalytics](https://www.sustainalytics.com) 💰 | ESG risk ratings and company research |
+| [Clarity AI](https://www.clarity.ai) 💰 | ESG data and sustainability reporting for financial institutions |
+| [Trucost (S&P)](https://www.spglobal.com) 💰 | Carbon and environmental data for portfolio analysis |
+| [Refinitiv ESG (LSEG)](https://www.lseg.com) 💰 | ESG data and analytics integrated with financial data |
+
+### Green & transition finance products
+
+| Product | Description |
+|---|---|
+| Green bond | Debt where proceeds fund specific green projects (renewables, clean transport, buildings) |
+| Sustainability bond | Proceeds fund a mix of green and social projects |
+| Sustainability-linked bond (SLB) | Coupon steps up/down based on ESG KPIs, not use of proceeds |
+| Green loan / SLL | Corporate lending where pricing is linked to sustainability targets |
+| Green mortgage | Lower rate for energy-efficient homes (EU Energy Performance Certificate) |
+| Green deposit | Retail deposits earmarked for green lending — emerging product |
+| Transition finance | Financing for high-emission sectors on the path to decarbonization |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1247,6 +1312,55 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Custody & Fund Administration
+
+> Institutional custody and fund administration are the **back-office backbone of global capital markets** — the services that keep client assets safe, settled, and reported. Banks and specialists hold securities, cash, and alternative assets; value them; process corporate actions; and produce the audit-ready records regulators and investors demand. The market is consolidating around global custodians (BNY Mellon, State Street, Northern Trust) and modern wealthtech platforms (FNZ, InvestCloud).
+
+### Key concepts
+
+- **Custody** — safekeeping of client securities and cash with asset segregation, settlement, and corporate-action processing; includes global custody (multi-asset, multi-currency) and sub-custody (local agents per market).
+- **Fund administration** — the back-office services for asset managers: NAV calculation, investor accounting, compliance monitoring, and regulatory reporting.
+- **Middle office** — trade capture, confirmation, and position keeping between the front and back office.
+- **Settlement** — delivery-versus-payment (DvP) across CSDs and ICSDs; the goal is risk-free settlement with no failed trades.
+- **Corporate actions** — dividends, splits, mergers, and elections processed correctly and on time for every client position.
+- **Regulation** — UCITS, AIFMD (EU), Dodd-Frank (US), and local CSD rules govern how assets are held, valued, and reported.
+
+### Global custodians & fund administrators
+
+| Platform | Description |
+|---|---|
+| [BNY Mellon](https://www.bnymellon.com) ⭐ 💰 | The world's largest custodian bank — assets under custody/administration |
+| [State Street](https://www.statestreet.com) ⭐ 💰 | The second-largest global custodian — strong in funds and ETFs |
+| [Northern Trust](https://www.northerntrust.com) ⭐ 💰 | The third global custodian — high-touch private banking and fund services |
+| [Citi Custody](https://www.citibank.com) 💰 | Global custody and securities services for institutions |
+| [J.P. Morgan Custody](https://www.jpmorgan.com) 💰 | Global custody and fund administration |
+| [HSBC Securities Services](https://www.hsbc.com) 💰 | Global custody and fund administration — strong in Asia |
+
+### Wealth & fund administration platforms
+
+| Platform | Description |
+|---|---|
+| [FNZ](https://www.fnz.com) ⭐ 💰 | The wealth-platform engine behind many banks' retail investing and pensions |
+| [InvestCloud](https://www.investcloud.com) 💰 | Digital wealth-management platform — advice, portfolio, and client reporting |
+| [SS&C Advent](https://www.advent.com) 💰 | Portfolio accounting, trading, and reporting for wealth managers |
+| [SimCorp](https://www.simcorp.com) 💰 | Front-to-back investment management and fund administration |
+| [Allvue Systems](https://www.allvue.com) 💰 | Integrated investment management — portfolio accounting, analytics, and reporting |
+| [Broadridge](https://www.broadridge.com) 💰 | Investor communications and securities processing |
+
+### Market infrastructure
+
+| Body / System | Description |
+|---|---|
+| [DTCC](https://www.dtcc.com) ⭐ | The Depository Trust & Clearing Corporation — US post-trade clearing and settlement |
+| [Euroclear](https://www.euroclear.com) ⭐ | The European ICSD — settlement and custody for euro-denominated securities |
+| [Clearstream](https://www.clearstream.com) ⭐ | The European CSD and ICSD — cross-border settlement and custody |
+| [SWIFT for Securities](https://www.swift.com) | Messaging for securities settlement and corporate actions |
+| [OeKB (Austria)](https://www.oekb.at) | The Austrian CSD — regional securities settlement |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Insurance
 
 > Insurance runs alongside banking in the same institution's balance sheet — **bancassurance** (selling insurance through the bank's channels) is how most customers first buy life, motor, or home cover. The domain splits into product (underwriting/pricing), distribution, claims, and policy administration; the software market is consolidating around cloud-native core systems and AI claims.
@@ -1385,6 +1499,106 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Foreign Exchange (FX)
+
+> Foreign exchange is the **largest financial market in the world** — trillions of dollars move daily across spot, forwards, swaps, and options. For banks, FX is both a **customer service** (moving money across currencies) and a **trading book** (market-making, hedging, and risk management). The discipline sits at the intersection of treasury, payments, risk, and technology.
+
+### Key concepts
+
+- **Spot FX** — the immediate exchange of one currency for another at the prevailing rate; settlement is typically T+2.
+- **Forwards & NDFs** — locking in a rate for a future date (forwards) or for non-convertible currencies (non-deliverable forwards); the backbone of corporate hedging.
+- **FX swaps** — exchanging principal and interest in one currency for another, then reversing it later; the primary tool for central banks and banks to manage liquidity.
+- **Options** — the right, but not the obligation, to exchange at a set rate; used for hedging tail risk and structured products.
+- **Market microstructure** — liquidity is split across ECNs (Electronic Communication Networks), interbank platforms, and retail aggregators; spreads widen outside London/New York/Tokyo.
+- **Regulation & compliance** — FX is under MiFID II (EU transaction reporting), Dodd-Frank (US swap reporting), and AML/sanctions screening on every leg.
+
+### FX platforms & infrastructure
+
+| Platform | Type | Notes |
+|---|---|---|
+| [Currencycloud](https://www.currencycloud.com) ⭐ ☁️ | FX infrastructure | The developer-first platform for cross-border payments and FX — accounts, rates, and compliance |
+| [Wise Business](https://wise.com/business/) ☁️ | Consumer/SME FX | Transparent mid-market FX for businesses and individuals |
+| [Western Union Business Solutions](https://www.westernunion.com/business/en/us/) | B2B FX | Global cross-border payments and FX for enterprises |
+| [Ebury](https://www.ebury.com) | B2B FX | FX and international payments for SMEs |
+| [OFX](https://www.ofx.com) | Consumer/SME FX | International transfers with strong FX rates |
+| [Airwallex](https://www.airwallex.com) | B2B FX | Global payments, FX, and treasury infrastructure |
+| [Revolut Business](https://www.revolut.com) | Multi-currency | Multi-currency accounts and FX for businesses |
+| [XE.com](https://www.xe.com) | FX data | The reference for spot rates and currency conversion |
+| [Bloomberg FX](https://www.bloomberg.com/professional/) | FX trading | The institutional FX trading and data platform |
+
+### FX data & analytics
+
+| Tool | Description |
+|---|---|
+| [FRED (St. Louis Fed)](https://fred.stlouisfed.org) 🆓 | Free exchange-rate data for major currency pairs |
+| [IMF Exchange Rate Data](https://www.imf.org) 🆓 | Official exchange rates and international liquidity statistics |
+| [Bank for International Settlements](https://www.bis.org) 🆓 | Triennial central bank survey — the definitive FX volume data |
+| [ECB Exchange Rates](https://www.ecb.europa.eu) 🆓 | Euro reference rates and historical data |
+
+### FX risk management
+
+| Platform | Description |
+|---|---|
+| [Kyriba](https://www.kyriba.com) 💰 | Cloud TMS with FX risk management and hedging workflows |
+| [GTreasury](https://www.gtreasury.com) 💰 | Treasury platform with FX exposure management |
+| [ION Treasury](https://www.iongroup.com/treasury/) 💰 | Corporate treasury with FX and payments |
+| [Numerix](https://www.numerix.com) 💰 | Derivatives pricing and risk analytics for FX and rates |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## CBDCs & Digital Currency
+
+> Central Bank Digital Currencies (CBDCs) are **digital forms of national currency** issued by the central bank — the digital equivalent of cash. They sit at the intersection of payments policy, financial inclusion, monetary policy transmission, and geopolitics. The 2020s have moved from research to pilot and live deployment: the Bahamas (Sand Dollar), Nigeria (eNaira), Jamaica (JAM-DEX), China (e-CNY), and the EU's digital euro project.
+
+### Key concepts
+
+- **Retail vs wholesale CBDCs** — retail CBDCs are for the general public (digital cash); wholesale CBDCs are for interbank settlement and large-value payments.
+- **The motivation** — payment resilience, financial inclusion, monetary policy reach, and countering private crypto/stablecoin dominance.
+- **Architecture choices** — account-based (like a bank account at the central bank) vs token-based (like digital cashbearer instruments); each has different privacy and scalability trade-offs.
+- **Interoperability** — m-CBDC Bridge (BIS Innovation Hub) connects different CBDC systems cross-border; the goal is cheaper, faster correspondent banking.
+- **Privacy & surveillance** — CBDCs raise tension between transaction privacy and AML/CFT compliance; the design spectrum runs from fully anonymous to fully traceable.
+- **Stablecoins vs CBDCs** — private stablecoins (USDC, USDT) are private money; CBDCs are sovereign digital money — the debate is about who issues the base layer.
+
+### Live CBDC projects
+
+| Project | Region | Status |
+|---|---|---|
+| [Sand Dollar (Central Bank of The Bahamas)](https://www.centralbankbahamas.com) | Bahamas | Live — the world's first CBDC |
+| [eNaira (CBN)](https://enaira.gov.ng) | Nigeria | Live |
+| [JAM-DEX (Bank of Jamaica)](https://www.boj.org.jm) | Jamaica | Live |
+| [e-CNY (PBOC)](https://www.pbc.gov.cn) | China | Pilot — the most advanced large-economy CBDC |
+| [Digital Euro (ECB)](https://www.ecb.europa.eu) | Euro area | Preparation phase — targeted launch ~2027 |
+| [Project mBridge (BIS)](https://www.bis.org) | Multi-jurisdiction | Live pilot — cross-border CBDC corridor (Hong Kong, Thailand, UAE, China) |
+| [Digital Pound (Bank of England)](https://www.bankofengland.co.uk) | UK | Research and design phase |
+| [Digital USD (Federal Reserve)](https://www.federalreserve.gov) | US | Research and pilot — no commitment to issue |
+| [Saudi riyal digital (SAMA)](https://www.sama.gov.sa) | Saudi Arabia | Exploring wholesale CBDC via Project mBridge |
+
+### Standards, research & governance
+
+| Body / Resource | Description |
+|---|---|
+| [BIS Innovation Hub](https://www.bis.org/bisih/) ⭐ | The central bank research lab — m-CBDC Bridge, Project Dunbar, and the policy white papers |
+| [IMF CBDC Handbook](https://www.imf.org) | IMF guidance on CBDC design, regulation, and cross-border interoperability |
+| [ECB Digital Euro](https://www.ecb.europa.eu) | The most advanced CBDC project in a major currency area |
+| [Atlantic Council CBDC Tracker](https://www.atlanticcouncil.org) 🆓 | Live tracker of every CBDC project by status and jurisdiction |
+| [Bank of England CBDC](https://www.bankofengland.co.uk) | Research papers and the Digital Pound Foundation collaboration |
+
+### Digital currency infrastructure
+
+| Platform | Description |
+|---|---|
+| [R3 Corda](https://www.r3.com) 💰 | Distributed ledger platform used in CBDC and wholesale settlement pilots |
+| [Hyperledger Fabric](https://www.hyperledger.org/fabric) 🔓 | Enterprise blockchain framework used in central bank digital currency pilots |
+| [ConsenSys Quorum](https://consensys.io/quorum) 💰 | Enterprise Ethereum used in financial infrastructure and CBDC experiments |
+| [Stellar](https://www.stellar.org) 🔓 | Open network for payments and digital currency issuance |
+| [Stripe Crypto](https://stripe.com/crypto) ☁️ | Onramp infrastructure connecting fiat payments to digital currency rails |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Personal Banking
 
 > **Retail/personal banking** is the mass-market engine: everyday accounts, cards, savings, loans, mortgages, and insurance sold through apps, branches, and call centers. The last decade's disruption came from **digital banks** (neobanks) that rebuilt the product around the phone, and from **open banking** letting third parties build on top of the same accounts.
@@ -1422,6 +1636,68 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [YNAB](https://www.ynab.com) 💰 | The zero-based budgeting default for power users |
 | [Rocket Money](https://www.rocketmoney.com) 💰 | Subscription management and bill negotiation |
 | [Plaid-powered apps](https://plaid.com) ⭐ ☁️ | The aggregation layer under nearly every PFM tool |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Microfinance & Financial Inclusion
+
+> Microfinance and financial inclusion are about **extending access to regulated financial services** to people and small businesses traditionally excluded from banking — the unbanked and underbanked. The model ranges from micro-loans and micro-savings to agent banking, mobile money, and community finance. For mainstream banks, inclusion is increasingly a **regulatory expectation** and a **commercial channel**; for fintechs, it is the primary market.
+
+### Key concepts
+
+- **Microfinance** — small loans (often group-guaranteed), micro-savings, and micro-insurance for low-income households and micro-enterprises; the Grameen model is the archetype.
+- **Financial inclusion** — the broader goal: every person and business has access to affordable, appropriate financial products (accounts, credit, insurance, payments).
+- **Agent banking** — using retail outlets (shops, post offices) as banking touchpoints where branches are uneconomical; the model that powered mobile money in Africa and Asia.
+- **Mobile money** — phone-based wallets and payment systems (M-Pesa, bKash, GCash) that bypass traditional banking infrastructure; often regulated as EMI/e-money.
+- **Digital identity** — foundational to inclusion: without verified identity, no account, no credit, no insurance. Digital ID stacks (Aadhaar, NIN, eID) unlock onboarding at scale.
+- **Regulation** — proportional regulation is the key design choice: simpler rules for smaller, lower-risk products (EMI licenses, agent guidelines) while maintaining consumer protection.
+- **Credit for thin files** — alternative data (mobile money history, utility payments, telco data) replaces bureau scores for borrowers with no formal credit history.
+
+### Microfinance institutions & models
+
+| Institution / Model | Region | Notes |
+|---|---|---|
+| [Grameen Bank](https://www.grameen.com) ⭐ | Bangladesh | The archetype of microfinance — group-lending model founded by Muhammad Yunus |
+| [BRAC](https://www.brac.net) | Bangladesh | The largest NGO/microfinance institution by reach |
+| [ASA](https://asa.org.bd) | Bangladesh | Simplified microfinance — low-cost, standardized group loans |
+| [SKS Microfinance (Bharat Financial)](https://www.bharatfinancial.ml) | India | Large-scale microfinance — now part of Bharat Financial |
+| [M-Pesa (Safaricom)](https://www.safaricom.co.ke) ⭐ | Kenya | The mobile money archetype — 50M+ users, transformed East African finance |
+| [GCash](https://www.gcash.com) | Philippines | The leading mobile wallet and financial services super-app |
+| [bKash](https://www.bkash.com) | Bangladesh | Mobile financial services reaching the unbanked |
+| [Paga](https://www.mypaga.com) | Nigeria | Mobile payments and financial inclusion platform |
+| [M-Pesa (Vodacom)](https://www.vodacom.co.tz) | Tanzania | Mobile money across East and Southern Africa |
+
+### Digital inclusion & fintech
+
+| Platform | Description |
+|---|---|
+| [Branch](https://branch.co) 💰 | Digital microloans and financial services for emerging markets |
+| [Tala](https://tala.co) 💰 | Mobile lending and financial services using alternative data |
+| [Okra](https://www.okra.ng) ☁️ | API infrastructure for financial services across Africa |
+| [Yapily](https://www.yapily.com) ☁️ | Open banking API — connecting to banks across Europe and emerging markets |
+| [Mojaloop](https://mojaloop.io) 🔓 | Open-source middleware for interoperable digital financial services |
+| [Bill & Melinda Gates Foundation](https://www.gatesfoundation.org) 🆓 | Research and funding for digital financial inclusion infrastructure |
+
+### Inclusion standards & policy
+
+| Body / Resource | Description |
+|---|---|
+| [AFI (Alliance for Financial Inclusion)](https://www.afi-global.org) ⭐ | The global policy alliance for financial inclusion — Maya Declaration commitments |
+| [CGAP](https://www.cgap.org) | The Consultative Group to Assist the Poor — World Bank-affiliated research |
+| [World Bank Findex](https://globalfindex.worldbank.org) 🆓 | The definitive global dataset on financial inclusion |
+| [IMF Financial Access Survey](https://www.imf.org) 🆓 | Country-level data on financial access and inclusion |
+| [G20 High-Level Principles for Digital Financial Inclusion](https://www.g20.org) | The G20 framework for digital inclusion policy |
+
+### Credit for thin files
+
+| Platform | Description |
+|---|---|
+| [InclusiveFintech](https://www.inclusivefintech.org) 🆓 | Research and case studies on alternative credit scoring |
+| [MicroSave](https://www.microsave.net) 💰 | Consulting and research for microfinance and digital financial services |
+| [Equifax Emerging Markets](https://www.equifax.com) 💰 | Credit data and scoring for thin-file populations |
+| [Creditinfo](https://www.creditinfo.com) 💰 | Credit bureau infrastructure for emerging markets |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1630,6 +1906,53 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Morgan Stanley Investment Banking](https://www.morganstanley.com/what-we-do/investment-banking) | M&A and capital-markets advisory |
 | [J.P. Morgan Investment Banking](https://www.jpmorgan.com/investment-banking) | Global advisory and capital markets |
 | [MiFID II](https://www.esma.europa.eu) | EU market-conduct and transparency rules governing IB activity |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Securities Services
+
+> Securities services sit between **capital markets and custody** — the infrastructure that makes buying, selling, and settling securities possible. The stack covers clearing (guaranteeing the trade), settlement (exchanging cash for securities), custody (holding the assets), and depository services (registering ownership). Modern securities services are being reshaped by T+2/T+1 settlement cycles, tokenization, and real-time gross settlement.
+
+### Key concepts
+
+- **Clearing** — the intermediary (CCP, central counterparty) stands between buyer and seller, guaranteeing the trade and managing counterparty risk; margining and default funds protect the system.
+- **Settlement** — the actual exchange of cash for securities; the trend is **T+2** (US/EU) moving to **T+1** for faster settlement and reduced counterparty risk.
+- **Central securities depositories (CSDs)** — the national or regional systems that hold securities in immobilised or dematerialised form and record ownership (DTCC in the US, Euroclear/Clearstream in Europe).
+- **DvP (Delivery-versus-Payment)** — the settlement model that eliminates principal risk by ensuring securities and cash exchange simultaneously.
+- **Corporate actions** — dividends, stock splits, mergers, tender offers, and proxy voting processed through the custody chain.
+- **Regulation** — CSDR (EU settlement discipline), SEC settlement rules (US T+2), and EMIR (derivatives clearing) shape how trades settle.
+
+### Clearing & settlement
+
+| Body / Platform | Description |
+|---|---|
+| [DTCC](https://www.dtcc.com) ⭐ | The US clearing and settlement utility — equities, fixed income, derivatives, and repos |
+| [Euroclear](https://www.euroclear.com) ⭐ | The European CSD/ICSD — cross-border securities settlement and custody |
+| [Clearstream](https://www.clearstream.com) ⭐ | The European CSD — domestic and international settlement |
+| [LCH (LSEG)](https://www.lseg.com) | The leading European CCP — equities, fixed income, and derivatives clearing |
+| [CME Clearing](https://www.cmegroup.com) | Derivatives clearing — futures, options, and OTC cleared swaps |
+| [Options Clearing Corporation (OCC)](https://www.theocc.com) | The US options and equity derivatives clearinghouse |
+
+### Securities regulation
+
+| Framework | Region | Description |
+|---|---|---|
+| [CSDR](https://www.esma.europa.eu) | EU | Central Securities Depositories Regulation — settlement discipline and CSD rules |
+| [EMIR](https://www.esma.europa.eu) | EU | European Market Infrastructure Regulation — derivatives clearing and reporting |
+| [SEC Settlement Rules](https://www.sec.gov) | US | T+2 settlement cycle and clearing agency regulation |
+| [MiFID II](https://www.esma.europa.eu) | EU | Market conduct and transparency for trading venues and firms |
+
+### Securities technology
+
+| Platform | Description |
+|---|---|
+| [SimCorp](https://www.simcorp.com) 💰 | Front-to-back investment management and securities processing |
+| [SS&C Advent](https://www.advent.com) 💰 | Portfolio accounting and reporting for asset managers |
+| [Broadridge](https://www.broadridge.com) 💰 | Investor communications, proxy voting, and securities processing |
+| [Murex](https://www.murex.com) 💰 | Treasury, trading, and risk management for capital markets |
+| [Calypso](https://www.calypso.com) 💰 | Trading, risk, and operations platform for capital markets |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -1901,6 +2224,43 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Payment Orchestration
+
+> Payment orchestration is the **intelligent routing layer above payment gateways** — it connects a merchant or bank to multiple acquirers, payment methods, and fraud tools through a single integration, then dynamically routes each transaction to the best provider by cost, approval rate, geography, or risk. For banks and platforms, orchestration is how you optimize conversion, reduce downtime, and expand payment-method coverage without building individual connections.
+
+### Key concepts
+
+- **The orchestration layer** — sits between the checkout/backend and the underlying payment providers; abstracts the complexity of multiple acquirers, local schemes, and alternative payment methods.
+- **Smart routing** — rules-based or ML-driven routing that selects the optimal acquirer per transaction by cost, approval rate, currency, geography, and uptime.
+- **Payment method aggregation** — one integration connects to cards, wallets, bank transfers, BNPL, and local schemes (iDEAL, BLIK, UPI, Pix) across regions.
+- **Failover & resilience** — automatic failover when an acquirer is down; orchestration keeps checkout working without manual intervention.
+- **Cost optimization** — dynamic routing to the cheapest eligible route per transaction; cascading reduces declines and increases acceptance.
+- **Compliance & liability shift** — orchestration platforms handle the compliance mapping (SCA, 3DS, local regulations) across jurisdictions.
+
+### Payment orchestration platforms
+
+| Platform | Description |
+|---|---|
+| [Spresso](https://www.spresso.com) ⭐ ☁️ | Payment orchestration for global checkout — smart routing, cost optimization, and resilience |
+| [Bridge (by Stripe)](https://bridge.com) ☁️ | Payment orchestration for platforms and marketplaces |
+| [Paydock](https://www.paydock.com) ☁️ | Payment orchestration API with multi-acquirer routing |
+| [Akamai EdgeWorkers](https://www.akamai.com) ☁️ | Edge compute for payment routing and orchestration at the CDN layer |
+| [Cybersource (Visa)](https://www.cybersource.com) ☁️ | Enterprise payment management and orchestration |
+| [Klarna Konnect](https://www.klarna.com) ☁️ | Payment orchestration with embedded checkout and smart routing |
+
+### Routing & optimization
+
+| Platform | Description |
+|---|---|
+| [Valyu](https://www.valyu.com) ☁️ | Payment routing optimization — cost and approval-rate driven |
+| [IXOPAY](https://www.ixopay.com) 💰 | White-label payment orchestration for PSPs and enterprises |
+| [Payoneer](https://www.payoneer.com) ☁️ | Cross-border payment orchestration for platforms and marketplaces |
+| [Stripe Connect](https://stripe.com/connect) ☁️ | Platform orchestration for marketplaces and embedded finance |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Asset-Liability Management (ALM)
 
 > The discipline of **balancing a bank's deposits (liabilities) against its loans (assets)** to manage liquidity and interest-rate risk. ALM protects net interest margin (NIM), ensures the bank can fund itself in a crisis (LCR/NSFR), and is owned by the ALCO committee. It is the balance-sheet counterpart to the capital rules covered in Compliance & Regulation.
@@ -2158,6 +2518,64 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Architecture Decision Records (ADR)](https://github.com/joelparkerhenderson/architecture-decision-record) ⭐ | The convention for recording architecture decisions — status, context, decision, consequences |
 | [12-Factor App](https://12factor.net) | The baseline for modern, deployable, scalable application architecture |
 | [InfoQ](https://www.infoq.com) | Architecture and engineering practice coverage with a strong banking/big-tech bent |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Cloud for Banking
+
+> Banking is moving from mainframes and private data centers to **cloud-native architectures** — but the migration is regulated, risk-managed, and slower than other industries. The question is no longer whether banks should move to the cloud, but **which workloads can run where** and under which controls. The big three clouds (AWS, GCP, Azure) now offer **financial-services validated architectures** with dedicated compliance programs, and cloud-native cores (Thought Machine, Mambu, 10x) are proving the model at scale.
+
+### Key concepts
+
+- **Shared responsibility** — the cloud provider secures the infrastructure; the bank secures the data, access, and application layer. In regulated banking, the bank's audit team must verify the provider's controls.
+- **Financial services validated architectures** — AWS, Azure, and GCP offer pre-built, compliance-mapped architectures for banking workloads with documented controls for PCI DSS, SOC 2, ISO 27001, and regional regulations.
+- **Cloud-native cores** — Thought Machine Vault, Mambu, 10x Banking, and Volaris are built cloud-first: elastic compute, real-time event streaming, and API-native product models.
+- **Hybrid & multi-cloud** — most large banks run a hybrid estate: cloud for digital channels and analytics, mainframe/private for the core ledger during migration; multi-cloud avoids vendor lock-in for resilience.
+- **Data residency & sovereignty** — EU (GDPR), KSA, UAE, and APAC regulators require customer data to remain in-region; cloud providers operate local zones and sovereign clouds.
+- **Regulatory acceptance** — regulators now accept cloud for most workloads, including core banking in some jurisdictions (UK FCA, MAS, AU), but expect documented risk management and exit strategies.
+
+### Cloud providers & financial services programs
+
+| Provider | Program | Notes |
+|---|---|---|
+| [AWS Financial Services](https://aws.amazon.com/financial-services/) ⭐ ☁️ | Validated architecture | The deepest financial services program — PCI, SOC, Basel-ready reference architectures |
+| [Microsoft Azure Financial Services](https://azure.microsoft.com/en-us/solutions/financial-services/) ☁️ | Validated architecture | Strong in enterprise banking (mainframe modernization, Power Platform integration) |
+| [Google Cloud Financial Services](https://cloud.google.com/solutions/financial-services) ☁️ | Validated architecture | Data and AI leadership — strong for analytics, risk, and ML workloads |
+| [Oracle Cloud Infrastructure (OCI)](https://www.oracle.com/cloud/) ☁️ | Infrastructure | The natural landing zone for Oracle FLEXCUBE and Oracle Financial Services banks |
+
+### Cloud-native core banking platforms
+
+| Platform | Model | Notes |
+|---|---|---|
+| [Thought Machine Vault](https://www.thoughtmachine.net) ⭐ 💰 | Cloud-native core | Products as code (smart contracts); Lloyds, JPMorgan UK, Standard Chartered |
+| [Mambu](https://mambu.com) ⭐ 💰 | Cloud-native core | API-first SaaS core for deposits, lending, and payments |
+| [10x Banking](https://www.10xbanking.com) 💰 | Cloud-native core | API-first core powering Chase UK and NatWest |
+| [Volaris](https://www.volarisgroup.com) 💰 | Cloud-native core | Event-driven, composable core on Oracle technology |
+| [Skaleet](https://www.skaleet.com) 💰 | Modular core | Composable core for digital banks and EMIs |
+| [Nymbus](https://nymbus.com) ☁️ | Neobank-in-a-box | Digital bank and core platform for fast launches |
+
+### Cloud security & compliance for banking
+
+| Platform | Description |
+|---|---|
+| [AWS KMS](https://aws.amazon.com/kms/) · [Azure Key Vault](https://azure.microsoft.com/en-us/products/key-vault/) · [Google Cloud KMS](https://cloud.google.com/security/products/cloud-kms) ☁️ | Managed key management and encryption on the big three clouds |
+| [HashiCorp Vault](https://www.vaultproject.io) 🔓 | Dynamic secrets and encryption-as-a-service for multi-cloud |
+| [Snyk](https://snyk.io) ☁️ | Dependency, container, and code scanning wired into CI/CD |
+| [Wiz](https://www.wiz.io) ☁️ | Cloud-native application protection — the modern standard for cloud security posture |
+| [Prisma Cloud (Palo Alto)](https://www.paloaltonetworks.com) ☁️ | Full-stack cloud security — CSPM, CWP, and compliance monitoring |
+| [Lacework](https://www.lacework.com) ☁️ | Cloud security and compliance for multi-cloud estates |
+
+### Cloud migration & modernization
+
+| Platform / Pattern | Description |
+|---|---|
+| [Strangler Fig pattern](https://martinfowler.com/bliki/StranglerFigApplication.html) 🆓 | Incrementally replace the monolith — the standard bank modernization path |
+| [Terraform](https://www.terraform.io) ⭐ 🆓 | Infrastructure-as-code — versioned, reviewable cloud change |
+| [Kubernetes](https://kubernetes.io) 🆓 | Container orchestration — the runtime for cloud-native banking workloads |
+| [OpenShift (Red Hat)](https://www.redhat.com/en/technologies/cloud-computing/openshift) | Enterprise Kubernetes with financial-services governance |
+| [Mainframe modernization (AWS / Azure)](https://aws.amazon.com/mainframe/) | Tools and programs for lifting and shifting legacy banking workloads |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2718,12 +3136,14 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 | Resource | Description |
 |---|---|
-| [Finextra](https://www.finextra.com) 🆓 | The daily fintech and banking-technology news site — the industry default for practitioners |
+| [Finextra](https://www.finextra.com) ⭐ | The daily fintech and banking-technology news site — the industry default for practitioners |
 | [The Banker](https://www.thebanker.com) | The Financial Times' banking publication — rankings, strategy, and deals |
 | [Banking Dive](https://www.bankingdive.com) 🆓 | US-focused banking news and analysis |
 | [American Banker](https://www.americanbanker.com) | The US banking trade paper of record |
 | [Tearsheet](https://tearsheet.co) | Fintech and banking-insights publication |
 | [The Finanser (Chris Skinner)](https://thefinanser.com) 🆓 | The long-running blog on the future of banking |
+| [Risk.net](https://www.risk.net) | The leading source for market, credit, and operational risk |
+| [The Paypers](https://www.thepaypers.com) | The leading trade publication for payments and open banking |
 
 ### Courses & credentials
 
@@ -2733,7 +3153,10 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [CFA Institute](https://www.cfainstitute.org) | The credential for investment and wealth professionals |
 | [GARP](https://www.garp.org) | The FRM — the risk-management credential banks respect |
 | [CFI (Corporate Finance Institute)](https://corporatefinanceinstitute.com) | Practical, role-based courses for banking and credit |
-| [BIS Education & Research](https://www.bis.org/index.htm) | The deepest free source on payments, banking structure, and regulation |
+| [BIS Education & Research](https://www.bis.org) | The deepest free source on payments, banking structure, and regulation |
+| [Euromoney Learning](https://www.euromoneylearning.com) 💰 | Structured courses on trade finance, treasury, and risk from the trade press |
+| [GARP](https://www.garp.org) | Financial Risk Manager certification — the industry standard for risk professionals |
+| [PRMIA](https://www.prmia.org) | Professional Risk Manager designation — an alternative to the FRM |
 
 ---
 
