@@ -3802,7 +3802,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ## Bank Careers & Job Portals
 
-> Candidate careers pages for banks across the UAE, KSA, MENA, Africa, the EU, the UK, Azerbaijan, the Caucasus, and Central Asia — plus multilateral development banks. Compiled for job hunting: the URLs below are **best-effort candidate URLs, not yet verified** — confirm the exact path before applying. When a dedicated careers page isn't listed, the bank's main site is the starting point (look for *Careers* / *Kariyer* / *Jobs* in the footer).
+> Candidate careers pages for banks across the GCC, MENA, Africa, Europe, the UK, the Caucasus, Central Asia, Asia-Pacific, the Americas, and Oceania — plus multilateral development banks. Compiled for job hunting: the URLs below are **best-effort candidate URLs, not yet verified** — confirm the exact path before applying. When a dedicated careers page isn't listed, the bank's main site is the starting point (look for *Careers* / *Kariyer* / *Empleos* / *Jobs* in the footer).
 
 ### UAE 🇦🇪
 
@@ -3999,6 +3999,153 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [TBC Uzbekistan](https://tbcu.uz/en/careers) | 🇺🇿 | https://tbcu.uz/en/careers |
 | [Central Bank of Uzbekistan (CBU)](https://cbu.uz/en/careers) | 🇺🇿 | https://cbu.uz/en/careers |
 
+### India 🇮🇳
+
+| Bank | Candidate careers URL |
+|---|---|
+| [State Bank of India](https://sbi.co.in/careers) | https://sbi.co.in/careers |
+| [HDFC Bank](https://www.hdfcbank.com/careers) | https://www.hdfcbank.com/careers |
+| [ICICI Bank](https://www.icicicareers.com) | https://www.icicicareers.com |
+| [Axis Bank](https://www.axisbank.com/careers) | https://www.axisbank.com/careers |
+| [Kotak Mahindra Bank](https://www.kotak.com/en/careers) | https://www.kotak.com/en/careers |
+| [Punjab National Bank](https://www.pnbindia.in/careers) | https://www.pnbindia.in/careers |
+| [Bank of Baroda](https://www.bankofbaroda.in/careers) | https://www.bankofbaroda.in/careers |
+| [Canara Bank](https://canarabank.com/careers) | https://canarabank.com/careers |
+| [Union Bank of India](https://www.unionbankofindia.co.in/careers) | https://www.unionbankofindia.co.in/careers |
+| [YES Bank](https://www.yesbank.in/careers) | https://www.yesbank.in/careers |
+| [IDFC FIRST Bank](https://www.idfcfirstbank.com/careers) | https://www.idfcfirstbank.com/careers |
+| [Federal Bank](https://www.federalbank.co.in/careers) | https://www.federalbank.co.in/careers |
+| [Reserve Bank of India (RBI)](https://www.rbi.org.in/careers) | https://www.rbi.org.in/careers |
+| [NPCI](https://www.npci.org.in/careers) | https://www.npci.org.in/careers |
+
+### Pakistan 🇵🇰
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Habib Bank (HBL)](https://www.hbl.com/careers) | https://www.hbl.com/careers |
+| [Meezan Bank](https://www.meezanbank.com/careers) | https://www.meezanbank.com/careers |
+| [United Bank Limited (UBL)](https://www.ubldigital.com/careers) | https://www.ubldigital.com/careers |
+| [National Bank of Pakistan](https://www.nbp.com.pk/careers) | https://www.nbp.com.pk/careers |
+| [MCB Bank](https://www.mcb.com.pk/careers) | https://www.mcb.com.pk/careers |
+| [Bank Alfalah](https://www.bankalfalah.com/careers) | https://www.bankalfalah.com/careers |
+| [State Bank of Pakistan (SBP)](https://www.sbp.org.pk/careers) | https://www.sbp.org.pk/careers |
+
+### Bangladesh 🇧🇩
+
+| Bank | Candidate careers URL |
+|---|---|
+| [BRAC Bank](https://www.bracbank.com/career) | https://www.bracbank.com/career |
+| [Dutch-Bangla Bank](https://www.dutchbanglabank.com/career) | https://www.dutchbanglabank.com/career |
+| [Islami Bank Bangladesh](https://www.islamibankbd.com/careers) | https://www.islamibankbd.com/careers |
+| [bKash](https://www.bkash.com/career) | https://www.bkash.com/career |
+| [Bangladesh Bank (central bank)](https://www.bb.org.bd/careers) | https://www.bb.org.bd/careers |
+
+### Singapore 🇸🇬
+
+| Bank | Candidate careers URL |
+|---|---|
+| [DBS](https://www.dbs.com/careers) | https://www.dbs.com/careers |
+| [OCBC](https://www.ocbc.com/careers) | https://www.ocbc.com/careers |
+| [UOB](https://www.uobgroup.com/careers) | https://www.uobgroup.com/careers |
+| [GXS Bank](https://www.gxs.com.sg/careers) | https://www.gxs.com.sg/careers |
+| [Trust Bank](https://www.trustbank.sg/careers) | https://www.trustbank.sg/careers |
+| [MAS (central bank)](https://www.mas.gov.sg/careers) | https://www.mas.gov.sg/careers |
+
+### Hong Kong 🇭🇰
+
+| Bank | Candidate careers URL |
+|---|---|
+| [HSBC Hong Kong](https://www.hsbc.com/careers) | https://www.hsbc.com/careers |
+| [Hang Seng Bank](https://www.hangseng.com/en-hk/about-us/careers/) | https://www.hangseng.com/en-hk/about-us/careers/ |
+| [Bank of China (Hong Kong)](https://www.bochk.com/careers) | https://www.bochk.com/careers |
+| [Standard Chartered HK](https://www.sc.com/en/careers/) | https://www.sc.com/en/careers/ |
+| [ZA Bank](https://www.za.group/careers) | https://www.za.group/careers |
+| [HKMA (central bank)](https://www.hkma.gov.hk/eng/careers/) | https://www.hkma.gov.hk/eng/careers/ |
+
+### China 🇨🇳
+
+| Bank | Candidate careers URL |
+|---|---|
+| [ICBC](https://www.icbc-ltd.com/en/AboutUs/Careers/) | https://www.icbc-ltd.com/en/AboutUs/Careers/ |
+| [China Construction Bank (CCB)](https://www.ccb.com) | https://www.ccb.com |
+| [Agricultural Bank of China (ABC)](https://www.abchina.com) | https://www.abchina.com |
+| [Bank of China (BOC)](https://www.boc.cn) | https://www.boc.cn |
+| [China Merchants Bank (CMB)](https://www.cmbchina.com) | https://www.cmbchina.com |
+| [People's Bank of China (PBOC)](https://www.pbc.gov.cn) | https://www.pbc.gov.cn |
+
+### Japan 🇯🇵
+
+| Bank | Candidate careers URL |
+|---|---|
+| [MUFG](https://www.mufg.jp/english/careers/) | https://www.mufg.jp/english/careers/ |
+| [SMBC Group](https://www.smfg.co.jp/english/careers/) | https://www.smfg.co.jp/english/careers/ |
+| [Mizuho](https://www.mizuho-fg.com/careers/) | https://www.mizuho-fg.com/careers/ |
+| [Nomura](https://www.nomuraholdings.com/careers/) | https://www.nomuraholdings.com/careers/ |
+| [Bank of Japan (BOJ)](https://www.boj.or.jp/en/about/careers/) | https://www.boj.or.jp/en/about/careers/ |
+
+### South Korea 🇰🇷
+
+| Bank | Candidate careers URL |
+|---|---|
+| [KB Kookmin Bank](https://www.kbfg.com/kr/eng/career/) | https://www.kbfg.com/kr/eng/career/ |
+| [Shinhan Financial Group](https://www.shinhangroup.com/en/careers) | https://www.shinhangroup.com/en/careers |
+| [Hana Financial Group](https://www.hanafn.com/eng/careers) | https://www.hanafn.com/eng/careers |
+| [Woori Bank](https://www.wooribank.com) | https://www.wooribank.com |
+| [Bank of Korea (BOK)](https://www.bok.or.kr/eng/careers) | https://www.bok.or.kr/eng/careers |
+
+### Malaysia 🇲🇾
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Maybank](https://www.maybank.com/en/careers) | https://www.maybank.com/en/careers |
+| [CIMB](https://www.cimb.com/en/careers) | https://www.cimb.com/en/careers |
+| [Public Bank](https://www.publicbank.com.my/careers) | https://www.publicbank.com.my/careers |
+| [RHB](https://www.rhbgroup.com/careers) | https://www.rhbgroup.com/careers |
+| [Hong Leong Bank](https://www.hlb.com.my/careers) | https://www.hlb.com.my/careers |
+| [Bank Negara Malaysia (BNM)](https://www.bnm.gov.my/careers) | https://www.bnm.gov.my/careers |
+
+### Indonesia 🇮🇩
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Bank Rakyat Indonesia (BRI)](https://www.bri.co.id/careers) | https://www.bri.co.id/careers |
+| [Bank Central Asia (BCA)](https://www.bca.co.id/careers) | https://www.bca.co.id/careers |
+| [Bank Mandiri](https://www.bankmandiri.co.id/careers) | https://www.bankmandiri.co.id/careers |
+| [Bank Negara Indonesia (BNI)](https://www.bni.co.id/careers) | https://www.bni.co.id/careers |
+| [Bank Jago](https://www.jago.com/careers) | https://www.jago.com/careers |
+| [Bank Indonesia (BI)](https://www.bi.go.id/careers) | https://www.bi.go.id/careers |
+
+### Thailand 🇹🇭
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Bangkok Bank](https://www.bangkokbank.com/careers) | https://www.bangkokbank.com/careers |
+| [Kasikornbank (KBank)](https://www.kasikornbank.com/en/career) | https://www.kasikornbank.com/en/career |
+| [Siam Commercial Bank (SCB)](https://www.scb.co.th/en/careers) | https://www.scb.co.th/en/careers |
+| [Krungthai Bank](https://www.krungthai.com/careers) | https://www.krungthai.com/careers |
+| [Bank of Thailand (BOT)](https://www.bot.or.th/en/careers) | https://www.bot.or.th/en/careers |
+
+### Philippines 🇵🇭
+
+| Bank | Candidate careers URL |
+|---|---|
+| [BDO Unibank](https://www.bdo.com.ph/careers) | https://www.bdo.com.ph/careers |
+| [Bank of the Philippine Islands (BPI)](https://www.bpi.com.ph/careers) | https://www.bpi.com.ph/careers |
+| [Metrobank](https://www.metrobank.com.ph/careers) | https://www.metrobank.com.ph/careers |
+| [LandBank](https://www.landbank.com/careers) | https://www.landbank.com/careers |
+| [Bangko Sentral ng Pilipinas (BSP)](https://www.bsp.gov.ph/careers) | https://www.bsp.gov.ph/careers |
+
+### Vietnam 🇻🇳
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Vietcombank](https://www.vietcombank.com.vn/careers) | https://www.vietcombank.com.vn/careers |
+| [BIDV](https://www.bidv.com.vn/careers) | https://www.bidv.com.vn/careers |
+| [Techcombank](https://techcombank.com/en/careers) | https://techcombank.com/en/careers |
+| [VPBank](https://www.vpbank.com.vn/careers) | https://www.vpbank.com.vn/careers |
+| [MB Bank](https://www.mbbank.com.vn/careers) | https://www.mbbank.com.vn/careers |
+| [State Bank of Vietnam (SBV)](https://www.sbv.gov.vn/careers) | https://www.sbv.gov.vn/careers |
+
 ### Africa — pan-African & multilateral
 
 | Bank | Country | Candidate careers URL |
@@ -4112,6 +4259,28 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [PKO Bank Polski](https://www.pkobp.pl/kariera) | 🇵🇱 | https://www.pkobp.pl/kariera |
 | [Bank Millennium](https://www.bankmillennium.pl/kariera) | 🇵🇱 | https://www.bankmillennium.pl/kariera |
 | [OTP Bank](https://www.otpbank.hu/careers) | 🇭🇺 | https://www.otpbank.hu/careers |
+| [Pekao](https://www.pekao.com.pl/kariera) | 🇵🇱 | https://www.pekao.com.pl/kariera |
+| [mBank](https://www.mbank.pl/kariera) | 🇵🇱 | https://www.mbank.pl/kariera |
+| [Santander Bank Polska](https://www.santander.pl/kariera) | 🇵🇱 | https://www.santander.pl/kariera |
+| [ING Bank Śląski](https://www.ing.pl/kariera) | 🇵🇱 | https://www.ing.pl/kariera |
+| [National Bank of Poland (NBP)](https://www.nbp.pl/kariera) | 🇵🇱 | https://www.nbp.pl/kariera |
+| [Česká spořitelna](https://www.csas.cz/kariera) | 🇨🇿 | https://www.csas.cz/kariera |
+| [Komerční banka](https://www.kb.cz/kariera) | 🇨🇿 | https://www.kb.cz/kariera |
+| [ČSOB](https://www.csob.cz/kariera) | 🇨🇿 | https://www.csob.cz/kariera |
+| [Czech National Bank (ČNB)](https://www.cnb.cz/en/careers/) | 🇨🇿 | https://www.cnb.cz/en/careers/ |
+| [AIB](https://aib.ie/careers) | 🇮🇪 | https://aib.ie/careers |
+| [Bank of Ireland](https://www.bankofireland.com/careers) | 🇮🇪 | https://www.bankofireland.com/careers |
+| [Permanent TSB](https://www.permanenttsb.ie/careers) | 🇮🇪 | https://www.permanenttsb.ie/careers |
+| [Central Bank of Ireland](https://www.centralbank.ie/careers) | 🇮🇪 | https://www.centralbank.ie/careers |
+| [Millennium BCP](https://www.millenniumbcp.pt/carreiras) | 🇵🇹 | https://www.millenniumbcp.pt/carreiras |
+| [Caixa Geral de Depósitos (CGD)](https://www.cgd.pt/carreiras) | 🇵🇹 | https://www.cgd.pt/carreiras |
+| [Novo Banco](https://www.novobanco.pt/carreiras) | 🇵🇹 | https://www.novobanco.pt/carreiras |
+| [Banco de Portugal](https://www.bportugal.pt/carreiras) | 🇵🇹 | https://www.bportugal.pt/carreiras |
+| [Piraeus Bank](https://www.piraeusbank.gr/en/careers) | 🇬🇷 | https://www.piraeusbank.gr/en/careers |
+| [National Bank of Greece](https://www.nbg.gr/en/careers) | 🇬🇷 | https://www.nbg.gr/en/careers |
+| [Alpha Bank](https://www.alpha.gr/en/careers) | 🇬🇷 | https://www.alpha.gr/en/careers |
+| [Eurobank](https://www.eurobank.gr/en/careers) | 🇬🇷 | https://www.eurobank.gr/en/careers |
+| [Bank of Greece](https://www.bankofgreece.gr/careers) | 🇬🇷 | https://www.bankofgreece.gr/careers |
 | [ECB (European Central Bank)](https://www.ecb.europa.eu/careers/html/index.en.html) | 🇪🇺 | https://www.ecb.europa.eu/careers/html/index.en.html |
 | [EIB](https://www.eib.org/en/careers) | 🇪🇺 | https://www.eib.org/en/careers |
 | [EBRD](https://www.ebrd.com/careers) | 🇪🇺 | https://www.ebrd.com/careers |
@@ -4139,6 +4308,112 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Atom Bank](https://www.atombank.co.uk/careers) | https://www.atombank.co.uk/careers |
 | [Allica Bank](https://www.alliica.com/careers) | https://www.alliica.com/careers |
 | [Bank of England](https://www.bankofengland.co.uk/careers) | https://www.bankofengland.co.uk/careers |
+
+### United States 🇺🇸
+
+| Bank | Candidate careers URL |
+|---|---|
+| [JPMorgan Chase](https://careers.jpmorgan.com) | https://careers.jpmorgan.com |
+| [Bank of America](https://careers.bankofamerica.com) | https://careers.bankofamerica.com |
+| [Citi](https://jobs.citi.com) | https://jobs.citi.com |
+| [Wells Fargo](https://www.wellsfargojobs.com) | https://www.wellsfargojobs.com |
+| [Goldman Sachs](https://www.goldmansachs.com/careers) | https://www.goldmansachs.com/careers |
+| [Morgan Stanley](https://www.morganstanley.com/people-opportunities) | https://www.morganstanley.com/people-opportunities |
+| [Capital One](https://www.capitalonecareers.com) | https://www.capitalonecareers.com |
+| [U.S. Bank](https://careers.usbank.com) | https://careers.usbank.com |
+| [PNC](https://careers.pnc.com) | https://careers.pnc.com |
+| [Truist](https://www.truist.com/careers) | https://www.truist.com/careers |
+| [Ally](https://www.ally.com/about/careers/) | https://www.ally.com/about/careers/ |
+| [Charles Schwab](https://www.aboutschwab.com/careers) | https://www.aboutschwab.com/careers |
+| [Federal Reserve Board](https://www.federalreserve.gov/careers.htm) | https://www.federalreserve.gov/careers.htm |
+| [FDIC](https://www.fdic.gov/careers) | https://www.fdic.gov/careers |
+| [OCC](https://www.occ.gov/about-occ/careers.html) | https://www.occ.gov/about-occ/careers.html |
+
+### Canada 🇨🇦
+
+| Bank | Candidate careers URL |
+|---|---|
+| [RBC](https://jobs.rbc.com) | https://jobs.rbc.com |
+| [TD Bank](https://jobs.td.com) | https://jobs.td.com |
+| [Scotiabank](https://www.scotiabank.com/careers) | https://www.scotiabank.com/careers |
+| [BMO](https://jobs.bmo.com) | https://jobs.bmo.com |
+| [CIBC](https://www.cibc.com/en/about-cibc/careers.html) | https://www.cibc.com/en/about-cibc/careers.html |
+| [National Bank of Canada](https://www.nbc.ca/en/careers) | https://www.nbc.ca/en/careers |
+| [Bank of Canada](https://www.bankofcanada.ca/careers/) | https://www.bankofcanada.ca/careers/ |
+| [OSFI](https://www.osfi-bsif.gc.ca/eng/fin/car/Pages/default.aspx) | https://www.osfi-bsif.gc.ca/eng/fin/car/Pages/default.aspx |
+
+### Brazil 🇧🇷
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Itaú Unibanco](https://www.itau.com.br/carreira) | https://www.itau.com.br/carreira |
+| [Bradesco](https://banco.bradesco/carreiras) | https://banco.bradesco/carreiras |
+| [Banco do Brasil](https://www.bb.com.br/carreiras) | https://www.bb.com.br/carreiras |
+| [Caixa Econômica Federal](https://www.caixa.gov.br/carreiras) | https://www.caixa.gov.br/carreiras |
+| [Nubank](https://nubank.com.br/carreiras) | https://nubank.com.br/carreiras |
+| [BTG Pactual](https://www.btgpactual.com/carreiras) | https://www.btgpactual.com/carreiras |
+| [Banco Central do Brasil (BCB)](https://www.bcb.gov.br/carreiras) | https://www.bcb.gov.br/carreiras |
+
+### Mexico 🇲🇽
+
+| Bank | Candidate careers URL |
+|---|---|
+| [BBVA México](https://www.bbva.mx/carreras) | https://www.bbva.mx/carreras |
+| [Santander México](https://www.santander.com.mx/carreras) | https://www.santander.com.mx/carreras |
+| [Banorte](https://www.banorte.com/carreras) | https://www.banorte.com/carreras |
+| [Citibanamex](https://www.banamex.com/carreras) | https://www.banamex.com/carreras |
+| [HSBC México](https://www.hsbc.com.mx/carreras) | https://www.hsbc.com.mx/carreras |
+| [Banco de México (Banxico)](https://www.banxico.org.mx/carreras) | https://www.banxico.org.mx/carreras |
+
+### Latin America — Colombia, Chile & Peru 🇨🇴🇨🇱🇵🇪
+
+| Bank | Country | Candidate careers URL |
+|---|---|---|
+| [Bancolombia](https://www.bancolombia.com/carreras) | 🇨🇴 | https://www.bancolombia.com/carreras |
+| [Davivienda](https://www.davivienda.com/carreras) | 🇨🇴 | https://www.davivienda.com/carreras |
+| [Banco de Bogotá](https://www.bancodebogota.com/carreras) | 🇨🇴 | https://www.bancodebogota.com/carreras |
+| [Banco de la República (Colombia)](https://www.banrep.gov.co/carreras) | 🇨🇴 | https://www.banrep.gov.co/carreras |
+| [Banco de Chile](https://www.bancochile.cl/carreras) | 🇨🇱 | https://www.bancochile.cl/carreras |
+| [Banco Santander Chile](https://www.santander.cl/carreras) | 🇨🇱 | https://www.santander.cl/carreras |
+| [BCI](https://www.bci.cl/carreras) | 🇨🇱 | https://www.bci.cl/carreras |
+| [Banco Central de Chile (BCCh)](https://www.bcentral.cl/carreras) | 🇨🇱 | https://www.bcentral.cl/carreras |
+| [Banco de Crédito del Perú (BCP)](https://www.viabcp.com/carreras) | 🇵🇪 | https://www.viabcp.com/carreras |
+| [BBVA Perú](https://www.bbva.pe/carreras) | 🇵🇪 | https://www.bbva.pe/carreras |
+| [Interbank](https://www.interbank.pe/carreras) | 🇵🇪 | https://www.interbank.pe/carreras |
+| [Banco Central de Reserva del Perú (BCRP)](https://www.bcrp.gob.pe/carreras) | 🇵🇪 | https://www.bcrp.gob.pe/carreras |
+
+### Australia 🇦🇺
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Commonwealth Bank (CBA)](https://www.commbank.com.au/careers) | https://www.commbank.com.au/careers |
+| [Westpac](https://www.westpac.com.au/careers) | https://www.westpac.com.au/careers |
+| [NAB](https://www.nab.com.au/careers) | https://www.nab.com.au/careers |
+| [ANZ](https://www.anz.com/careers) | https://www.anz.com/careers |
+| [Macquarie](https://www.macquarie.com/careers) | https://www.macquarie.com/careers |
+| [Bendigo Bank](https://www.bendigobank.com.au/careers) | https://www.bendigobank.com.au/careers |
+| [Reserve Bank of Australia (RBA)](https://www.rba.gov.au/careers/) | https://www.rba.gov.au/careers/ |
+| [APRA](https://www.apra.gov.au/careers) | https://www.apra.gov.au/careers |
+
+### New Zealand 🇳🇿
+
+| Bank | Candidate careers URL |
+|---|---|
+| [ANZ New Zealand](https://www.anz.co.nz/careers) | https://www.anz.co.nz/careers |
+| [ASB](https://www.asb.co.nz/careers) | https://www.asb.co.nz/careers |
+| [BNZ](https://www.bnz.co.nz/careers) | https://www.bnz.co.nz/careers |
+| [Kiwibank](https://www.kiwibank.co.nz/careers) | https://www.kiwibank.co.nz/careers |
+| [Reserve Bank of New Zealand (RBNZ)](https://www.rbnz.govt.nz/careers) | https://www.rbnz.govt.nz/careers |
+
+### Israel 🇮🇱
+
+| Bank | Candidate careers URL |
+|---|---|
+| [Bank Hapoalim](https://www.bankhapoalim.co.il/careers) | https://www.bankhapoalim.co.il/careers |
+| [Bank Leumi](https://www.leumi.co.il/careers) | https://www.leumi.co.il/careers |
+| [Israel Discount Bank](https://www.discountbank.co.il/careers) | https://www.discountbank.co.il/careers |
+| [Mizrahi-Tefahot](https://www.mizrahi-tefahot.co.il/careers) | https://www.mizrahi-tefahot.co.il/careers |
+| [Bank of Israel (BOI)](https://www.boi.org.il/careers) | https://www.boi.org.il/careers |
 
 ### Multilateral & development banks 🌍
 
