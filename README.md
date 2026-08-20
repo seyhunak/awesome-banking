@@ -3023,6 +3023,18 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | Security & compliance | Module boundaries still inherit the app-level Keychain, MASVS baseline, and SCA gates; a module must never bypass the shared security context |
 | When not to use | Small apps and few teams — a modular shell's overhead (contracts, dynamic loading, testing) outweighs the benefit; start monolith-modular |
 
+### Mobile microfrontends — references
+
+| Resource | Description |
+|---|---|
+| [Micro Frontends (Martin Fowler)](https://martinfowler.com/articles/micro-frontends.html) ⭐ | The canonical article — benefits, integration approaches, and the container pattern that mobile shells borrow |
+| [Micro Frontends (micro-frontends.org)](https://micro-frontends.org) | Michael Geers' practical guide — technology-agnostic composition, Custom Elements, and universal rendering |
+| [Module Federation](https://module-federation.io) ⭐ | The webpack/Rspack standard for loading independently deployed frontend modules — now applied to React Native via Re.Pack |
+| [Re.Pack (Callstack)](https://github.com/callstack/repack) | Webpack/Rspack bundler for React Native that enables **Module Federation on mobile** — the main open-source path to native microfrontends |
+| [Expo Modules API](https://docs.expo.dev/modules/overview/) | Native module boundary for React Native (Swift/Kotlin) — how feature modules wrap native code cleanly |
+| [Swift Package Manager](https://www.swift.org/documentation/package-manager/) | Apple's dependency manager used to compose native iOS feature modules in an app shell |
+| [Micro Frontends in Action (book)](https://www.manning.com/books/micro-frontends-in-action) | The book-length treatment with worked reference implementations at the-tractor.store |
+
 ### Scalability & performance architecture
 
 | Concern | Approach |
