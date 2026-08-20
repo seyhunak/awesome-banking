@@ -47,6 +47,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 ### Knowledge & Design
 
 - 📚 [Banking Fundamentals](#banking-fundamentals--domain-knowledge)
+- 🚀 [Popular Products & Innovations](#popular-products--innovations)
 - 🛡️ [Security](#security)
 - ⚖️ [Compliance & Regulation](#compliance--regulation)
 - 🧾 [FATCA & CRS](#fatca--crs)
@@ -214,6 +215,136 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | **Cost-to-income** | Operating cost ÷ income — the efficiency ratio every bank reports |
 | **Provisioning** | Money set aside for expected loan losses (IFRS 9 / CECL) |
 | **Pass-through** | How central-bank policy rates flow to deposit and lending rates |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Popular Products & Innovations
+
+> The innovations and products that **defined modern banking** — the rails, platforms, and apps that moved the industry from mainframes to embedded finance. This section is the highlight reel: for the exhaustive company lists behind each category, see [Bank & Fintech Directory](#bank--fintech-directory) and the detailed sections it links to.
+
+### Innovations that changed banking
+
+| Innovation | What it did |
+|---|---|
+| [SWIFT](https://www.swift.com) ⭐ | The global messaging network (est. 1973) that standardized correspondent banking between 11,000+ institutions |
+| [SWIFT gpi](https://www.swift.com/payments/global-payments-innovation) | Cross-border payment tracking — the "track your payment" standard every bank adopted |
+| [ISO 20022](https://www.iso20022.org) ⭐ | The universal financial-messaging standard replacing legacy formats across payments and securities |
+| [EMV / Chip & PIN](https://www.emvco.com) | Chip cards that killed magnetic-stripe card fraud at the point of sale |
+| [Contactless (NFC)](https://www.emvco.com/emv-technologies/contactless/) | Tap-to-pay — the default card interaction in most of the world |
+| [Tokenization](https://www.emvco.com/emv-technologies/payment-tokenisation/) | Replacing card numbers with one-time tokens so merchants never hold real PANs |
+| [Mobile wallets](https://www.apple.com/apple-pay/) ⭐ | Apple Pay, Google Pay — turning the phone into the card |
+| [Open Banking & PSD2](https://www.openbankingeurope.org) | Regulated account data-sharing and payment initiation via APIs |
+| [Banking-as-a-Service](https://www.unit.co) ⭐ | Licensing banking capability to any brand — the engine of neobanks and embedded finance |
+| [Cloud-native core banking](https://www.thoughtmachine.net) ⭐ | Products-as-code cores replacing the mainframe ledger |
+| [Instant payment rails](https://www.fednow.org) ⭐ | UPI (India), Pix (Brazil), FedNow (US), SEPA Instant (EU) — real-time money movement |
+| [Digital identity & eKYC](https://onfido.com) ⭐ | Remote, biometric, document-backed onboarding — banking without branches |
+| [Buy Now, Pay Later](https://www.klarna.com) ⭐ | Installments at checkout — the growth engine of the 2020s |
+| [Robo-advice](https://www.betterment.com) | Automated portfolio management that made investing affordable |
+| [AI in credit & fraud](https://www.fico.com) ⭐ | ML underwriting and real-time fraud scoring (Falcon, Feedzai) |
+| [Blockchain & stablecoins](https://www.chainalysis.com) | Programmable money and 24/7 settlement experiments, including CBDCs |
+
+### Core banking & platforms
+
+| Product | Type | Notes |
+|---|---|---|
+| [Temenos Transact](https://www.temenos.com) ⭐ 💰 | Core banking | The global incumbent — powers 1,000+ banks across retail, corporate, and Islamic |
+| [Oracle FLEXCUBE](https://www.oracle.com/industries/financial-services/) ⭐ 💰 | Core banking | The other global incumbent — deep in emerging markets and Islamic banking |
+| [Thought Machine Vault](https://www.thoughtmachine.net) 💰 | Cloud-native core | Products-as-code; used by Lloyds, JPMorgan UK, Standard Chartered |
+| [Mambu](https://mambu.com) 💰 | Cloud-native core | Composable SaaS core for digital lenders and banks |
+| [10x Banking](https://www.10xbanking.com) 💰 | Cloud-native core | Powers Chase UK and NatWest's back-ends |
+| [Finastra](https://www.finastra.com) 💰 | Core & payments | The merger of Misys + D+H — the largest banking-software vendor |
+| [Profile / FIS](https://www.fisglobal.com) 💰 | Core banking | One of the most-deployed US retail cores |
+| [SAP Banking](https://www.sap.com/products/banking.html) 💰 | Core & lending | The enterprise default for universal and corporate banks |
+| [Alinma / Arabesque-style Islamic cores](https://www.pathsolutions.com) 💰 | Islamic core | Path Solutions (iMAL) — the reference Islamic core |
+
+### Payments & cards products
+
+| Product | Type | Notes |
+|---|---|---|
+| [Stripe](https://stripe.com) ⭐ | Acquiring & platforms | The developer default for online payments and subscription billing |
+| [Adyen](https://www.adyen.com) ⭐ | Acquiring | Unified commerce payments at global scale |
+| [Visa / Mastercard](https://www.visa.com) ⭐ | Card networks | The two global schemes behind nearly every card |
+| [Marqeta](https://www.marqeta.com) ⭐ | Card issuing | The modern, programmatic card-issuing platform |
+| [Plaid](https://plaid.com) ⭐ | Account data | The standard for connecting bank accounts in the US |
+| [Wise](https://wise.com) ⭐ | Cross-border | The mid-market-rate, low-fee pioneer |
+| [Revolut](https://www.revolut.com) ⭐ | Multi-currency | The super-app that turned FX into a commodity |
+| [PayPal](https://www.paypal.com) ⭐ | Digital wallet | The original digital wallet, still the global checkout default |
+| [Modern Treasury](https://www.moderntreasury.com) | Ledger | Ledger-as-a-service for payment operations |
+| [Rapyd](https://www.rapyd.net) | Local payments | Aggregates 900+ local payment methods via one API |
+| [dLocal](https://dlocal.com) | Emerging markets | Local-method aggregation across Latin America and Africa |
+| [Checkout.com](https://www.checkout.com) | Acquiring | Enterprise acquiring and alternative payments |
+
+### Embedded finance & BaaS
+
+| Product | Type | Notes |
+|---|---|---|
+| [Unit](https://www.unit.co) ⭐ | BaaS | Programmable accounts, cards, and payments for any brand |
+| [Marqeta + banking partners](https://www.marqeta.com) | Issuing-as-a-service | The card layer behind many embedded programs |
+| [Solaris](https://www.solarisgroup.com) | BaaS (licensed) | The European bank-in-a-box behind many fintechs |
+| [ClearBank](https://www.clear.bank) | Clearing bank | UK clearing and settlement as a service |
+| [Treasury Prime](https://treasuryprime.com) | BaaS | US bank-partnership layer for fintechs |
+| [Railsr](https://www.railsr.com) | BaaS | UK/EU embedded finance — cards, wallets, payments |
+| [SDK.finance](https://sdk.finance) | Wallet platform | Embedded wallet and banking platform |
+| [Moov](https://moov.io) | Open-source payments | Open-source money-movement infrastructure |
+
+### Identity, fraud & compliance products
+
+| Product | Type | Notes |
+|---|---|---|
+| [Onfido](https://onfido.com) ⭐ | Identity verification | Document + biometric onboarding |
+| [Alloy](https://www.alloy.com) ⭐ | KYC/KYB orchestration | The decisioning hub for compliance stacks |
+| [ComplyAdvantage](https://complyadvantage.com) ⭐ | AML screening | Real-time sanctions, PEP, and adverse-media via API |
+| [NICE Actimize](https://www.niceactimize.com) ⭐ | AML monitoring | The enterprise transaction-monitoring mainstay |
+| [LSEG World-Check](https://www.lseg.com/en/data-analytics/products/world-check) ⭐ | Screening data | The watchlist database of record |
+| [Feedzai](https://feedzai.com) ⭐ | Fraud prevention | AI-first fraud and transaction monitoring |
+| [FICO Falcon](https://www.fico.com/en/products/falcon-platform) ⭐ | Card fraud | The industry-standard card fraud engine |
+| [Persona](https://withpersona.com) | Identity platform | Identity workflow builder |
+| [DocuSign](https://www.docusign.com) ⭐ | E-signature | The agreement default for account opening and loans |
+| [Fenergo](https://www.fenergo.com) | CLM | Client lifecycle management and KYC automation |
+
+### Lending, credit & wealth products
+
+| Product | Type | Notes |
+|---|---|---|
+| [FICO Score](https://www.fico.com/en/products/fico-score) ⭐ | Credit scoring | The US credit-decision default |
+| [Experian / Equifax / TransUnion](https://www.experian.com) ⭐ | Credit bureaus | The three US bureaus feeding every lender |
+| [Klarna](https://www.klarna.com) ⭐ | BNPL | The global BNPL leader |
+| [Affirm](https://www.affirm.com) | BNPL | US BNPL with transparent pricing |
+| [ICE Mortgage Technology](https://www.icemortgagetechnology.com) | Mortgage | The dominant US mortgage platform |
+| [nCino](https://www.ncino.com) | Origination | Cloud origination for commercial and SME lending |
+| [Blend](https://blend.com) | Origination | Digital origination across consumer and mortgage |
+| [Betterment](https://www.betterment.com) | Robo-advice | The original robo-advisor |
+| [Wealthfront](https://www.wealthfront.com) | Robo-advice | Automated investing and planning |
+| [FNZ](https://www.fnz.com) | Wealthtech | The wealth platform behind many global banks |
+| [Addepar](https://www.addepar.com) | Wealthtech | Portfolio analytics for advisors and private banks |
+| [Wahed](https://wahed.com) | Islamic investing | The leading halal robo-advisor |
+
+### Instant payments & money movement
+
+| Rail / Product | Region | Notes |
+|---|---|---|
+| [UPI](https://www.npci.org.in) ⭐ | 🇮🇳 India | The world's largest instant payment system — bank accounts and wallets interoperable |
+| [Pix](https://www.bcb.gov.br/en/financialstability/pix_en) ⭐ | 🇧🇷 Brazil | Brazil's instant payment system — adopted at record speed |
+| [FedNow](https://www.fednow.org) ⭐ | 🇺🇸 US | The Fed's instant payment rail |
+| [SEPA Instant](https://www.europeanpaymentscouncil.eu) | 🇪🇺 EU | Europe's 10-second credit transfer |
+| [RTP (The Clearing House)](https://www.theclearinghouse.org/payments/rtp) | 🇺🇸 US | The US private-sector real-time rail |
+| [M-Pesa](https://www.vodacom.com/m-pesa.php) ⭐ | 🇰🇪 Africa | The mobile-money pioneer that banked millions without banks |
+| [Alipay / WeChat Pay](https://www.alipay.com) ⭐ | 🇨🇳 China | The QR-payment duopoly that made China cashless |
+| [SWIFT gpi](https://www.swift.com/payments/global-payments-innovation) | 🌍 Global | Cross-border tracking and speed at the network level |
+
+### Digital assets & CBDC infrastructure
+
+| Product | Type | Notes |
+|---|---|---|
+| [R3 Corda](https://www.r3.com) ⭐ | DLT platform | The distributed-ledger platform most used in bank pilots (incl. CBDCs) |
+| [Hyperledger Fabric](https://www.hyperledger.org) 🔓 | DLT platform | The Linux Foundation blockchain used in trade finance and CBDC pilots |
+| [USDC (Circle)](https://www.circle.com) | Stablecoin | The regulated-dollar stablecoin powering on-chain settlement |
+| [Tether (USDT)](https://tether.to) | Stablecoin | The largest stablecoin by volume |
+| [Fireblocks](https://www.fireblocks.com) | Custody | Institutional custody and settlement infrastructure |
+| [Chainalysis](https://www.chainalysis.com) ⭐ | Blockchain analytics | The AML and investigations standard for crypto |
+| [eNaira / Sand Dollar / mBridge](https://www.bis.org) | CBDCs | Live retail and wholesale CBDC pilots to watch |
 
 **[⬆ back to top](#table-of-contents)**
 
