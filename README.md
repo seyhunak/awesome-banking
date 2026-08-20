@@ -136,6 +136,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🏦 [Bank & Fintech Directory](#bank--fintech-directory)
 - 💼 [Bank Careers & Job Portals](#bank-careers--job-portals)
 - 🎓 [Learning, Courses & Community](#learning-courses--community)
+- 🎖️ [Certifications](#certifications)
 - 🎪 [Conferences & Events](#conferences--events)
 - 🎙️ [Podcasts & Newsletters](#podcasts--newsletters)
 
@@ -4462,6 +4463,62 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Euromoney Learning](https://www.euromoneylearning.com) 💰 | Structured courses on trade finance, treasury, and risk from the trade press |
 | [GARP](https://www.garp.org) | Financial Risk Manager certification — the industry standard for risk professionals |
 | [PRMIA](https://www.prmia.org) | Professional Risk Manager designation — an alternative to the FRM |
+
+---
+
+## Certifications
+
+> The most respected signal of banking competence is a **credential from a recognized body**. Certifications below are grouped by **career level** and marked **free (🆓)** or **paid (💰)**. The ⭐ marks the de-facto standard in each discipline; most paid programs offer member, employer, or early-registration discounts, and many bodies publish free study guides.
+
+### Level 1 — Foundation (no experience required)
+
+| Certification | Provider | Cost | Notes |
+|---|---|---|---|
+| [Investment Foundations®](https://www.cfainstitute.org/en/programs/investment-foundations) 🆓 | CFA Institute | 🆓 Free | The classic free entry certificate — securities, markets, and ethics |
+| [FINRA Investor Education](https://www.finra.org/investors) 🆓 | FINRA | 🆓 Free | Free courses on markets, investing, and regulation basics |
+| [Saylor Academy Finance](https://www.saylor.org) 🆓 | Saylor Academy | 🆓 Free | Free self-paced finance and economics courses with certificates |
+| [Alison Finance & Banking](https://alison.com) 🆓 | Alison | 🆓 Free | Free CPD certificates across banking, accounting, and fintech |
+| [FMVA®](https://corporatefinanceinstitute.com/certifications/fmva-financial-modeling-valuation-analyst-certification/) ⭐ 💰 | Corporate Finance Institute (CFI) | 💰 Paid | Financial Modeling & Valuation Analyst — the go-to entry finance credential |
+| [Google Data Analytics](https://grow.google/certificates/) 💰 | Google | 💰 Paid | Entry data skills in demand across every bank |
+| [ACCA Foundations in Accountancy](https://www.accaglobal.com) 💰 | ACCA | 💰 Paid | Accounting fundamentals for banking operations |
+
+### Level 2 — Professional (2–5 years experience)
+
+| Certification | Provider | Cost | Notes |
+|---|---|---|---|
+| [CFA® Program](https://www.cfainstitute.org/en/programs/cfa) ⭐ 💰 | CFA Institute | 💰 Paid | The gold standard for investment and wealth — three levels |
+| [FRM®](https://www.garp.org) ⭐ 💰 | GARP | 💰 Paid | Financial Risk Manager — the risk-management benchmark |
+| [PRM®](https://prmia.org) 💰 | PRMIA | 💰 Paid | Professional Risk Manager — the FRM alternative |
+| [CAMS](https://www.acams.org/en/certifications/cams-certification) ⭐ 💰 | ACAMS | 💰 Paid | Certified Anti-Money Laundering Specialist — the AML standard |
+| [CGSS](https://www.acams.org/en/certifications/cgss-certification) 💰 | ACAMS | 💰 Paid | Certified Global Sanctions Specialist |
+| [Chartered Banker](https://www.charteredbanker.com) 💰 | Chartered Banker Institute | 💰 Paid | The dedicated banking-credential path (UK, EU, and MENA) |
+| [Certified Payments Professional (CPP)](https://www.electran.org) 💰 | Electronic Transactions Association (ETA) | 💰 Paid | The US payments-industry credential |
+| [CISA®](https://www.isaca.org) 💰 | ISACA | 💰 Paid | Certified Information Systems Auditor — IT audit for financial firms |
+| [CISSP®](https://www.isc2.org) ⭐ 💰 | (ISC)² | 💰 Paid | Information security — the security benchmark |
+| [PMP®](https://www.pmi.org) 💰 | PMI | 💰 Paid | Program and project delivery for bank transformations |
+| [AWS / Azure / GCP Solutions Architect](https://aws.amazon.com/certification/) 💰 | AWS / Microsoft / Google | 💰 Paid | Cloud for banking — pick your platform |
+
+### Level 3 — Advanced / Expert (5+ years)
+
+| Certification | Provider | Cost | Notes |
+|---|---|---|---|
+| [CFA Charterholder](https://www.cfainstitute.org) ⭐ 💰 | CFA Institute | 💰 Paid | Full CFA — for senior investment and wealth roles |
+| [CAMS-Audit / CAMS-FCI](https://www.acams.org) 💰 | ACAMS | 💰 Paid | Specialized AML audit and investigations extensions |
+| [CISM®](https://www.isaca.org) 💰 | ISACA | 💰 Paid | Certified Information Security Manager |
+| [SANS / GIAC](https://www.giac.org) 💰 | GIAC | 💰 Paid | Hands-on security forensics and defense credentials |
+| [ISO Lead Auditor (27001 / 22301 / 9001)](https://www.iso.org) 💰 | Accredited bodies | 💰 Paid | Compliance and management-system auditing |
+| [AAOIFI CIPA / Shariah Advisor](https://aaoifi.com) 💰 | AAOIFI | 💰 Paid | Islamic-finance accounting and Shariah governance |
+| [CDCS / CSDG / CITF](https://www.icc.academy) 💰 | ICC Academy | 💰 Paid | Trade finance — letters of credit, guarantees, and trade finance |
+
+### Domain-specific short tracks
+
+| Certification | Provider | Cost | Notes |
+|---|---|---|---|
+| [Certificate in Climate & Investing](https://www.cfainstitute.org) 💰 | CFA Institute | 💰 Paid | ESG credentials for sustainable finance |
+| [Certified Data Privacy Solutions Engineer (CDPSE)](https://www.isaca.org) 💰 | ISACA | 💰 Paid | Privacy and data governance |
+| [Open Banking & Open Finance](https://www.openbankingexcellence.org) 💰 | Open Banking Excellence | 💰 Paid | Open finance and API regulation short courses |
+
+**[⬆ back to top](#table-of-contents)**
 
 ---
 
