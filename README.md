@@ -60,6 +60,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🤖 [AI in Banking](#ai-in-banking)
 - 👥 [Customers & Experience](#customers--experience)
 - 🪪 [KYC & Customer Due Diligence](#kyc--customer-due-diligence)
+- 📊 [Bank Accounting Standards](#bank-accounting-standards)
 
 ### Products & Segments
 
@@ -68,8 +69,12 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 💰 [Deposits](#deposits)
 - 🪙 [Gold and Silver](#gold-and-silver)
 - 💳 [Credit Cards](#credit-cards)
+- 💳 [Debit Cards](#debit-cards)
+- 💳 [Digital Wallets & Tokenized Payments](#digital-wallets--tokenized-payments)
+- 💳 [Prepaid Cards & Gift Cards](#prepaid-cards--gift-cards)
 - 📝 [Personal Loans](#personal-loans)
 - 🏠 [Mortgage](#mortgage)
+- 🚗 [Leasing & Asset Finance](#leasing--asset-finance)
 - 📈 [Investment & Wealth](#investment--wealth)
 - 🏛️ [Custody & Fund Administration](#custody--fund-administration)
 - 📈 [Securities Services](#securities-services)
@@ -103,6 +108,13 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🏗️ [Architecture](#architecture)
 - ☁️ [Cloud for Banking](#cloud-for-banking)
 - 🔄 [Payment Orchestration](#payment-orchestration)
+- ⚡ [Instant / Real-Time Payments](#instant--real-time-payments)
+- 💳 [Card Messaging Standards](#card-messaging-standards)
+- 🧪 [Payments Testing & Certification](#payments-testing--certification)
+- 🏧 [ATM & Self-Service Banking](#atm--self-service-banking)
+- 🧾 [Reconciliation & Back-Office](#reconciliation--back-office)
+- 🗂️ [Master Data & Reference Data Management](#master-data--reference-data-management)
+- 📡 [Observability & SRE for Banking](#observability--sre-for-banking)
 - 🎨 [Design](#design)
 - 🔍 [Architectural Review](#architectural-review)
 
@@ -112,12 +124,20 @@ Every section opens with a **domain primer** (the mental model you need), then l
 - 🇸🇦 [Banking in Saudi Arabia (KSA)](#banking-in-saudi-arabia-ksa)
 - 🇪🇺 [Banking in the EU](#banking-in-the-eu)
 - 🇬🇧 [Banking in the UK](#banking-in-the-uk)
+- 🇺🇸 [Banking in the US](#banking-in-the-us)
+- 🇮🇳 [Banking in India](#banking-in-india)
+- 🇹🇷 [Banking in Turkey](#banking-in-turkey)
+- 🇸🇬 [Banking in Singapore & Hong Kong](#banking-in-singapore--hong-kong)
+- 🇨🇦 [Banking in Canada & Australia](#banking-in-canada--australia)
+- 🌍 [Banking in the Wider Gulf](#banking-in-the-wider-gulf)
 
 ### Reference
 
 - 🏦 [Bank & Fintech Directory](#bank--fintech-directory)
 - 💼 [Bank Careers & Job Portals](#bank-careers--job-portals)
 - 🎓 [Learning, Courses & Community](#learning-courses--community)
+- 🎪 [Conferences & Events](#conferences--events)
+- 🎙️ [Podcasts & Newsletters](#podcasts--newsletters)
 
 [Contributing](#contributing) · [Author](#author) · [License](#license)
 
@@ -922,6 +942,44 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Bank Accounting Standards
+
+> Bank accounting is **how a bank's balance sheet is measured, reported, and turned into capital** — the rules that convert millions of daily transactions into the P&L, regulatory returns, and Basel capital ratios. Two things make bank accounting distinct from corporate accounting: **accrual accounting on financial instruments** (interest, fees, fair value) and **expected-loss provisioning** — IFRS 9 and US CECL force banks to recognize loan losses *before* they occur. The operational spine is the general ledger and its sub-ledgers, the daily close, and the reconciliations that feed FINREP/COREP, FR Y-9C, and Basel reporting.
+
+### Key concepts
+
+- **The ledger stack** — loan, deposit, card, and payments sub-ledgers post daily into the general ledger; the GL is the single system of record for finance.
+- **Expected credit loss (ECL)** — IFRS 9's three stages (12-month → lifetime) and US CECL's lifetime-at-origination model drive provisioning, pricing, and capital.
+- **Effective interest method** — interest and origination fees are recognized over the life of the instrument, not at cash receipt.
+- **Fair value vs amortized cost** — trading and derivatives at fair value; loans and held-to-maturity at amortized cost with ECL.
+- **The close cycle** — day-end posting, month-end close, intercompany and consolidation, then regulatory returns.
+- **Consolidation & FTP** — group consolidation of legal entities and funds-transfer-pricing allocation of funding cost to lines of business.
+
+### Financial accounting & general ledger platforms
+
+| Platform | Description |
+|---|---|
+| [Oracle Financial Services](https://www.oracle.com/industries/financial-services/) 💰 | Enterprise finance, risk, and regulatory analytics for banking |
+| [SAP S/4HANA for Banking](https://www.sap.com) 💰 | General ledger, close, and consolidation on the banking ERP |
+| [Temenos Transact](https://www.temenos.com) 💰 | Embedded general ledger on the global core (see CBS) |
+| [Wolters Kluwer OneSumX Finance](https://www.wolterskluwer.com/en/solutions/onesumx) 💰 | Regulatory and management reporting — FINREP/COREP, capital |
+| [Moody's Analytics ImpairmentStudio](https://www.moodysanalytics.com) 💰 | IFRS 9 / CECL expected-loss provisioning engine |
+| [BlackLine](https://www.blackline.com) 💰 | Account reconciliation and close automation for the finance office |
+
+### Standards & guidance
+
+| Standard | What it governs |
+|---|---|
+| [IFRS 9](https://www.ifrs.org) ⭐ | The global expected-loss standard — classification, measurement, and impairment |
+| [CECL (FASB)](https://fasb.org) | The US current-expected-credit-loss model (ASC 326) |
+| [IFRS 16](https://www.ifrs.org) | Lease accounting — every leasing book must comply |
+| [Basel III](https://www.bis.org/bcbs/basel3.htm) | How accounting capital converts into regulatory capital (CET1, leverage) |
+| [FR Y-9C](https://www.federalreserve.gov) | The US bank holding-company financial report |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Accounts
 
 > An **account** is the atom of banking — the ledger record a customer deposits into, transacts from, and borrows against. Understanding account types, numbering schemes (IBAN/BIC), rails, and the data layers around accounts is the foundation of nearly every banking product.
@@ -1145,6 +1203,102 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Debit Cards
+
+> Debit cards are the **most-used payment instrument in most markets** — the card tied directly to a current account. Unlike credit, the money is the customer's own: funds are checked and reserved at the point of sale (or settled next day on offline schemes), and there is no revolving credit. The economics are simpler than credit — lower interchange, no interest income — but the stack is the same four-party network, with **available-balance risk** instead of credit risk.
+
+### Key concepts
+
+- **PIN vs signature debit** — online/PIN debit authorizes in real time against the balance; offline/signature debit settles in batch. The dominant model varies by market.
+- **Authorization & funds control** — the issuer checks available funds and holds them; insufficient-funds declines are the main operational event.
+- **Interchange & regulation** — debit interchange is lower than credit and capped by rule in some markets (US Durbin Amendment).
+- **Tokenization & wallets** — debit cards are the default funding instrument inside Apple Pay and Google Wallet.
+- **Debit over-credit / overdraft** — many accounts let the card drive the balance negative (overdraft), blending debit into credit risk.
+
+### Debit networks & schemes
+
+| Network | Region | Notes |
+|---|---|---|
+| [Interac](https://www.interac.ca) ⭐ | 🇨🇦 Canada | Canada's chip-and-PIN debit network — also e-Transfers and e-Interac |
+| [EFTPOS](https://eftpos.com.au) | 🇦🇺 Australia | Australia's domestic debit scheme |
+| [Maestro (Mastercard)](https://www.mastercard.com) | Global | Mastercard's legacy PIN-debit network (being retired) |
+| [V PAY (Visa)](https://www.visa.com) | Europe | Visa's legacy chip-and-PIN debit brand (being retired) |
+| [NYCE (Fiserv)](https://www.fiserv.com) | 🇺🇸 US | US regional PIN-debit and ATM network |
+| [STAR (Fiserv)](https://www.fiserv.com) | 🇺🇸 US | US PIN-debit, ATM, and card-brand network |
+
+> Issuing and processing platforms for debit live in [Credit Cards](#credit-cards) — Marqeta, Galileo, Lithic, and i2c all issue debit programs.
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Digital Wallets & Tokenized Payments
+
+> Digital wallets are the **consumer's new payment front-end** — a stored credential (tokenized card, bank account, or balance) that pays in-app, online, and in-store via NFC. For banks, wallets matter three ways: as a **distribution channel** (Apple Pay, Google Wallet), as a **standalone product** (PayPal, super-app wallets), and as the venue where **card tokenization** decides who owns the customer relationship at the point of sale.
+
+### Key concepts
+
+- **NFC & tokenization** — the PAN is replaced by a device/network token (DPAN) so the real card number never reaches the merchant; token lifecycle is issue → rotate → delete.
+- **In-app, web, and in-store** — three payment contexts on one wallet, each with different security (in-app no SCA, web 3-D Secure, in-store tokenized NFC).
+- **Wallets vs stored value** — many wallets hold a real e-money balance; some are pure credential containers over a card.
+- **Click to Pay / SRD** — network-hosted wallets that standardize tokenized web checkout (Visa Click to Pay, Mastercard Secure Remote Commerce).
+- **The economics** — wallet transactions carry interchange-like fees on network tokens; Apple Pay's terms are an active regulatory battleground.
+
+### Consumer wallets
+
+| Wallet | Notes |
+|---|---|
+| [Apple Pay](https://www.apple.com/apple-pay/) ⭐ | The default in-store and in-app wallet — NFC + network tokens |
+| [Google Wallet](https://wallet.google) ⭐ | Android's wallet for payments, transit, tickets, and IDs |
+| [Samsung Wallet](https://www.samsung.com/us/samsung-wallet/) | Samsung's wallet for payments, passes, and digital keys |
+| [PayPal](https://www.paypal.com) | The veteran account-based wallet and checkout network |
+| [Revolut](https://www.revolut.com) | Multi-currency wallet that became a licensed bank |
+| [Paytm](https://paytm.com) | India's super-app wallet (UPI-linked) |
+| [GrabPay](https://www.grab.com) | Southeast Asia's super-app wallet |
+| [Careem Pay](https://www.careem.com) | The Gulf's super-app wallet from Careem |
+
+### Tokenization & wallet infrastructure
+
+| Platform | Description |
+|---|---|
+| [Visa Token Service (VTS)](https://www.visa.com) ⭐ | Visa's network tokenization for cards and wallet provisioning |
+| [Mastercard Digital Enablement Service (MDES)](https://www.mastercard.com) ⭐ | Mastercard's tokenization, provisioning, and lifecycle service |
+| [EMVCo Payment Tokenisation](https://www.emvco.com) | The global tokenization specification (Tokenisation Framework) |
+| [TokenEx](https://www.tokenex.com) 💰 | Cloud tokenization and encryption for card data |
+| [Basis Theory](https://basistheory.com) ☁️ | Developer-first tokenization platform for payments |
+| [ACI Secure eCommerce](https://www.aciworldwide.com) 💰 | Tokenization and 3-D Secure on the ACI gateway |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Prepaid Cards & Gift Cards
+
+> Prepaid cards are **funds-loaded, not credit**: stored-value instruments funded in advance, with no borrowing and no overdraft. They serve segments the credit system cannot — the underbanked, payroll, government benefits, corporate expense, travel, and gifting — and are regulated as e-money rather than credit. The economics are interchange plus program fees (and unredeemed-balance "breakage" on gift cards), and the compliance load sits on the **program manager** and its licensed sponsor bank.
+
+### Key concepts
+
+- **General-purpose vs closed-loop** — GPPL (network-branded Visa/Mastercard, accepted anywhere) vs closed-loop store/gift cards.
+- **The program model** — a licensed bank sponsors the funds; the program manager runs BIN, card production, KYC, support, and reporting.
+- **Breakage** — unredeemed gift-card balances that expire or go unused; the profit line regulators watch closely.
+- **Regulation** — e-money licensing, gift-card expiry and fee laws (US), payroll-card disclosure rules, and AML/KYC at load.
+- **Use cases** — payroll, benefits and government disbursement, travel, teen/allowance, expense management, and remittance.
+
+### Prepaid & gift-card platforms
+
+| Platform | Description |
+|---|---|
+| [Green Dot](https://www.greendot.com) ⭐ 💰 | The US prepaid mainstay — bank-powered prepaid and money movement |
+| [Blackhawk Network](https://blackhawknetwork.com) 💰 | The gift-card and incentive network behind retail racks |
+| [InComm Payments](https://www.incomm.com) 💰 | Gift, prepaid, and payout distribution at scale |
+| [Pathward](https://www.pathward.com) 💰 | The sponsor bank behind many fintech and prepaid programs |
+| [Marqeta](https://www.marqeta.com) 💰 | Modern prepaid card issuing and program APIs (see Credit Cards) |
+| [Galileo (SoFi)](https://www.galileo-ft.com) 💰 | Prepaid processing infrastructure at scale |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Personal Loans
 
 > Personal loans are **installment credit**: a fixed amount, a fixed term, and an amortization schedule. The stack is origination → decisioning → disbursement → servicing → collections, and the economics hinge on **pricing risk correctly** (APR vs interest rate, fees, default).
@@ -1244,6 +1398,40 @@ Every section opens with a **domain primer** (the mental model you need), then l
 |---|---|
 | [HouseCanary](https://www.housecanary.com) 💰 | Property valuation and analytics for underwriting and portfolio risk |
 | [Regrid](https://regrid.com) 💰 | Parcel-boundary and property data for appraisal and review workflows |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Leasing & Asset Finance
+
+> Leasing and asset finance are **lending secured by a specific asset**: the bank buys the asset and leases it to the customer (finance or operating lease), or lends against the asset's title. The two biggest pools are **auto** and **equipment**, with aircraft, marine, and real-estate sale-and-leaseback on top. It behaves like a secured loan with one extra risk — **residual value** — and the operating model is originations → portfolio management → end-of-lease return and disposal.
+
+### Key concepts
+
+- **Finance vs operating lease** — a finance lease transfers substantially all risk/reward (the customer books the asset); an operating lease keeps it on the bank's books (IFRS 16 reshaped both).
+- **Auto & equipment finance** — the largest pools; dealer and vendor networks are the origination channel.
+- **Residual value risk** — the forecast end-of-term asset value drives pricing; getting it wrong is how lease books lose money.
+- **The end-of-lease lifecycle** — returns, inspections, damage charges, remarketing, and disposal.
+- **Regulation** — consumer-credit rules apply to retail vehicle and equipment leases (responsible lending); IFRS 16 governs the accounting.
+
+### Leasing & asset-finance platforms
+
+| Platform | Description |
+|---|---|
+| [Sopra Banking Software](https://www.soprabanking.com) 💰 | The leasing and asset-finance platform leader (formerly White Clarke) |
+| [Bynx](https://www.bynx.com) 💰 | Asset-finance and fleet-management software for lenders |
+| [DataScan](https://www.datascan.com) 💰 | Asset-finance portfolio and collateral management |
+| [Ally Financial](https://www.ally.com) 💰 | The US auto-finance and digital-banking leader |
+| [Santander Consumer USA](https://www.santanderconsumerusa.com) 💰 | Auto finance and lease servicing at scale |
+
+### Residual-value & valuation data
+
+| Source | Description |
+|---|---|
+| [Black Book](https://www.blackbook.com) 💰 | The US vehicle residual-value and wholesale-pricing standard |
+| [Autovista Group](https://www.autovista.com) 💰 | European residual-value and remarketing data (EurotaxGlass's) |
+| [IFRS 16](https://www.ifrs.org) | The lease-accounting standard every leasing book runs on |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -2262,6 +2450,248 @@ Every section opens with a **domain primer** (the mental model you need), then l
 
 ---
 
+## Instant / Real-Time Payments
+
+> Instant payments are the **24/7/365 money-movement layer**: payments that clear and settle in seconds with finality, any day, any hour. Every major economy now runs one (FedNow, RTP, SEPA Instant, Faster Payments, UPI, PIX), and the 2020s trend is **instant cross-border** (SWIFT Instant, Project mBridge, Project Nexus). For banks the challenge is operational: instant means no overnight reconciliation window, no manual intervention, and fraud controls that must decide in milliseconds.
+
+### Key concepts
+
+- **The instant stack** — request-to-pay, alias directories (phone/email), central clearing infrastructure, and instant settlement with finality.
+- **Rails by market** — FedNow/RTP (US), SEPA Instant via RT1/TIPS (EU), Faster Payments (UK), UPI/IMPS (India), PIX (Brazil), FPS (HK), NPP (Australia).
+- **Real-time fraud** — speed removes the fraud window; velocity checks, device risk, and mule detection must run pre-payment.
+- **Availability & resilience** — instant rails carry tight SLAs; banks run active-active, 24/7 payment operations.
+- **ISO 20022-native** — instant rails are born on ISO 20022; legacy MT messaging is being retired alongside.
+
+### Instant payment rails
+
+| Rail | Region | Notes |
+|---|---|---|
+| [FedNow](https://www.frbservices.org/financial-services/fednow) ⭐ | 🇺🇸 US | The Federal Reserve's 24/7 instant-payment service |
+| [RTP (The Clearing House)](https://www.theclearinghouse.org/payments/rtp) | 🇺🇸 US | Real-time payments from US banks |
+| [SEPA Instant (RT1 / TIPS)](https://www.ecb.europa.eu) | 🇪🇺 EU | Pan-European instant euro transfers |
+| [Faster Payments](https://www.fasterpayments.org.uk) | 🇬🇧 UK | The UK's near-instant, 24/7 rail (operated by Vocalink) |
+| [UPI / IMPS (NPCI)](https://www.npci.org.in) | 🇮🇳 India | India's interoperable instant-payments system |
+| [PIX (BCB)](https://www.bcb.gov.br/en/financialstability/pix_en) | 🇧🇷 Brazil | Brazil's instant-payments system — the global adoption reference |
+| [FPS (HKICL)](https://www.hkicl.com.hk) | 🇭🇰 Hong Kong | Faster Payment System — instant 24/7 transfers |
+| [NPP (Australia)](https://www.nppa.com.au) | 🇦🇺 Australia | New Payments Platform — real-time, 24/7 |
+| [SWIFT Instant](https://www.swift.com) | 🌍 Global | The cross-border instant corridor via ISO 20022 |
+
+### Instant-payments technology
+
+| Platform | Description |
+|---|---|
+| [Form3](https://www.form3pay.com) 💰 | Cloud-native payment services for instant and legacy rails |
+| [Vocalink (Mastercard)](https://www.vocalink.com) 💰 | The infrastructure operator behind UK Faster Payments |
+| [ACI Worldwide](https://www.aciworldwide.com) 💰 | Real-time payment hubs and fraud for instant schemes |
+| [SurePay](https://www.surepay.nl) 💰 | Confirmation-of-payee and IBAN-name verification for instant rails |
+| [Finastra Payments](https://www.finastra.com) 💰 | Payment hubs supporting instant and ISO 20022 flows |
+| [Volante](https://www.volante.com) 💰 | ISO 20022 processing for instant-payment modernization |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Card Messaging Standards
+
+> Card payments run on their own **message standards**, separate from wire and ACH. **ISO 8583** is the legacy workhorse — fixed-format binary messages (authorization 0100/0110, reversal, clearing) that still carry most of the world's card traffic between acquirers, networks, and issuers. On top sit **EMV** (chip), **3-D Secure** (authentication), and network-specific dialects (Visa Base I/II, Mastercard MIP/CPS). The industry is migrating card messaging toward **ISO 20022** — the same standard modern payments already use.
+
+### Key concepts
+
+- **ISO 8583 anatomy** — MTI (message type indicator), bitmaps, and data elements (PAN, amount, merchant); every field numbered and position-encoded.
+- **The authorization flow** — 0100 request / 0110 response, then reversals and advisories; followed by batched clearing and net settlement between banks.
+- **ISO 20022 for cards** — the ISO 20022-to-ISO 8583 migration project; the long-term target for global card messaging.
+- **3-D Secure / EMV** — authentication (SCA, 3DS 2.x) and chip protocols layered on top of the messages.
+- **Network dialects** — Visa Base I/II, Mastercard MIP/CPS, Amex, and domestic schemes each add their own field rules and response codes.
+
+### Standards
+
+| Standard | Description |
+|---|---|
+| [ISO 8583](https://www.iso.org/standard/3167.html) ⭐ | The international card-message standard (1987 → 2003) |
+| [ISO 20022](https://www.iso20022.org) | The migration target for card and payments messaging |
+| [EMVCo](https://www.emvco.com) ⭐ | Chip, contactless, tokenization, and 3-D Secure specs |
+| [3-D Secure (EMVCo)](https://www.emvco.com) | The SCA/authentication protocol for card-not-present |
+| [Visa Developer](https://developer.visa.com) | Visa Base I/II message specs and certification |
+| [Mastercard Developers](https://developer.mastercard.com) | MIP/CPS message specs and test tooling |
+
+### Message processing & testing tools
+
+| Tool | Description |
+|---|---|
+| [ACI Worldwide](https://www.aciworldwide.com) 💰 | The classic card switch — BASE24 — still running ISO 8583 traffic |
+| [Parasoft SOAtest](https://www.parasoft.com) 💰 | Test automation for ISO 8583 / ISO 20022 message flows |
+| [SmartBear ReadyAPI](https://smartbear.com) 💰 | API and message-level testing for payment interfaces |
+| [OpenAPI](https://www.openapis.org) ⭐ | The contract standard for API-first card stacks |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Payments Testing & Certification
+
+> Before a card, payment, or bank-transfer flow can go live it must pass **scheme certification** — proof that the institution's software speaks the network's dialect correctly across authorization, clearing, settlement, and disputes. Testing spans **simulation** (scheme test environments), **certification** (network-administered), **regression** (ISO 20022 migration), and **security testing** (3-D Secure, tokenization). Getting certification wrong delays go-live by months — it is a named workstream on every payments program.
+
+### Key concepts
+
+- **Scheme test environments** — Visa's certification portal, Mastercard's CPET, and network simulators for acquirers and issuers.
+- **What gets certified** — authorization, clearing and settlement, disputes/chargebacks, tokenization, and 3-D Secure.
+- **Test data** — mock card ranges, test BINs, and negative cases (declines, timeouts, invalid fields) exercised at message level.
+- **ISO 20022 regression** — field-level mapping and validation between legacy and new message formats.
+- **Performance & DR** — load tests against switch SLAs and disaster-recovery failover tests.
+
+### Certification programs
+
+| Program | Description |
+|---|---|
+| [Visa Certification](https://developer.visa.com) ⭐ | Visa's testing and certification for processing, tokens, and 3DS |
+| [Mastercard Testing & Certification](https://developer.mastercard.com) | Mastercard's certification suites (MPAM, CPET) |
+| [EMVCo Certification](https://www.emvco.com) | Level 1–3 certification for chip, contactless, and terminals |
+| [SWIFT Testing & Compliance](https://www.swift.com) | SWIFT FIN and ISO 20022 message compliance testing |
+
+### Test automation tools
+
+| Tool | Description |
+|---|---|
+| [Parasoft](https://www.parasoft.com) 💰 | Message-level test automation for ISO 8583 and ISO 20022 |
+| [SmartBear ReadyAPI](https://smartbear.com) 💰 | API contract and regression testing for payment interfaces |
+| [Tricentis](https://www.tricentis.com) 💰 | Enterprise test automation incl. banking and payment flows |
+| [Postman](https://www.postman.com) 💰 | API design and contract testing (see Architecture) |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## ATM & Self-Service Banking
+
+> ATM and self-service is the **physical channel that never sleeps** — cash withdrawal, deposit, and increasingly cardless and interactive-teller (video) services. The stack is the **EFT switch** (routing transactions between ATMs, networks, and the core), **terminal software**, and **cash management** (forecasting, replenishment, and cash-in-transit). ATMs run on ISO 8583 between the switch, card networks, and issuer.
+
+### Key concepts
+
+- **ATM networks & switching** — an EFT switch routes transactions between terminals, the issuer, and card networks; shared networks (LINK, NYCE, STAR) make cards work anywhere.
+- **Cash management** — forecasting withdrawal demand, optimizing replenishment cycles, and scheduling CIT logistics.
+- **Cardless & digital** — QR and one-time-code cash withdrawal without a card; NFC at the ATM.
+- **Interactive teller machines (ITMs)** — video-enabled ATMs that replicate branch teller service in remote locations.
+- **Security & compliance** — device hardening, PIN encryption via PCI-certified HSMs, and physical security (ATM jackpotting is an active attack).
+
+### ATM & self-service platforms
+
+| Platform | Description |
+|---|---|
+| [Diebold Nixdorf](https://www.dieboldnixdorf.com) ⭐ 💰 | The global ATM manufacturer and self-service software leader |
+| [NCR Atleos](https://www.ncratleos.com) 💰 | The ATM and self-service spin-off of NCR |
+| [Hyosung](https://www.hyosung.com) 💰 | ATM manufacturer with a strong US presence |
+| [GRGBanking](https://www.grgbanking.com) 💰 | Chinese ATM manufacturer with global reach |
+| [Euronet](https://www.euronetworldwide.com) 💰 | ATM network, processing, and money-transfer operator |
+
+### Switching & cash management
+
+| Platform | Description |
+|---|---|
+| [ACI BASE24-eps](https://www.aciworldwide.com) 💰 | The classic ATM/card switch still running bank estates |
+| [Fiserv ATM](https://www.fiserv.com) 💰 | ATM driving and network management for financial institutions |
+| [Temenos](https://www.temenos.com) 💰 | Self-service and channel integration on the Temenos platform |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Reconciliation & Back-Office
+
+> Reconciliation is **proving the money is right** — matching internal ledgers against counterparty data (card scheme files, nostro statements, payment reports) and investigating the breaks. In banking it is not a finance-only chore; it is the control that catches failed payments, system bugs, and fraud. The stack is transaction matching, exception queues, and the GL postings that follow.
+
+### Key concepts
+
+- **The sources to match** — scheme settlement files, acquirer/issuer reports, nostro statements, payment rails, and the core GL.
+- **Straight-through reconciliation** — automatic matching rules settle most items; only exceptions reach an ops queue.
+- **Break investigation** — aging, root-cause analysis, and reclassification; unresolved breaks are an audit finding.
+- **Settlement accounting** — how interchange, fees, and net positions flow from scheme files into the GL.
+- **Nostro reconciliation** — matching internal records against correspondent-bank statements (MT940/950, camt.05x).
+
+### Reconciliation platforms
+
+| Platform | Description |
+|---|---|
+| [SmartStream TLM](https://www.smartstream-stp.com) ⭐ 💰 | The enterprise reconciliation mainstay — payments, nostro, securities |
+| [BlackLine](https://www.blackline.com) 💰 | Finance close and account reconciliation for the back office |
+| [Trintech](https://www.trintech.com) 💰 | Record-to-report and close automation at scale |
+| [Celonis](https://www.celonis.com) 💰 | Process mining to find and fix back-office friction |
+| [Fiserv](https://www.fiserv.com) 💰 | Integrated reconciliation across payments and core systems |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Master Data & Reference Data Management
+
+> A bank's data is only as trustworthy as its **master data**. MDM keeps customers, parties, products, and account hierarchies as a single source of truth across cores and channels; reference data keeps the codes the business runs on — currencies, BICs, countries, interest-rate indices, and payment holiday calendars — accurate and governed. Both are the quiet foundations of KYC, risk, regulatory reporting, and AI: garbage master data makes every downstream system garbage.
+
+### Key concepts
+
+- **Master data vs reference data** — master data is the bank's own entities (customers, accounts, products); reference data is the external codes and classifications everything references.
+- **The golden record** — survivorship and matching rules that merge duplicate parties into one trusted record.
+- **Data governance** — ownership, quality rules, lineage, and stewardship for every critical data domain.
+- **Party & product hierarchies** — households, corporate structures, and product taxonomies that risk and reporting aggregate on.
+- **Reference-data operations** — BIC/IBAN maintenance, FX fixings, indices, and calendar maintenance with versioning and approval.
+
+### MDM & data governance platforms
+
+| Platform | Description |
+|---|---|
+| [Informatica MDM](https://www.informatica.com) ⭐ 💰 | The enterprise MDM standard — party, product, and customer data |
+| [Reltio](https://www.reltio.com) 💰 | Cloud-native MDM and connected-data platform |
+| [IBM InfoSphere](https://www.ibm.com) 💰 | Master-data management and data governance on IBM |
+| [Semarchy](https://www.semarchy.com) 💰 | MDM with an integrated data-quality layer |
+| [Collibra](https://www.collibra.com) 💰 | Data governance and cataloging for the enterprise |
+| [SAP Master Data Governance](https://www.sap.com) 💰 | MDG for ERP-centric banking groups |
+
+### Reference-data sources
+
+| Source | Description |
+|---|---|
+| [SWIFT BIC / IBAN](https://www.swift.com) ⭐ | The directory and validation for bank identifiers |
+| [ISO 4217 currencies](https://www.iso.org/standard/7249.html) | The standard for currency codes |
+| [ISO 3166 countries](https://www.iso.org/standard/72482.html) | The standard for country codes |
+| [LSEG Refinitiv](https://www.lseg.com) 💰 | Reference-data feeds for rates, indices, and corporate actions |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Observability & SRE for Banking
+
+> Money-critical systems cannot be debugged after the fact — they must be **observed in real time**. Observability covers metrics, logs, and traces across payment switches, cores, and channels; SRE applies engineering discipline to reliability: SLOs, error budgets, incident response, and chaos testing. In banking this is not only an engineering concern — **availability is a regulatory concern** (DORA, PSD2 availability rules, and scheme SLA penalties make downtime expensive).
+
+### Key concepts
+
+- **The three pillars** — metrics, logs, and distributed traces; for payments, trace the full lifecycle from channel to switch to core.
+- **SLOs & error budgets** — explicit availability targets (e.g., 99.99% on payment rails) and the budget that paces change.
+- **Incident response** — severity levels, on-call, blameless postmortems, and regulatory breach reporting.
+- **Availability regulation** — DORA (EU) ICT-risk requirements, PSD2/PSR availability obligations, and scheme-level uptime SLAs.
+- **Chaos & resilience testing** — deliberately failing components to prove failover works before an incident does.
+
+### Observability platforms
+
+| Platform | Description |
+|---|---|
+| [Datadog](https://www.datadoghq.com) ⭐ ☁️ | The default cloud observability platform — metrics, logs, traces |
+| [Grafana Labs](https://grafana.com) 🔓 | Open-source metrics, dashboards, and alerting |
+| [Prometheus](https://prometheus.io) 🔓 | The open-source metrics and alerting standard |
+| [New Relic](https://newrelic.com) 💰 | APM and observability for transaction-heavy workloads |
+| [Dynatrace](https://www.dynatrace.com) 💰 | Full-stack observability with AI-driven root-cause analysis |
+| [Splunk](https://www.splunk.com) 💰 | Log analysis and incident investigation (see Security) |
+
+### SRE & reliability practices
+
+| Resource | Description |
+|---|---|
+| [Google SRE](https://sre.google) 🆓 | The canonical SRE books and guidance |
+| [DORA (Google)](https://dora.dev) 🆓 | The research on software-delivery and reliability performance |
+| [DORA (EU regulation)](https://digital-strategy.ec.europa.eu/en/policies/digital-finance) | The EU ICT-resilience regulation banks must evidence |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
 ## Asset-Liability Management (ALM)
 
 > The discipline of **balancing a bank's deposits (liabilities) against its loans (assets)** to manage liquidity and interest-rate risk. ALM protects net interest margin (NIM), ensures the bank can fund itself in a crisis (LCR/NSFR), and is owned by the ALCO committee. It is the balance-sheet counterpart to the capital rules covered in Compliance & Regulation.
@@ -2857,6 +3287,247 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [ClearBank](https://www.clear.bank) | The clearing bank powering BaaS and fintech settlement |
 | [Atom Bank](https://www.atombank.co.uk) | UK app-only savings and mortgage bank |
 | [Allica](https://www.alliica.com) | Business bank for established SMEs |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in the US
+
+> The US banking system is **decentralized and intensely regulated**: thousands of banks supervised by a web of federal and state regulators, with a two-tier structure of **national banks** (OCC) and **state-chartered banks** (state regulators + FDIC), and holding companies under the Fed. It is the deepest capital market in the world and the origin of most of the payment rails, card networks, and fintech models this guide references.
+
+### Key concepts
+
+- **The regulatory web** — OCC (national banks), FDIC (deposit insurance and state banks), Federal Reserve (holding companies and payments), plus state regulators and the CFPB for consumer conduct.
+- **The two-tier system** — national vs state charters; banks pick the friendliest regulator and switch via conversion.
+- **Community to mega-banks** — 4,000+ institutions from community banks and credit unions to JPMorgan, BofA, Citi, and Wells Fargo.
+- **Unique rails** — ACH/Fedwire, FedNow/RTP instant, Zelle (P2P), card networks, and the 1033 open-banking rule.
+- **Dodd-Frank** — the post-2008 reform that reshaped capital, resolution, and consumer protection.
+
+### Regulators & infrastructure
+
+| Body | Role |
+|---|---|
+| [Federal Reserve](https://www.federalreserve.gov) ⭐ | Central bank, holding-company supervision, Fedwire/FedNow |
+| [OCC](https://www.occ.gov) | Charters and supervises national banks |
+| [FDIC](https://www.fdic.gov) | Deposit insurance and state-bank supervision |
+| [CFPB](https://www.consumerfinance.gov) | Consumer protection and 1033 data rights |
+| [NACHA](https://www.nacha.org) | The ACH network rulebook |
+| [Zelle](https://www.zellepay.com) | The dominant US P2P network (bank-owned) |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [JPMorgan Chase](https://www.jpmorganchase.com) ⭐ | The largest US bank by assets — Chase retail, JPMorgan wholesale |
+| [Bank of America](https://www.bankofamerica.com) | The US retail leader with 60M+ digital customers |
+| [Citigroup](https://www.citigroup.com) | Global bank with a leading US card and treasury franchise |
+| [Wells Fargo](https://www.wellsfargo.com) | US retail and commercial mainstay |
+| [Capital One](https://www.capitalone.com) | The digital-first card and bank innovator |
+| [U.S. Bank](https://www.usbank.com) | A top-five US bank by deposits |
+| [PNC](https://www.pnc.com) | Super-regional with a strong payments arm |
+| [Truist](https://www.truist.com) | The BB&T–SunTrust merger — a top-ten US bank |
+| [Ally](https://www.ally.com) | The online-only bank and auto-finance leader |
+| [Chime](https://www.chime.com) | The US neobank leader with 20M+ customers |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in India
+
+> India's banking system is a **state-led, high-volume machine**: a handful of enormous public-sector banks alongside a booming private sector, all riding **UPI** — the world's busiest instant-payments network — and a government push for **financial inclusion** (Jan Dhan, Aadhaar-linked accounts). It is the world's largest digital-payments laboratory and the reference case for bank-led inclusion.
+
+### Key concepts
+
+- **Public vs private vs cooperative** — SBI and PSU banks dominate balance sheets; private banks (HDFC, ICICI, Axis) lead on digital and NIM.
+- **UPI and the NPCI** — the interoperable instant rail processing billions of monthly transactions; the world's reference for cheap, inclusive payments.
+- **Aadhaar & eKYC** — the biometric ID that collapsed onboarding cost and time; the backbone of account opening.
+- **Priority-sector lending** — mandated credit to agriculture, MSMEs, and weaker sections — a statutory feature of Indian banking.
+- **RBI regulation** — the central bank supervises everything from universal banks to payment banks and NBFCs.
+
+### Regulators & rails
+
+| Body | Role |
+|---|---|
+| [RBI](https://www.rbi.org.in) ⭐ | The central bank and integrated financial regulator |
+| [NPCI](https://www.npci.org.in) | Operates UPI, IMPS, RuPay, and the Aadhaar rails |
+| [UPI](https://www.npci.org.in) ⭐ | The instant-payments network — billions of monthly transactions |
+| [RuPay](https://www.rupay.co.in) | India's domestic card scheme |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [State Bank of India](https://www.sbi.co.in) ⭐ | The largest Indian bank — a public-sector behemoth |
+| [HDFC Bank](https://www.hdfcbank.com) | The largest private bank by market value |
+| [ICICI Bank](https://www.icicibank.com) | Private leader in digital banking |
+| [Axis Bank](https://www.axisbank.com) | Full-service private bank |
+| [Kotak Mahindra](https://www.kotak.com) | Private bank strong in retail wealth |
+| [Paytm Payments Bank](https://www.paytm.com) | The wallet-turned-payment-bank |
+| [PhonePe](https://www.phonepe.com) | The UPI super-app leader |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in Turkey
+
+> Turkey's banking system is **concentrated and privately owned** — a handful of large banks serve most of the country, with a strong deposit base and very high mobile-banking penetration. The defining feature of the past decade has been **extreme macro volatility** (high inflation, sharp rate cycles), making **ALM, deposit pricing, and FX dynamics** the daily reality of Turkish banking. Islamic participation banking (Katılım) is a growing, state-supported segment.
+
+### Key concepts
+
+- **The big five** — Akbank, İş Bankası, Garanti, Yapı Kredi, and Ziraat dominate the market.
+- **Participation banking** — state-backed Islamic banks (Ziraat Katılım, Kuveyt Türk, Albaraka) operate alongside conventional banks.
+- **Volatility as a constant** — high inflation forces rapid deposit repricing, index-linked products, and heavy FX dynamics.
+- **Digital adoption** — Turkish customers are among the world's heaviest mobile-banking users; instant payment (FAST) is standard.
+- **BRSA & TCMB** — the Banking Regulation and Supervision Agency (BRSA) and the Central Bank (TCMB) are the twin regulators.
+
+### Regulators & rails
+
+| Body | Role |
+|---|---|
+| [BRSA (BDDK)](https://www.bddk.org.tr) ⭐ | The banking regulator and supervisor |
+| [Central Bank of Turkey (TCMB)](https://www.tcmb.gov.tr) | Monetary policy, payments, and the FAST instant rail |
+| [FAST (TCMB)](https://www.tcmb.gov.tr) | The national instant-payments system |
+| [BKM](https://bkm.com.tr) | The interbank card center — common POS/ATM infrastructure |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [İş Bankası](https://www.isbank.com.tr) ⭐ | Turkey's largest private bank |
+| [Garanti BBVA](https://www.garantibbva.com.tr) | The BBVA-owned digital leader |
+| [Akbank](https://www.akbank.com.tr) | One of the largest private banks |
+| [Yapı Kredi](https://www.yapikredi.com.tr) | Full-service bank strong in cards |
+| [Ziraat Bankası](https://www.ziraatbank.com.tr) | The state-owned agricultural and universal bank |
+| [Kuveyt Türk](https://www.kuveytturk.com.tr) | The leading participation (Islamic) bank |
+| [Papara](https://www.papara.com) | The leading digital wallet / fintech |
+| [Colendi](https://www.colendi.com) | Credit-scoring fintech with a digital bank license |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in Singapore & Hong Kong
+
+> Singapore and Hong Kong are Asia's **two global financial centers** — small domestic markets with outsize international banking, wealth, and FX activity. Both run on **common law**, deep liquidity, and world-class payment infrastructure (Singapore's PayNow/FAST, Hong Kong's FPS), and both are regulatory pioneers in digital banking (digital-bank licenses) and open finance. The rivalry is real: Singapore is the region's full service center, Hong Kong is China's offshore window.
+
+### Key concepts
+
+- **MAS (Singapore) vs HKMA (Hong Kong)** — two of the most sophisticated regulators in the world, both running integrated supervision.
+- **Wealth & private banking** — the two cities are Asia's leading private-banking hubs, home to the region's largest wealth flows.
+- **Instant rails** — Singapore PayNow/FAST and Hong Kong FPS (24/7 instant), both ISO 20022-ready.
+- **Digital banking licenses** — both MAS and HKMA issued digital-bank licenses; MAS runs a full suite of AI, open-finance, and stablecoin regimes.
+- **Cross-border** — Project Nexus (ASEAN instant-payments linkage) and mBridge are headquartered here.
+
+### Regulators & rails
+
+| Body | Role |
+|---|---|
+| [MAS](https://www.mas.gov.sg) ⭐ | Singapore's integrated regulator — banking, markets, payments |
+| [HKMA](https://www.hkma.gov.hk) ⭐ | Hong Kong's monetary authority — banking and payments |
+| [PayNow (Singapore)](https://www.abs.org.sg) | Singapore's instant P2P/merchant rail |
+| [FPS (HKICL)](https://www.hkicl.com.hk) | Hong Kong's Faster Payment System |
+| [SGX](https://www.sgx.com) | The Singapore Exchange |
+| [HKEX](https://www.hkex.com.hk) | The Hong Kong Exchange |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [DBS](https://www.dbs.com) ⭐ | Singapore's flagship bank — the region's digital-banking benchmark |
+| [OCBC](https://www.ocbc.com) | Singapore's oldest bank |
+| [UOB](https://www.uob.com.sg) | Singapore's third major bank |
+| [HSBC Singapore](https://www.hsbc.com.sg) | Global bank with a deep Singapore franchise |
+| [Standard Chartered Singapore](https://www.sc.com/sg/) | Strong in wealth and corporate banking |
+| [HSBC Hong Kong](https://www.hsbc.com.hk) | The dominant retail bank in Hong Kong |
+| [Bank of China (HK)](https://www.bochk.com) | The largest HK-incorporated bank |
+| [ZA Bank](https://www.za.group) | Hong Kong's leading virtual bank |
+| [GXS Bank](https://www.gxs.com.sg) | The Grab–Singtel digital bank in Singapore |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in Canada & Australia
+
+> Canada and Australia run **small, concentrated, and remarkably stable** banking systems — each dominated by a handful of nationally scaled banks that weathered 2008 without state bailouts. Both are early adopters of modern rails (Australia's NPP real-time payments, Canada's Interac e-Transfer debit network) and both have cautious, gradualist regulators. The two markets share a common-law heritage and a branch-heavy culture transitioning fast to digital.
+
+### Key concepts
+
+- **The big five (Canada)** — RBC, TD, Scotiabank, BMO, and CIBC hold the vast majority of Canadian banking.
+- **The big four (Australia)** — CBA, Westpac, NAB, and ANZ dominate the Australian market.
+- **Stability as a feature** — both systems are oligopolies that regulators deliberately keep sound and profitable.
+- **Modern rails** — Australia's New Payments Platform (real-time, 24/7) and Canada's Interac e-Transfer and upcoming Real-Time Rail (RTR).
+- **Regulators** — OSFI + FCAC (Canada); APRA + ASIC + RBA (Australia).
+
+### Regulators & rails
+
+| Body | Role |
+|---|---|
+| [OSFI](https://www.osfi-bsif.gc.ca) ⭐ | Canada's prudential regulator |
+| [FCAC](https://www.canada.ca/en/financial-consumer-agency.html) | Canada's financial-consumer watchdog |
+| [Bank of Canada](https://www.bankofcanada.ca) | Canada's central bank |
+| [APRA](https://www.apra.gov.au) ⭐ | Australia's prudential regulator |
+| [RBA](https://www.rba.gov.au) | Australia's central bank — runs the payments system |
+| [Interac](https://www.interac.ca) | Canada's debit and e-Transfer rail |
+| [NPP Australia](https://www.nppa.com.au) | Australia's real-time payments platform |
+
+### Notable players
+
+| Institution | Notes |
+|---|---|
+| [RBC](https://www.rbc.com) ⭐ | Canada's largest bank |
+| [TD Bank](https://www.td.com) | Major Canadian bank with a large US retail arm |
+| [Scotiabank](https://www.scotiabank.com) | Canada's most international bank (LatAm focus) |
+| [BMO](https://www.bmo.com) | Canadian bank with a major US Midwest franchise |
+| [CIBC](https://www.cibc.com) | Full-service Canadian bank |
+| [Commonwealth Bank](https://www.commbank.com.au) ⭐ | Australia's largest bank — digital-banking leader |
+| [Westpac](https://www.westpac.com.au) | Australia's oldest bank |
+| [NAB](https://www.nab.com.au) | National Australia Bank |
+| [ANZ](https://www.anz.com) | ANZ — strong in institutional banking |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Banking in the Wider Gulf
+
+> Beyond the UAE and Saudi Arabia, the **Gulf Cooperation Council** — Bahrain, Qatar, Kuwait, and Oman — runs deep, dollar-pegged, and increasingly digital banking systems. Bahrain is the region's regulatory sandbox pioneer; Qatar is funding a fintech surge; Kuwait and Oman are slower-moving but reformist. All four share the GCC twin engines: **oil-driven wealth**, **Islamic finance leadership**, and **central-bank digital-currency experiments** (Bahrain's JPMorgan Onyx pilot, Qatar's CBDC).
+
+### Key concepts
+
+- **Dollar pegs** — Gulf currencies (except Kuwait's basket) are pegged to the USD, simplifying FX but importing US monetary policy.
+- **Islamic finance density** — the GCC is the heart of global Islamic banking; Qatar and Bahrain host leading Islamic banks.
+- **Sandboxes & fintech hubs** — Bahrain's CBB FinTech & Innovation unit and Qatar's QFC fintech ecosystem lead the small-market playbook.
+- **CBDC & payments** — Bahrain ran the first JPMorgan Onyx cross-border pilot; both Bahrain and Qatar are testing retail and wholesale CBDCs.
+
+### Regulators & hubs
+
+| Body | Role |
+|---|---|
+| [CBB](https://www.cbb.gov.bh) ⭐ | Bahrain's integrated regulator — banking, capital markets, insurance |
+| [QCB](https://www.qcb.gov.qa) ⭐ | Qatar Central Bank — banking and payments |
+| [CBK](https://www.cbk.gov.kw) | Kuwait Central Bank |
+| [CBO](https://cbo.gov.om) | Oman's Central Bank |
+| [QFC](https://www.qfc.qa) | Qatar Financial Centre — common-law fintech hub |
+| [Bahrain FinTech Bay](https://bahrainfintechbay.com) | The GCC's fintech hub and incubator |
+
+### Notable players
+
+| Institution | Country | Notes |
+|---|---|---|
+| [National Bank of Kuwait](https://www.nbk.com) ⭐ | 🇰🇼 Kuwait | Kuwait's largest bank |
+| [Kuwait Finance House](https://www.kfh.com) | 🇰🇼 Kuwait | One of the world's largest Islamic banks |
+| [Qatar National Bank (QNB)](https://www.qnb.com) ⭐ | 🇶🇦 Qatar | The largest bank in the Middle East by assets |
+| [Qatar Islamic Bank](https://www.qib.com.qa) | 🇶🇦 Qatar | A leading GCC Islamic bank |
+| [Doha Bank](https://www.dohabank.com.qa) | 🇶🇦 Qatar | Qatar's diversified commercial bank |
+| [National Bank of Bahrain](https://www.nbbonline.com) ⭐ | 🇧🇭 Bahrain | Bahrain's largest bank |
+| [Bank Dhofar](https://www.bankdhofar.com) | 🇴🇲 Oman | Oman's largest bank by network |
+| [Bank Muscat](https://www.bankmuscat.com) ⭐ | 🇴🇲 Oman | Oman's largest bank by assets |
+| [Oman Arab Bank](https://www.oman-arabbank.com) | 🇴🇲 Oman | Oman's joint-stock bank |
+| [Sohar International](https://www.soharinternational.com) | 🇴🇲 Oman | Oman's growing universal bank |
 
 **[⬆ back to top](#table-of-contents)**
 
@@ -3516,6 +4187,51 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Euromoney Learning](https://www.euromoneylearning.com) 💰 | Structured courses on trade finance, treasury, and risk from the trade press |
 | [GARP](https://www.garp.org) | Financial Risk Manager certification — the industry standard for risk professionals |
 | [PRMIA](https://www.prmia.org) | Professional Risk Manager designation — an alternative to the FRM |
+
+---
+
+## Conferences & Events
+
+> Banking is a **relationship and regulation business** — the conferences below are where deals, standards, and careers actually happen. Choose by focus: **Sibos** (SWIFT/wholesale payments), **Money20/20** (fintech and payments, three continents), **Finovate** (demo-driven innovation), and regional shows (GITEX in Dubai, Singapore FinTech Festival). Most publish their sessions online afterward — free education even if you cannot attend.
+
+### Conferences
+
+| Event | Focus |
+|---|---|
+| [Sibos](https://www.sibos.com) ⭐ | SWIFT's annual conference — the wholesale-payments and standards event |
+| [Money20/20](https://money2020.com) ⭐ | The largest fintech and payments conference (US, EU, Asia) |
+| [Finovate](https://finovate.com) | Live-demo fintech innovation conferences |
+| [Singapore FinTech Festival](https://www.fintechfestival.sg) | Asia's flagship fintech festival |
+| [GITEX Global](https://www.gitex.com) | The Middle East's largest tech show — heavy fintech presence |
+| [Fintech Meetup](https://fintechmeetup.com) | The US fintech event where banking meets sales |
+| [The Payments Association](https://thepaymentsassociation.org) | UK payments community events and roundtables |
+| [TechCrunch Disrupt](https://techcrunch.com) | The startup and VC flagship with fintech tracks |
+
+**[⬆ back to top](#table-of-contents)**
+
+---
+
+## Podcasts & Newsletters
+
+> The fastest way to stay current on banking without a news subscription is a **short podcast or newsletter on the commute**. The list below skews practitioner-focused: operator-led podcasts, analyst newsletters, and the trade-press digests — most free.
+
+### Podcasts
+
+| Show | Focus |
+|---|---|
+| [Breaking Banks](https://breakingbanks.com) | The long-running global fintech and banking podcast |
+| [The Fintech Blueprint](https://www.fintechblueprint.com) | Investor- and operator-led fintech analysis |
+| [Bankless](https://www.bankless.com) | Digital-assets and crypto-native banking views |
+| [Tearsheet Podcast](https://tearsheet.co) | Digital-banking and payments interviews |
+
+### Newsletters & digests
+
+| Newsletter | Focus |
+|---|---|
+| [Fintech Takes](https://fintechtakes.com) | Alex Johnson's sharp weekly on fintech and banking |
+| [Tearsheet](https://tearsheet.co) | Weekly digital-banking digest |
+| [Finextra Newsletters](https://www.finextra.com) | Daily banking-tech and payments news |
+| [AltFi](https://www.altfi.com) | Alternative finance and lending coverage |
 
 ---
 
