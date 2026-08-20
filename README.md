@@ -2900,6 +2900,43 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Strangler Fig](https://martinfowler.com/bliki/StranglerFigApplication.html) | Incrementally replacing the monolithic core — the standard bank modernization path |
 | [Backend-for-Frontend](https://samnewman.io/patterns/architectural/bff/) | A dedicated API layer per client (mobile, web, partner) with its own auth and data shaping |
 
+### Backend & scalability patterns
+
+| Pattern | Use in banking |
+|---|---|
+| Stateless app tier | Horizontally scaled stateless services behind a load balancer; sessions move to cache or DB, never the app memory |
+| Caching | Redis for hot reads (exchange rates, product config, sessions) — but a balance must never be cache-only; the ledger is the source of truth |
+| Read replicas & sharding | Replicate for read scale; shard by account/tenant for very large ledgers while keeping strong consistency per shard |
+| Async processing & queues | Kafka/SQS decouple heavy work (statements, reporting, webhooks, AML screening) from the request path |
+| Rate limiting & quotas | API-gateway throttling to protect cores and to demonstrate documented capacity to regulators |
+| Circuit breaking & bulkheads | Isolate per-service failures so a downstream outage degrades one journey, not the whole bank (Resilience4j, Hystrix pattern) |
+| Backpressure & retries | Exponential backoff with jitter; dead-letter queues for poison messages; idempotency keys make retries safe |
+| Multi-region active-active | Geo-redundant reads and failover with defined RTO/RPO for the payments path; data residency enforced per region |
+
+### Backend technologies (banking-grade)
+
+| Technology | Use |
+|---|---|
+| [Apache Kafka](https://kafka.apache.org) ⭐ 🔓 | The event backbone — streams every account, payment, and transaction event for cores, analytics, fraud |
+| [Redis](https://redis.io) ⭐ | In-memory cache and session store for the hot read path |
+| [PostgreSQL](https://www.postgresql.org) ⭐ 🔓 | The default relational ledger store — strong consistency, transactions, and audit-friendly constraints |
+| [AWS SQS / Azure Service Bus](https://aws.amazon.com/sqs/) ☁️ | Managed queues for async work and dead-letter handling |
+| [gRPC](https://grpc.io) / [REST](https://restfulapi.net) | Service-to-service contracts — gRPC inside the estate, REST/OpenAPI toward partners and channels |
+| [Kubernetes](https://kubernetes.io) 🔓 | Container orchestration for the elastic application tier |
+| [Envoy](https://www.envoyproxy.io) / [NGINX](https://nginx.org) 🔓 | Service mesh and API-gateway edge |
+| [OpenTelemetry](https://opentelemetry.io) 🔓 | Distributed tracing across the full payment path for SRE and audit |
+
+### Mobile architecture considerations
+
+| Concern | Approach |
+|---|---|
+| Offline-first | Local store (SQLite/Realm) plus a sync engine; queue outbound actions when offline and reconcile on reconnection |
+| Secure storage | Keychain/Keystore for tokens and keys; no secrets in code; device-bound credentials |
+| Biometric auth | Face ID / fingerprint with device-bound crypto keys, backed by server-side SCA on sensitive flows |
+| App & API security | BFF pattern, certificate pinning, short-lived tokens, and [OWASP MASVS](https://mas.owasp.org) as the baseline |
+| App lifecycle | Deep linking, push notifications, remote config (feature flags), versioning with forced updates |
+| Multi-platform | Native (Swift/Kotlin), [Flutter](https://flutter.dev), or [React Native](https://reactnative.dev) — choose by team skills, compliance needs, and store strategy |
+
 ### Design references & resources
 
 | Resource | Description |
@@ -2950,6 +2987,47 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | [Architecture Decision Records (ADR)](https://github.com/joelparkerhenderson/architecture-decision-record) ⭐ | The convention for recording architecture decisions — status, context, decision, consequences |
 | [12-Factor App](https://12factor.net) | The baseline for modern, deployable, scalable application architecture |
 | [InfoQ](https://www.infoq.com) | Architecture and engineering practice coverage with a strong banking/big-tech bent |
+
+### Backend architecture
+
+| Concern | Approach |
+|---|---|
+| Service boundaries | Cut along business capabilities (onboarding, payments, lending, cards); keep the ledger team autonomous |
+| Event-driven backbone | Kafka as the nervous system; CQRS read models for statements, balances, and analytics |
+| API gateway & BFF | One gateway for external partners; a Backend-for-Frontend per channel (mobile, web, agent) for data shaping |
+| Integration styles | REST/OpenAPI for real-time, events for state changes, files/batch for reconciliation, webhooks for partners |
+| Legacy coexistence | Strangler Fig, anti-corruption layer, and event translators between the old core and new services |
+
+### Mobile architecture
+
+| Concern | Approach |
+|---|---|
+| BFF per channel | A dedicated backend-for-frontend per app hides orchestration and shapes data for small screens |
+| Modular app shell | Feature modules with dependency injection and dynamic config, so teams ship independently |
+| Offline & sync | Local-first storage with a resilient sync service and explicit conflict handling for balance drift |
+| Security | Keychain/Keystore, certificate pinning, [OWASP MASVS](https://mas.owasp.org), root/jailbreak detection |
+| Release management | Canary releases, remote config (LaunchDarkly), and forced updates with deprecation windows |
+| Frameworks | Native (Swift/Kotlin), Flutter, or React Native — aligned to skills, compliance, and store needs |
+
+### Scalability & performance architecture
+
+| Concern | Approach |
+|---|---|
+| Scale out, not up | Horizontal scaling of stateless tiers; state lives in DB and cache, not the app |
+| Database scaling | Read replicas, partitioning, and sharding by tenant; archive and tier old data |
+| Streaming scale | Kafka partitions scale with consumer groups; exactly-once semantics come from idempotency, not the broker |
+| Capacity & cost | Right-sizing, autoscaling, and documented capacity plans with regulator-friendly limits |
+| Performance budgets | p95/p99 latency SLOs per journey, load-tested before every major launch |
+
+### Low-code & no-code in the enterprise
+
+| Concern | Approach |
+|---|---|
+| Where it fits | Ops, journeys, approvals, reconciliation, exception handling, partner onboarding — never the core ledger |
+| Governance | The platform must support RBAC, versioning, audit logs, and deployment pipelines (OutSystems, Mendix, Appian, Pega, Power Platform) |
+| Integration | Expose core capabilities as managed APIs so low-code apps consume contracts — no direct database access |
+| Architecture fit | Treat low-code apps as bounded contexts kept out of the critical money-movement path; escape hatches for vendor exits |
+| Internal tooling | Retool, n8n, and Airtable for internal ops tools; UiPath for mainframe-screen automation |
 
 **[⬆ back to top](#table-of-contents)**
 
