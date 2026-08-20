@@ -2936,6 +2936,7 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | App & API security | BFF pattern, certificate pinning, short-lived tokens, and [OWASP MASVS](https://mas.owasp.org) as the baseline |
 | App lifecycle | Deep linking, push notifications, remote config (feature flags), versioning with forced updates |
 | Multi-platform | Native (Swift/Kotlin), [Flutter](https://flutter.dev), or [React Native](https://reactnative.dev) — choose by team skills, compliance needs, and store strategy |
+| Microfrontends | Split the app into independently shipped feature modules behind an app shell — see [Mobile microfrontends](#mobile-microfrontends) in Architecture |
 
 ### Design references & resources
 
@@ -3008,6 +3009,19 @@ Every section opens with a **domain primer** (the mental model you need), then l
 | Security | Keychain/Keystore, certificate pinning, [OWASP MASVS](https://mas.owasp.org), root/jailbreak detection |
 | Release management | Canary releases, remote config (LaunchDarkly), and forced updates with deprecation windows |
 | Frameworks | Native (Swift/Kotlin), Flutter, or React Native — aligned to skills, compliance, and store needs |
+
+### Mobile microfrontends
+
+> Teams increasingly split one bank app into independently shipped feature modules ("microfrontends"). For regulated banking the pattern is valuable for **release independence and incident isolation** — each squad owns a journey end-to-end and can roll back its own module without a full app release.
+
+| Concern | Approach |
+|---|---|
+| Composition | A thin app shell hosts feature modules (Swift Package Manager, CocoaPods, or React Native module federation / MiniApps); one shared navigation and session context |
+| Module ownership | One team owns one journey (payments, cards, onboarding); each module ships its own feature flags, analytics, and UI |
+| Interfaces | Define versioned module contracts (events, navigation intents, shared models) to keep squads decoupled without tight coupling |
+| Release & rollback | Remote config plus modular app distribution (App Store Connect modular releases, Expo/CodePush-style updates) so a bad feature rolls back without an app resubmission |
+| Security & compliance | Module boundaries still inherit the app-level Keychain, MASVS baseline, and SCA gates; a module must never bypass the shared security context |
+| When not to use | Small apps and few teams — a modular shell's overhead (contracts, dynamic loading, testing) outweighs the benefit; start monolith-modular |
 
 ### Scalability & performance architecture
 
